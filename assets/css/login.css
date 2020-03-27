@@ -1,0 +1,155 @@
+@import './_variables.css';
+@import './font.css';
+
+body, html { 
+    font-family: 'Roboto';
+
+}
+
+h1 { 
+    font-size: 48px;
+    font-weight: 700;
+}
+
+p { 
+    font-size: 14px;
+}
+
+.form-group { 
+    font-size: 14px;
+}
+
+.link { 
+    font-size: 14px;
+    font-weight: 700;
+    color: #4492ED;
+}
+
+
+.container-image { 
+    background-image: url('../img/martin-katler-HvxO34LKg00-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2em auto 12em;
+    grid-template-rows: 5em auto 5em;
+}
+
+
+.slogan { 
+    grid-column: 2;
+    grid-row: 2;
+    border-left: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding: 2em;
+
+}
+
+.main-nav { 
+    padding: 0em 0.75em;
+    margin-bottom: 15%;
+}
+
+
+.main-nav ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-nav ul li { 
+    float: right;
+
+}
+.main-nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 1em 1.25em;
+    color: #A3A3A3;
+    border-bottom: 3px solid white;
+    font-weight: 700;
+    opacity: 0.7;
+
+
+}
+
+.main-nav ul li a:hover { 
+    font-weight: 700;
+
+    opacity: 1;
+    color: #FF7243;
+    border-bottom: 3px solid #FF7243;
+}
+
+.main-form { 
+    margin: 10% 15%;
+}
+
+.main-form .btn-submit { 
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.form-title { 
+    margin-bottom: 10%;
+}
+
+
+input[type=email], input[type=password]{ 
+  font-size:14px;
+  display:block;
+  width:100%;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+
+button[type=submit] { 
+    padding: 0.5em;
+    border-radius: 40px;
+}
+
+input:focus { 
+    outline: none;
+}
+
+
+/* sandwich */
+.sandwich {
+    cursor: pointer;
+
+  }
+.icon-bar { 
+    width: 22px;
+    height: 2px;
+    background-color: black;
+    transition: all cubic-bezier(0.35, 0.4, 0.27, 1.55) 0.35s;
+    margin-top: 4px;
+
+}
+
+/* button */
+
+.btn-primary { 
+    background-color: #FF7243 !important;
+    border: none;
+}
+
+.btn-primary:hover { 
+    background-color: #FF8258 !important;
+    
+}
+
+.btn-primary:focus { 
+    background-color: #FF7243 !important;
+    border: none;
+
+}
+
+.btn-primary:active { 
+    background-color: #FF7243 !important;
+    border: none;
+}
+
