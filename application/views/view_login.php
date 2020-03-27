@@ -65,11 +65,17 @@
                             <a class="link" href="">Forgot Password?</a>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
+                        
                     </form>
 
+                    
+
+                </div>
+                <div class="bottom-bar">
                     <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?= ('index.php/Controller_register') ?>" >Sign Up</a></p>
 
                 </div>
+                
 
 
             </div>
