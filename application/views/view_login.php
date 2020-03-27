@@ -7,6 +7,7 @@
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>"></link>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- style -->
     <link rel="stylesheet" href="<?php echo base_url("./assets/css/login.css")?>">
@@ -35,25 +36,25 @@
                         <div class="icon-bar middle-bar"></div>
                         <div class="icon-bar bottom-bar"></div>
                     </div>
-
                 </div>
-
                 <div class="main-form">
                     <div class="form-title">
-                        <h1>Login to <span style="color: #FF7243;">Obati</span></h1>
+                        <h1 >Login to <span style="color: #FF7243;">Obati</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            <label id="label_email" for="exampleInputEmail1">Email address</label>
+
+                            <input type="email" id="input_email" aria-describedby="emailHelp"
                                 placeholder="please enter your email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
+                    
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" id="exampleInputPassword1" placeholder="please enter your password">
+                            <label id="label_password" for="exampleInputPassword1">Password</label>
+                            <input type="password" id="input_password" placeholder="please enter your password">
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="form-group form-check ">
@@ -63,8 +64,6 @@
                             </div>
                             <a class="link" href="">Forgot Password?</a>
                         </div>
-
-
                         <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
                     </form>
 
@@ -77,15 +76,15 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="<?php echo base_url("./assets/js/jquery.js")?>"></script>
+    <script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
+    <script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
+    <script>
+        
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+    
 
 </body>
 
