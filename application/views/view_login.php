@@ -29,7 +29,7 @@
                     <ul>
                         <li><a href="default.asp">About</a></li>
                         <li><a href="news.asp">Articles</a></li>
-                        <li><a href="contact.asp">About Us</a></li>
+                        <li><a href="contact.asp">Home</a></li>
                     </ul>
                     <div class="sandwich ml-5">
                         <div class="icon-bar top-bar"></div>
@@ -72,7 +72,7 @@
 
                 </div>
                 <div class="bottom-bar">
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?= ('index.php/Controller_register') ?>" >Sign Up</a></p>
+                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_login/toRegister') ?>" >Sign Up</a></p>
 
                 </div>
                 

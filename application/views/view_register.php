@@ -86,7 +86,7 @@
 					
                 </div>
                 <div class="bottom-bar">
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?= ('index.php/Controller_register') ?>" >Sign Up</a></p>
+                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_register/toLogin') ?>" >Sign Up</a></p>
 
                 </div>
 

@@ -22,4 +22,8 @@ class Controller_register extends CI_Controller {
 	{
 		$this->load->view('view_register');
 	}
+
+	public function toLogin() { 
+		$this->load->view('view_login');
+	}
 }
