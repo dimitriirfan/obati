@@ -16,4 +16,23 @@ $(document).ready(function(){
         $('#label_email').css('color','#646464');
     })
 
+    $('#input-group-text').focus(function(){
+       $('#label_email').css('color','#4492ED');
+    }).focusout(function(){
+        $('#label_email').css('color','#646464');
+    })
+
+    var state=false;
+    function toogle(){
+        if(state){
+            document.getElementaryById("password").setAttribute("type","password");
+            state=false;
+        }
+        else{
+             document.getElementaryById("password").setAttribute("type","text");
+            state=true;
+
+        }
+    }
+
 });
