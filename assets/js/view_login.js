@@ -2,6 +2,8 @@
 
 $(document).ready(function(){
 
+    
+
     //show password
     $("#icon-click").click(function(){
         $("#icon").toggleClass('fa-eye-slash');        
@@ -13,6 +15,12 @@ $(document).ready(function(){
             else{
                 input.attr("type","password");
             }       
+    })
+
+
+    // check label  
+    $("#label_form_check").click(function() { 
+        $("#checkbox_remember").attr("checked", true);
     })
 
     //slogan

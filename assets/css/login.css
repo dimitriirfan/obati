@@ -113,13 +113,18 @@ p {
 	margin-bottom: 5%;
 }
 
+.form-check-label { 
+	cursor: pointer;
+}
+
 .bottom-bar {
 	text-align: center;
 }
 
 
 input[type=email],
-input[type=password] {
+input[type=password],
+input[type=text] {
 	font-size: 1rem;
 	display: block;
 	width: 100%;
@@ -311,6 +316,8 @@ fieldset[disabled] .mz-check input+i:before {
 	border-bottom: 2px solid #757575;
 	border-radius: 1px;
 }
+
+
 
 
 span.gaterlihat {

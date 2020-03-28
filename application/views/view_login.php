@@ -70,10 +70,11 @@
 							<label id="label_password" for="exampleInputPassword1">Password</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-									<div class="input-group-text"><i class="fa fa-key"></i></div>
+								<div class="input-group-text"><i class="fa fa-key" ></i></div>
 									<input type="password" id="input_password" placeholder="please enter your password">
-									<span class="gaterlihat"> <i class="fa fa-eye" id="eye"
-											onclick="toogle()"></i></span>
+									<a href="#" class="text-dark" id="icon-click">
+                                        <span class="gaterlihat"> <i class="fa fa-eye" id="icon" ></i></span>
+                                    </a>
 								</div>
 							</div>
 
@@ -83,9 +84,9 @@
 
 								<div class="form-group">
 									<label class="mz-check">
-										<input type="checkbox">
+										<input id="checkbox_remember" type="checkbox">
 										<i class="mz-blue"></i>
-										<label class="form-check-label" for="exampleCheck1">Always remember</label>
+										<label id="label_form_check"class="form-check-label" for="exampleCheck1">Always remember</label>
 									</label>
 								</div>
 							</div>
