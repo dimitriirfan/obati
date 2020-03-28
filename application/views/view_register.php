@@ -25,17 +25,14 @@
 				</div>
 			</div>
 			<div class="col-lg-6 container-form">
-				<div class="main-nav d-flex justify-content-end align-items-center">
+				<div class="main-nav d-flex justify-content-between align-items-center">
+					<img class="brand" src="<?php echo base_url('assets/img/logo.png') ?>" alt="" >
 					<ul>
 						<li><a href="default.asp">About</a></li>
 						<li><a href="news.asp">Articles</a></li>
 						<li><a href="contact.asp">About Us</a></li>
 					</ul>
-					<div class="sandwich ml-5">
-						<div class="icon-bar top-bar"></div>
-						<div class="icon-bar middle-bar"></div>
-						<div class="icon-bar bottom-bar"></div>
-					</div>
+					
 
 				</div>
 				<div class="main-form">

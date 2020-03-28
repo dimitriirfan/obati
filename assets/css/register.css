@@ -86,14 +86,22 @@ p {
 
 }
 
+.brand { 
+    max-width: 150px;
+}
+
 .main-nav ul li a:hover { 
 
     color: #74BDCB;
     border-bottom: 3px solid #74BDCB;
 }
 
+.brand { 
+	max-width: 150px;
+}
+
 .main-form { 
-    margin: 10% 15% 0 15%;
+    margin: 5% 15% 0 15%;
 }
 
 
