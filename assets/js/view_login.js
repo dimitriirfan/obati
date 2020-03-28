@@ -1,6 +1,23 @@
+
+
 $(document).ready(function(){
 
+    //show password
+    $("#icon-click").click(function(){
+        $("#icon").toggleClass('fa-eye-slash');        
+
+        var input = $("#input_password");
+            if (input.attr("type")==="password"){
+                input.attr("type","text");
+            } 
+            else{
+                input.attr("type","password");
+            }       
+    })
+
+    //slogan
     $('.slogan h1').delay(300).animate({'opacity':'1'},2000);
+
 
     //password input focus
     $('#input_password').focus(function() {
@@ -15,24 +32,9 @@ $(document).ready(function(){
     }).focusout(function(){
         $('#label_email').css('color','#646464');
     })
-
-    
-
-    
-
-   /* $(document).ready(function(){
-
-            $("#icon-click").click(function(){
-                $("#icon").toggleClass('fa-eye-slash');        
-
-                var input = $("#input_password");
-                if (input.attr("type")==="password"){
-                    input.attr("type","text");
-                } 
-                else{
-                    input.attr("type","password");
-                }       
-            })
-        })*/
-
 });
+
+
+
+
+

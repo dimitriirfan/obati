@@ -112,22 +112,6 @@
     <script src="<?php echo base_url("./assets/js/jquery.js")?>"></script>
     <script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
     <script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-
-            $("#icon-click").click(function(){
-                $("#icon").toggleClass('fa-eye-slash');        
-
-                var input = $("#input_password");
-                if (input.attr("type")==="password"){
-                    input.attr("type","text");
-                } 
-                else{
-                    input.attr("type","password");
-                }       
-            })
-        })
-    </script>
 
 </body>
 

@@ -169,14 +169,8 @@ input {
     padding: 0.5em;
 }
 
-/*input:focus { 
-    border-bottom: 2px solid #4492ED;
-    
-}
-.input-group-text:focus {
-    border-bottom: 2px solid #4492ED;
-}
-*/.input-group-prepend {
+
+.input-group-prepend {
     margin-right: -1px;
     width: 100%;
 }
@@ -276,7 +270,7 @@ input {
     border-radius: 1px;
 }
 
-
+/*password*/
 span.gaterlihat{
     position: absolute;
     right: 15px;
