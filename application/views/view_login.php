@@ -19,7 +19,6 @@
 <body>
 
 
-<<<<<<< HEAD
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 container-image">
@@ -119,109 +118,6 @@
 	<script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
 	<script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
 
-=======
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-6 container-image">
-                <div class="slogan">
-                    <h1>Buy Drugs Instead.</h1>
-                </div>
-            </div>
-            <div class="col-lg-6 container-form">
-                <div class="main-nav d-flex justify-content-end align-items-center">
-                    <ul>
-                        <li><a href="default.asp">About</a></li>
-                        <li><a href="news.asp">Articles</a></li>
-                        <li><a href="contact.asp">Home</a></li>
-                    </ul>
-                    <div class="sandwich ml-5">
-                        <div class="icon-bar top-bar"></div>    
-                        <div class="icon-bar middle-bar"></div>
-                        <div class="icon-bar bottom-bar"></div>
-                    </div>
-                </div>
-                <div class="main-form">
-                    <div class="form-title">
-                        <h1 >Login to <span style="color: #FF7243;">Obati</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    </div>  
-                    <form>
-                        <!-- <div class="form-group">
-                            <label id="label_email" for="exampleInputEmail1">Email address</label>
-
-                            <input type="email" id="input_email" aria-describedby="emailHelp"
-                                placeholder="please enter your email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div> -->
-                        <div class="form-group">
-                            <label id="label_email" for="exampleInputEmail1">Email address</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text "><i class="fa fa-envelope"></i></div>
-                                    <input type="email" id="input_email" aria-describedby="emailHelp"
-                                placeholder="please enter your email">
-                                </div>
-                            </div>  
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        </div>
-                    
-                       <!--  <div class="form-group">
-                            <label id="label_password" for="exampleInputPassword1">Password</label>
-                            <input type="password" id="input_password" placeholder="please enter your password">
-                        </div> -->
-                        <div class="form-group">
-                            <label id="label_password" for="exampleInputPassword1">Password</label>
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-key" ></i></div>
-                                    <input type="password" id="input_password" placeholder="please enter your password">
-                                    <a href="#" class="text-dark" id="icon-click">
-                                        <span class="gaterlihat"> <i class="fa fa-eye" id="icon" ></i></span>
-                                    </a>
-                                </div>
-                            </div>
-                                          
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <div class="form-group form-check ">
-                                <!-- <input type="checkbox" class="form-check-input" id="materialUnchecked"> --> 
-                                <!-- ini yang aku update dim @rifqi -->
-                                <div class="form-group">
-                                    <label class="mz-check">
-                                        <input type="checkbox">
-                                            <i class="mz-blue"></i>
-                                            <label class="form-check-label" for="exampleCheck1">Always remember</label>
-                                        </label>
-                                </div>
-                            </div>
-                            <!-- trigereed modal -->
-                            <a class="link" href="" type="" data-toggle="modal" data-target="#modal-login">Forgot Password?</a>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
-                        
-                    </form>
-
-                    
-
-                </div>
-                <div class="bottom-bar">
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_login/toRegister') ?>" >Sign Up</a></p>
-
-                </div>
-                
-
-
-            </div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-
-    <script src="<?php echo base_url("./assets/js/jquery.js")?>"></script>
-    <script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
-    <script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
->>>>>>> d98ec6b21b799e3c7fae80bad81de00ac7f8dfcb
 
 </body>
 
