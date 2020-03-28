@@ -175,14 +175,8 @@ input:focus {
 }
 
 
-/*input:focus { 
-    border-bottom: 2px solid #4492ED;
-    
-}
-.input-group-text:focus {
-    border-bottom: 2px solid #4492ED;
-}
-*/.input-group-prepend {
+
+.input-group-prepend {
     margin-right: -1px;
     width: 100%;
 }
@@ -282,7 +276,7 @@ input:focus {
     border-radius: 1px;
 }
 
-
+/*password*/
 span.gaterlihat{
     position: absolute;
     right: 15px;
@@ -291,22 +285,12 @@ span.gaterlihat{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1366px) {
-    body, html { 
-        font-size: 12px;
-    }
-  }
 
-  @media screen and (max-width: 768px) { 
-
-    .main-nav { 
-        display: flex !important;
-        justify-content: space-around  !important;
-        align-items: center !important;
-    }
-
-    
-
+input#input_password {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #757575;
 }
-
 

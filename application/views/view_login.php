@@ -71,13 +71,15 @@
                             <label id="label_password" for="exampleInputPassword1">Password</label>
                             <div class="input-group">
                                 <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fa fa-key"></i></div>
+                                    <div class="input-group-text"><i class="fa fa-key" ></i></div>
                                     <input type="password" id="input_password" placeholder="please enter your password">
-                                    <span class="gaterlihat"> <i class="fa fa-eye" id="eye" onclick="toogle()"></i></span>
+                                    <a href="#" class="text-dark" id="icon-click">
+                                        <span class="gaterlihat"> <i class="fa fa-eye" id="icon" ></i></span>
+                                    </a>
                                 </div>
-                        </div>
+                            </div>
                                           
-                                        </div>
+                        </div>
                         <div class="d-flex justify-content-between">
                             <div class="form-group form-check ">
                                 <!-- <input type="checkbox" class="form-check-input" id="materialUnchecked"> --> 
@@ -90,7 +92,8 @@
                                         </label>
                                 </div>
                             </div>
-                            <a class="link" href="">Forgot Password?</a>
+                            <!-- trigereed modal -->
+                            <a class="link" href="" type="" data-toggle="modal" data-target="#modal-login">Forgot Password?</a>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
                         
@@ -115,7 +118,6 @@
     <script src="<?php echo base_url("./assets/js/jquery.js")?>"></script>
     <script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
     <script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
-    
 
 </body>
 
