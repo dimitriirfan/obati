@@ -29,7 +29,7 @@
                     <ul>
                         <li><a href="default.asp">About</a></li>
                         <li><a href="news.asp">Articles</a></li>
-                        <li><a href="contact.asp">Home</a></li>
+                        <li><a href="contact.asp">About Us</a></li>
                     </ul>
                     <div class="sandwich ml-5">
                         <div class="icon-bar top-bar"></div>    
@@ -43,7 +43,14 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>  
                     <form>
+                        <!-- <div class="form-group">
+                            <label id="label_email" for="exampleInputEmail1">Email address</label>
 
+                            <input type="email" id="input_email" aria-describedby="emailHelp"
+                                placeholder="please enter your email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div> -->
                         <div class="form-group">
                             <label id="label_email" for="exampleInputEmail1">Email address</label>
                             <div class="input-group">
@@ -56,7 +63,10 @@
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                         </div>
                     
-
+                       <!--  <div class="form-group">
+                            <label id="label_password" for="exampleInputPassword1">Password</label>
+                            <input type="password" id="input_password" placeholder="please enter your password">
+                        </div> -->
                         <div class="form-group">
                             <label id="label_password" for="exampleInputPassword1">Password</label>
                             <div class="input-group">
@@ -72,6 +82,8 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="form-group form-check ">
+                                <!-- <input type="checkbox" class="form-check-input" id="materialUnchecked"> --> 
+                                <!-- ini yang aku update dim @rifqi -->
                                 <div class="form-group">
                                     <label class="mz-check">
                                         <input type="checkbox">
@@ -84,17 +96,11 @@
                             <a class="link" href="" type="" data-toggle="modal" data-target="#modal-login">Forgot Password?</a>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
-                        
                     </form>
 
-                    
+                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="">Sign Up</a></p>
 
                 </div>
-                <div class="bottom-bar">
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_login/toRegister') ?>" >Sign Up</a></p>
-
-                </div>
-                
 
 
             </div>
