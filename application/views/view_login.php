@@ -43,14 +43,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>  
                     <form>
-                        <!-- <div class="form-group">
-                            <label id="label_email" for="exampleInputEmail1">Email address</label>
 
-                            <input type="email" id="input_email" aria-describedby="emailHelp"
-                                placeholder="please enter your email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div> -->
                         <div class="form-group">
                             <label id="label_email" for="exampleInputEmail1">Email address</label>
                             <div class="input-group">
@@ -63,10 +56,7 @@
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                         </div>
                     
-                       <!--  <div class="form-group">
-                            <label id="label_password" for="exampleInputPassword1">Password</label>
-                            <input type="password" id="input_password" placeholder="please enter your password">
-                        </div> -->
+
                         <div class="form-group">
                             <label id="label_password" for="exampleInputPassword1">Password</label>
                             <div class="input-group">
@@ -82,8 +72,6 @@
                         </div>
                         <div class="d-flex justify-content-between">
                             <div class="form-group form-check ">
-                                <!-- <input type="checkbox" class="form-check-input" id="materialUnchecked"> --> 
-                                <!-- ini yang aku update dim @rifqi -->
                                 <div class="form-group">
                                     <label class="mz-check">
                                         <input type="checkbox">
