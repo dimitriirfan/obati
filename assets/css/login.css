@@ -285,3 +285,10 @@ span.gaterlihat{
     cursor: pointer;
 }
 
+input#input_password {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #757575;
+}
