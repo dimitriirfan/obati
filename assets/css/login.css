@@ -5,7 +5,7 @@
 body, html { 
     font-family: 'Roboto';
     font-size: 14px;
-
+  
 }
 
 h1 { 
@@ -16,6 +16,10 @@ h1 {
 p { 
     color: var(--passive-gray);
     font-size: 1rem;
+}
+
+.row { 
+    min-height: 100vh;
 }
 
 .form-group { 
@@ -32,7 +36,6 @@ p {
 .container-image { 
     background-image: url('../img/martin-katler-HvxO34LKg00-unsplash.jpg');
     background-size: cover;
-    height: 100vh;
     display: grid;
     grid-template-columns: 5% auto 50%;
     grid-template-rows: 5em auto 5em;
@@ -52,7 +55,7 @@ p {
 
 .main-nav { 
     padding: 0em 1.5em;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
 }
 
 
@@ -72,8 +75,8 @@ p {
     text-decoration: none;
     padding: 1em 1.25em;
     color: #A3A3A3;
-    border-bottom: 1px solid white;
-    opacity: 1;
+    border-bottom: 3px solid white;
+    font-weight: 700;
 
 
 }
@@ -81,7 +84,7 @@ p {
 .main-nav ul li a:hover { 
 
     color: var(--passive-dark);
-    border-bottom: 1px solid #FF7243;
+    border-bottom: 3px solid #FF7243;
 }
 
 .slogan h1 { 
@@ -89,28 +92,37 @@ p {
 }
 
 .main-form { 
-    margin: 10% 15%;
+    margin: 10% 15% 0 15%;
 }
 
 .main-form .btn-submit { 
-    margin-top: 15%;
-    margin-bottom: 15%;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
 
 .form-title { 
-    width: 70%;
-    margin-bottom: 10%;
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.bottom-bar { 
+    text-align: center;
 }
 
 
 
 
 input[type=email], input[type=password]{ 
-  font-size:14px;
+  font-size:1rem;
   display:block;
   width:100%;
   border:none;
+  padding: 0.5em;
   border-bottom:2px solid #757575;
+}
+
+small { 
+    margin-bottom: 3em;
 }
 
 button[type=submit] { 
@@ -162,12 +174,6 @@ input:focus {
     border: none;
 }
 
-/* input */
-
-
-input { 
-    padding: 0.5em;
-}
 
 
 .input-group-prepend {
@@ -279,6 +285,7 @@ span.gaterlihat{
     cursor: pointer;
 }
 
+
 input#input_password {
     font-size: 14px;
     display: block;
@@ -286,3 +293,4 @@ input#input_password {
     border: none;
     border-bottom: 2px solid #757575;
 }
+

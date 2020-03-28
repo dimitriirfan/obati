@@ -29,7 +29,7 @@
                     <ul>
                         <li><a href="default.asp">About</a></li>
                         <li><a href="news.asp">Articles</a></li>
-                        <li><a href="contact.asp">About Us</a></li>
+                        <li><a href="contact.asp">Home</a></li>
                     </ul>
                     <div class="sandwich ml-5">
                         <div class="icon-bar top-bar"></div>    
@@ -96,11 +96,17 @@
                             <a class="link" href="" type="" data-toggle="modal" data-target="#modal-login">Forgot Password?</a>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
+                        
                     </form>
 
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="">Sign Up</a></p>
+                    
 
                 </div>
+                <div class="bottom-bar">
+                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_login/toRegister') ?>" >Sign Up</a></p>
+
+                </div>
+                
 
 
             </div>
