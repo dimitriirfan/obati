@@ -1,5 +1,7 @@
 @import './_variables.css';
 @import './font.css';
+@import './hamburger.css';
+
 
 html, body { 
     
@@ -10,6 +12,14 @@ html, body {
 h1 {
 	font-size: 3.5rem;
 	font-weight: 700;
+}
+
+h2 { 
+    font-size: 2.75rem;
+}
+
+h3 { 
+    font-size: 1.75rem;
 }
 
 p {
@@ -112,7 +122,11 @@ p {
 .grid-item .container-drug{ 
     position: absolute;
     bottom: 0px;
+    left: 0;
+    right: 0;
 }
+
+
 
 /* container for top */
 .grid-item .container-top { 
@@ -121,12 +135,11 @@ p {
     position: absolute;
     top: 0px;
     
-
 }
 /* container for article */
 .grid-item .container-article { 
     padding: 2em 2em;
-    width: 60%;
+    width: 50%;
     position: absolute;
     top: 0px;
 }
@@ -200,6 +213,112 @@ p {
 }
 
 /* =====  end main grid  ===== */
+
+/* media query */
+@media screen and (max-width: 968px) {
+
+	.main-grid { 
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 250px 250px 250px 250px;
+        grid-auto-flow: dense;
+
+
+    }
+
+    .grid-item-1 { 
+        grid-row: 1;
+        grid-column: 1;
+        background-image: url("../img/pill-white.jpg");
+        background-position:50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .grid-item-2 { 
+        grid-row: 2;
+        grid-column: 1/3;
+        background-image: url("../img/drug.jpg");
+        background-position:50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        }
+    
+    .grid-item-3 {
+        grid-row: 1;
+        grid-column: 2;
+        background-image: url("../img/pill-green.jpg");
+        background-position:50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    .grid-item-4 { 
+        grid-row: 3;
+        grid-column: 1/3;
+        background-color: #F3F3F3;
+        
+    }
+    
+    .grid-item-5 { 
+        grid-row: 4;
+        grid-column: 1/3;
+        background-image: url("../img/magazine.jpg");
+        background-position:50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.main-nav {
+		display: flex !important;
+		justify-content: space-around !important;
+		align-items: center !important;
+    }
+    
+    .grid-item .container-article { 
+        padding: 2em 2em;
+        width: 40%;
+        position: absolute;
+        top: 0px;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width: 628px) {
+
+	body,html { 
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 328px) {
+
+	body,html { 
+        font-size: 10px;
+    }
+
+    .grid-item .container-article { 
+        padding: 2em 2em;
+        width: 50%;
+        position: absolute;
+        top: 0px;
+    }
+    
+
+}
+
+
 
 
 
