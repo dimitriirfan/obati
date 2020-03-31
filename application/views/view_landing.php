@@ -94,16 +94,14 @@
 					<button class=" btn btn-primary btn-main-drug">Drug detail</button>
 
 				</div>
-
-
 				<div class="container container-drug d-flex justify-content-between">
 
 					<div class="drug-title">
-						<h3 class="drug-name">Acifar 400mg</h3>
+						<h4 class="drug-name">Acifar 400mg</h4>
 						<p class="drug-company">Generic Manufacturer</p>
 
 					</div>
-					<h3 class="drug-price">Rp. 31.200</h3>
+					<h4 class="drug-price">Rp. 31.200</h4>
 
 				</div>
 
@@ -117,11 +115,11 @@
 				</div>
 				<div class="container container-drug d-flex justify-content-between">
 					<div class="drug-title">
-						<h3 class="drug-name">Herclov 500 MG</h3>
+						<h4 class="drug-name">Herclov 500 MG</h4>
 						<p class="drug-company">Sanbe Farma</p>
 
 					</div>
-					<h3 class="drug-price">Rp. 157.500</h3>
+					<h4 class="drug-price">Rp. 157.500</h4>
 
 				</div>
 			</div>

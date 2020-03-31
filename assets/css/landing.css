@@ -227,6 +227,7 @@ p {
 
 .grid-item:hover {
 
+    cursor: pointer;
 	background-size: 210%;
 
 }
