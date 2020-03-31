@@ -25,10 +25,10 @@ p {
     font-size: 1rem;
 }
 
-.link { 
-    font-size: 1rem;
-    font-weight: 700;
-    color: #4492ED;
+.link {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #4492ED;
 }
 
 
@@ -78,7 +78,7 @@ p {
     display: block;
     text-decoration: none;
     padding: 1em 1.25em;
-    color: #A3A3A3;
+    color: var(--passive-dark);
     border-bottom: 3px solid white;
     font-weight: 700;
    

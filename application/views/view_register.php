@@ -37,7 +37,7 @@
 				</div>
 				<div class="main-form">
 					<div class="form-title">
-						<h1>Register to <span style="color: #74BDCB;">Obati</span></h1>
+						<h1>Sign up to <span style="color: #74BDCB;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 
@@ -74,16 +74,16 @@
 							<div class="form-group form-check ">
 								<input type="checkbox" class="form-check-input" id="materialUnchecked">
 								<label class="form-check-label" for="exampleCheck1">I agree to the Obati <a href=""
-										style=" color: #0BA9ED">Terms </a> and <a href="" style=" color: #0BA9ED">
+										style=" color: #4492ED">Terms </a> and <a href="" style=" color: #4492ED">
 										Privacy policy</a></label>
 							</div>
 						</div>
-						<button type="submit" class="btn btn-primary btn-block btn-submit">Register</button>
+						<button type="submit" class="btn btn-primary btn-block btn-submit">Sign Up</button>
 					</form>
 					
                 </div>
                 <div class="bottom-bar">
-                    <p style="font-weight: 700;">Dont have an account? <a class="link" href="<?php echo base_url('index.php/Controller_register/toLogin') ?>" >Sign Up</a></p>
+                    <p style="font-weight: 700;">Already have an account? <a class="link" href="<?php echo base_url('index.php/Controller_register/toLogin') ?>" >Sign In</a></p>
 
                 </div>
 

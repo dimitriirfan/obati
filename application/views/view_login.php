@@ -41,9 +41,9 @@
 
 				</div>
 
-				<div class="main-form">
+				<div class="main-form ">
 					<div class="form-title">
-						<h1>Login to <span style="color: #FF7243;">Obati</span></h1>
+						<h1>Sign in to <span style="color: #FF7243;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<form>
@@ -102,11 +102,7 @@
 				<div class="bottom-bar">
 					<p style="font-weight: 700;">Dont have an account? <a class="link"
 							href="<?php echo base_url('index.php/Controller_login/toRegister') ?>">Sign Up</a></p>
-
 				</div>
-
-
-
 			</div>
 		</div>
 	</div>
