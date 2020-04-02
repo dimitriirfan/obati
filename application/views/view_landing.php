@@ -182,11 +182,11 @@
 		<div class="main-category">
 			<div class="category-grid">
 
-				<div class="grid-c-item grid-c-item-1">
+				<div class="grid-c-item grid-c-item-1 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot">Hot</div>
 
 
-					<div class="inner-c-item">
+					<div class="inner-c-item ">
 
 						<img class="mb-4" src="<?php echo base_url("./assets/img/coronavirus.png")?>" alt="">
 						<h5 class="mb-0">Flu & Viruses</h5>
@@ -195,7 +195,7 @@
 					</div>
 
 				</div>
-				<div class="grid-c-item grid-c-item-2">
+				<div class="grid-c-item grid-c-item-2 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/cough2.png")?>" alt="">
@@ -206,7 +206,7 @@
 
 				</div>
 
-				<div class="grid-c-item grid-c-item-3">
+				<div class="grid-c-item grid-c-item-3 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/eye-makeup.png")?>" alt="">
@@ -217,7 +217,7 @@
 
 				</div>
 
-				<div class="grid-c-item grid-c-item-4">
+				<div class="grid-c-item grid-c-item-4 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/mom.png")?>" alt="">
@@ -229,7 +229,7 @@
 				</div>
 
 				<!-- jumbo -->
-				<div class="grid-c-item grid-c-item-5  d-flex justify-content-start align-items-center">
+				<div class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded  d-flex justify-content-start align-items-center">
 					<div class="covid-title">
 						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
 						<h1>Batuk?</h1>
@@ -251,7 +251,7 @@
 
 				<!-- jumbo end -->
 
-				<div class="grid-a-item grid-a-item-1">
+				<div class="grid-a-item grid-a-item-1 shadow-sm bg-white rounded">
 					<div class="tag">Article</div>
 					<h5 class="mb-0">Wash your damn hands</h5>
 					<p>is simply dummy text of the printing and typesetting industry.</p>
@@ -265,7 +265,7 @@
 					</div>
 				</div>
 
-				<div class="grid-a-item grid-a-item-2">
+				<div class="grid-a-item grid-a-item-2 shadow-sm  bg-white rounded">
 					<div class="tag">Article</div>
 					<h5 class="mb-0">Healthy inside fresh outside.</h5>
 					<p>is simply dummy text of the printing and typesetting industry.</p>
