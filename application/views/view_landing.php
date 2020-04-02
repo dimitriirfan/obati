@@ -181,8 +181,13 @@
 	<div class="container-fluid p-0 m-0">
 		<div class="main-category">
 			<div class="category-grid">
+
 				<div class="grid-c-item grid-c-item-1">
+					<div class="tag tag-hot">Hot</div>
+
+
 					<div class="inner-c-item">
+
 						<img class="mb-4" src="<?php echo base_url("./assets/img/coronavirus.png")?>" alt="">
 						<h5 class="mb-0">Flu & Viruses</h5>
 						<p>123 items</p>
@@ -191,6 +196,7 @@
 
 				</div>
 				<div class="grid-c-item grid-c-item-2">
+					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/cough2.png")?>" alt="">
 						<h5 class="mb-0">Cough</h5>
@@ -201,6 +207,7 @@
 				</div>
 
 				<div class="grid-c-item grid-c-item-3">
+					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/eye-makeup.png")?>" alt="">
 						<h5 class="mb-0">Eye Care</h5>
@@ -211,6 +218,7 @@
 				</div>
 
 				<div class="grid-c-item grid-c-item-4">
+					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/mom.png")?>" alt="">
 						<h5 class="mb-0">Baby</h5>
@@ -371,7 +379,8 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center"
+									style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Haris Subekti</h5>
@@ -394,7 +403,8 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center"
+									style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Dimitri Irfan</h5>
@@ -417,7 +427,8 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center"
+									style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Rifqi Luthfi</h5>
