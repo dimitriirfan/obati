@@ -354,7 +354,11 @@
 		</div>
 
 		<!-- middle -->
-		<div class="container middle-container">
+		<div class="container">
+			<div class="middle-container">
+				
+			</div>
+			
 		</div>
 
 		<!-- main testimonials -->
