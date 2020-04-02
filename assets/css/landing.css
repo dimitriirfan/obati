@@ -34,6 +34,7 @@ p {
 
 
 
+
 /* first main header */
 
 .main-header .collapse {
@@ -78,6 +79,10 @@ p {
 
 }
 
+.search { 
+	border-radius: 40px;
+}
+
 /* second main header */
 .category-nav {
 	margin: 0 20%;
@@ -107,12 +112,22 @@ p {
 }
 
 /* =====  Main grid  ===== */
+
+
 .main-grid {
 	display: grid;
-	grid-template-columns: 25% auto 30%;
-	grid-template-rows: 325px 325px;
+	grid-template-columns: 25% auto 35%;
+	grid-template-rows: minmax(300px, auto) minmax(300px, auto);
 	grid-auto-flow: dense;
 }
+
+.inner-item { 
+	height: 100%;
+	width: 100%;
+	padding-bottom: 60%;
+}
+
+
 
 .grid-item,
 .drug-title p {
@@ -126,6 +141,7 @@ p {
 	bottom: 0px;
 	left: 0;
 	right: 0;
+	padding: 2em 2em;
 }
 
 
@@ -178,7 +194,7 @@ p {
 	background-position: 50% 50%;
 	background-size: 200%;
 	background-repeat: no-repeat;
-	transition: all 1s;
+	transition: all 0.3s;
 
 
 }
@@ -190,7 +206,7 @@ p {
 	background-position: 50% 50%;
 	background-size: 200%;
 	background-repeat: no-repeat;
-	transition: all 1s;
+	transition: all 0.3s;
 
 }
 
@@ -201,7 +217,7 @@ p {
 	background-position: 50% 50%;
 	background-size: 200%;
 	background-repeat: no-repeat;
-	transition: all 1s;
+	transition: all 0.3s;
 
 
 }
@@ -209,7 +225,9 @@ p {
 .grid-item-4 {
 	grid-row: 1;
 	grid-column: 3;
-	background-color: #F3F3F3;
+	background: url("../img/dokter.jpg");
+	background-size: cover;
+	transition: all 0s ;
 
 }
 
@@ -220,7 +238,7 @@ p {
 	background-position: 50% 50%;
 	background-size: 200%;
 	background-repeat: no-repeat;
-	transition: all 1s;
+	transition: all 0.3s;
 
 
 }
@@ -232,10 +250,319 @@ p {
 
 }
 
+.grid-item-4:hover {
+
+	cursor: pointer;
+	background-size: cover !important;
+
+}
+
 /* =====  end main grid  ===== */
 
+.main-category { 
+	background-color: #F2F2F2;
+}
+
+.category-grid { 
+	display: grid;
+	grid-gap: 0.5em;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+}
+
+.grid-c-item { 
+	background-color: white;
+	padding: 2em;
+	text-align: center;
+}
+
+.grid-c-item .inner-c-item { 
+	transition: all 0.5s;
+	cursor: pointer;
+
+
+}
+
+.grid-c-item .inner-c-item:hover { 
+	transform: scale(1.05);
+
+}
+
+
+.grid-c-item img { 
+	width: 50px !important;
+}
+
+.grid-c-item p { 
+	color: #929292;
+
+}
+
+
+
+.grid-c-item-1 { 
+	grid-column: 1;
+}
+
+.grid-c-item-2 { 
+	grid-column: 2;
+}
+
+.grid-c-item-3 { 
+	grid-column: 3;
+}
+
+.grid-c-item-4 { 
+	grid-column: 4;
+}
+/* jumbooo */
+/* jumbo grid */
+.grid-c-item-5 { 
+	padding: 4em;
+
+	grid-column: 1/4;
+	grid-row: 2/4;
+	background-image: url("../img/cough.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: start !important;
+	transform: scale(1);
+
+}
+
+.covid-title { 
+	padding: 0 2em;
+	max-width: 300px;
+	color: white;
+}
+.covid-title img { 
+	min-width: 150px !important;
+	margin-bottom: 1em;
+}
+
+.covid-title h1 { 
+	color: #FFA384 !important;
+}
+
+.covid-title p { 
+	color: white;
+}
+
+
+.covid-title .btn { 
+	margin-top: 3em;
+}
+
+
+.btn-j { 
+	font-size: 1em !important;
+	color: white !important;
+	border: 3px solid #FFA384 !important;
+	background-color: #FFA384 !important;
+	border-radius: 40px !important;
+	padding: 0.25em 1.25em !important;
+}
+/* end jumbo */
+
+/* grid article */
+.grid-a-item { 
+	position: relative;
+	background-color: white;
+	padding: 2em;
+	padding-bottom: 25%;
+}
+
+
+.grid-a-item p { 
+	color: #929292;
+	margin-bottom: 1.5em;
+}
+
+.grid-a-item-1 { 
+	grid-column: 4;
+	grid-row: 2;
+}
+
+.grid-a-item-2 { 
+	grid-column: 4;
+	grid-row: 3;
+}
+
+
+.tag { 
+	display: inline-block;
+	border: 3px solid #74BDCB;
+	padding: 0.25em 0.75em ;
+	margin-bottom: 1.5em;
+}
+
+.foot { 
+	right: 0px;
+	width: 100%;
+	padding: 2em;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+}
+
+.btn-a {
+	font-size: 1em !important;
+	color: white !important;
+	border: 3px solid #FFA384 !important;
+	background-color: #FFA384 !important;
+	border-radius: 40px !important;
+	padding: 0.25em 1.25em !important;
+
+}
+
+/* top decoration */
+.decoration { 
+	width: 100px;
+	height: 100px;
+	
+}
+
+.decoration-why-1 { 
+	background-color: #E7F2F8;
+}
+
+.decoration-why-2 { 
+	background-color: #FFA384;
+}
+
+.decoration-why-3 { 
+	background-color: #EFE7BC;
+}
+
+/* end decoration */
+
+
+/* main why */
+
+/* grid why */
+
+.main-why { 
+	margin: 4em 4em;
+
+}
+.why-grid { 
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+	grid-gap: 3em;
+}
+
+.grid-w-item { 
+	width: 100%;
+	border-radius: 20px;
+	background-color: white;
+	text-align: center;
+	padding: 10% 0;
+
+}
+
+.grid-w-item img { 
+	width: 60px !important;
+}
+
+.grid-w-item p { 
+	color: #929292;
+
+}
+
+.grid-w-item-1{
+	grid-row: 1;
+	grid-column: 1;
+
+}
+
+.grid-w-item-2{ 
+	grid-row: 1;
+	grid-column: 2 ;
+}
+
+.grid-w-item-3{ 
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.grid-w-item-4{ 
+	grid-row: 2;
+	grid-column: 2;
+}
+
+.grid-w-item-5 {
+	grid-column: 3/5; 
+	grid-row: 1/3 ;
+}
+
+.inner-w-title { 
+	border-right: 40px solid #AEDDDD ;
+}
+
+.inner-w-title .why {
+	padding: 4em;
+	text-align: start;
+	width: 80%; 
+
+}
+
+/* middle container */
+
+.middle-container { 
+	height: 100px;
+	border-left: 3px solid black;
+}
+
+/* main testimonial */
+
+.main-testimonial { 
+	margin: 4em 4em;
+}
+
+.main-t-top { 
+	width: 100%;
+	border-right: 3px solid black;
+}
+
+.main-testimonial-title { 
+	max-width: 250px;
+	margin-bottom: 1em;
+}
+.card { 
+	border-radius: 20px;
+}
+
+.card-body { 
+	padding: 2em;
+}
+
+.card-footer { 
+	padding: 0 2em 2em 2em;
+}
+.card-img-top {
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.testimonials .card .card-footer { 
+	background-color: white;
+	border: none;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+
+}
+
+
+/* main why */
+
+
 /* media query */
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 1036px) {
 
 	.main-grid {
 		display: grid;
@@ -298,6 +625,64 @@ p {
 	}
 }
 
+@media screen and (max-width: 992px) { 
+
+	.grid-w-item-1{
+		grid-row: 2;
+		grid-column: 1;
+	
+	}
+	
+	.grid-w-item-2{ 
+		grid-row: 2;
+		grid-column: 2;
+	}
+	
+	.grid-w-item-3{ 
+		grid-row: 2;
+		grid-column: 3;
+	}
+	
+	.grid-w-item-4{ 
+		grid-row: 2;
+		grid-column: 4;
+	}
+	
+	.grid-w-item-5 {
+		position: relative;
+		grid-column: 1/5; 
+		grid-row: 1 ;
+	}
+	
+
+
+}
+
+@media screen and (max-width: 811px) { 
+
+	.grid-c-item-5 { 
+		padding: 4em;
+	
+		grid-column: 1/5;
+		grid-row: 2;
+		background-image: url("../img/cough.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		text-align: start !important;
+	}
+
+	.grid-a-item-1 { 
+		grid-column: 1/3;
+		grid-row: 3;
+	}
+	
+	.grid-a-item-2 { 
+		grid-column: 3/5;
+		grid-row: 3;
+	}
+
+}
+
 
 @media screen and (max-width: 768px) {
 
@@ -326,7 +711,27 @@ p {
 		font-size: 12px;
 	}
 
+	.grid-item .container-drug {
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		right: 0;
+		padding: 1em 1em;
+	}
+
+	.grid-c-item img { 
+		width: 50px !important;
+	}
+
+	.grid-w-item img { 
+		width: 50px !important;
+	}
+
+
+	
+
 }
+
 
 @media screen and (max-width: 328px) {
 
@@ -341,6 +746,9 @@ p {
 		position: absolute;
 		top: 0px;
 	}
+
+	
+	
 
 
 }

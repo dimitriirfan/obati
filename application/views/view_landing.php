@@ -44,7 +44,15 @@
 					</ul>
 
 
+
+
 					<ul class="navbar-nav ml-auto">
+						<form class="form-inline">
+
+							<input class=" search form-control form-control-md mr-3 w-75" type="text"
+								placeholder="Search" aria-label="Search">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</form>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-in" href="#">Sign In</a>
 						</li>
@@ -88,111 +96,357 @@
 	<!-- main image -->
 	<div class="container-fluid p-0 m-0">
 		<div class="main-grid">
-			
+
 			<div class="grid-item grid-item-1">
-				<div class="container-top">
-					<button class=" btn btn-primary btn-main-drug">Drug detail</button>
-
-				</div>
-				<div class="container container-drug d-flex justify-content-between">
-
-					<div class="drug-title">
-						<h4 class="drug-name">Acifar 400mg</h4>
-						<p class="drug-company">Generic Manufacturer</p>
+				<div class="inner-item">
+					<div class="container-top">
+						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
 
 					</div>
-					<h4 class="drug-price">Rp. 31.200</h4>
+					<div class="container container-drug d-flex justify-content-between">
+						<div class="drug-title">
+							<h4 class="drug-name">Acifar 400mg</h4>
+							<p class="drug-company">Generic Manufacturer</p>
+
+						</div>
+						<h4 class="drug-price">Rp. 31.200</h4>
+
+
+
+					</div>
 
 				</div>
+
 
 
 
 			</div>
 			<div class="grid-item grid-item-2">
-				<div class="container-top">
-					<button class=" btn btn-primary btn-main-drug">Drug detail</button>
-
-				</div>
-				<div class="container container-drug d-flex justify-content-between">
-					<div class="drug-title">
-						<h4 class="drug-name">Herclov 500 MG</h4>
-						<p class="drug-company">Sanbe Farma</p>
+				<div class="inner-item">
+					<div class="container-top">
+						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
 
 					</div>
-					<h4 class="drug-price">Rp. 157.500</h4>
+					<div class="container container-drug d-flex justify-content-between">
+						<div class="drug-title">
+							<h4 class="drug-name">Herclov 500 MG</h4>
+							<p class="drug-company">Sanbe Farma</p>
+
+						</div>
+						<h4 class="drug-price">Rp. 157.500</h4>
+
+					</div>
 
 				</div>
+
 			</div>
 			<div class="grid-item grid-item-3">
-				<div class="container-top">
-					<button class=" btn btn-primary btn-main-drug">Drug detail</button>
-
-				</div>
-				<div class="container container-drug d-flex justify-content-between">
-					<div class="drug-title">
-						<h4 class="drug-name">Drug Name</h4>
-						<p class="drug-company">Drug Company</p>
+				<div class="inner-item">
+					<div class="container-top">
+						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
 
 					</div>
-					<h4 class="drug-price">Drug Price</h4>
+					<div class="container container-drug d-flex justify-content-between">
+						<div class="drug-title">
+							<h4 class="drug-name">Drug Name</h4>
+							<p class="drug-company">Drug Company</p>
+
+						</div>
+						<h4 class="drug-price">Drug Price</h4>
+
+					</div>
 
 				</div>
+
 			</div>
 			<div class="grid-item grid-item-4">
-				<!-- <div class="card mb-3">
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="<?php echo base_url("./assets/img/doctor.jpg")?>" class="card-img" alt="...">
-						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<h3 class="card-title" style="color:#353535">Meet Our Doctor</h5>
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to additional content.</p>
-							</div>
-						</div>
-					</div>
-				</div> -->
+
+
 			</div>
 			<div class="grid-item grid-item-5">
-				<div class="container-article">
-					<h4 class="article-title mb-4">Keep up with our latest article</h4>
-					<button class=" btn btn-primary btn-main-article">Check here</button>
+				<div class="inner-item">
+					<div class="container-article">
+						<h4 class="article-title mb-4">Keep up with our latest article</h4>
+						<button class=" btn btn-primary btn-main-article">Check here</button>
+
+					</div>
 
 				</div>
+
 			</div>
 		</div>
 	</div>
 
 	<!-- main most popular category -->
-	<!-- <div class="container-fluid p-0 m-0">
+	<div class="container-fluid p-0 m-0">
 		<div class="main-category">
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="item p-2">
+			<div class="category-grid">
+				<div class="grid-c-item grid-c-item-1">
+					<div class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/coronavirus.png")?>" alt="">
+						<h5 class="mb-0">Flu & Viruses</h5>
+						<p>123 items</p>
+
+					</div>
+
+				</div>
+				<div class="grid-c-item grid-c-item-2">
+					<div class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/cough2.png")?>" alt="">
+						<h5 class="mb-0">Cough</h5>
+						<p>123 items</p>
+
+					</div>
+
+				</div>
+
+				<div class="grid-c-item grid-c-item-3">
+					<div class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/eye-makeup.png")?>" alt="">
+						<h5 class="mb-0">Eye Care</h5>
+						<p>123 items</p>
+
+					</div>
+
+				</div>
+
+				<div class="grid-c-item grid-c-item-4">
+					<div class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/mom.png")?>" alt="">
+						<h5 class="mb-0">Baby</h5>
+						<p>123 items</p>
+
+					</div>
+
+				</div>
+
+				<!-- jumbo -->
+				<div class="grid-c-item grid-c-item-5  d-flex justify-content-start align-items-center">
+					<div class="covid-title">
+						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
+						<h1>Batuk?</h1>
+						<h3>Belum tentu kamu kena Covid-19</h3>
+						<div class="d-flex align-items-baseline">
+							<span class="covid-like ">
+								<i class="fa fa-heart" style="color:#FF5F5F"></i>
+
+							</span>
+							<p class="flex-shrink-1 ml-2">361 likes</p>
+
+						</div>
+						<button class="btn btn-primary btn-block btn-j">Cek gejalanya</button>
+
+
+					</div>
+
+				</div>
+
+				<!-- jumbo end -->
+
+				<div class="grid-a-item grid-a-item-1">
+					<div class="tag">Article</div>
+					<h5 class="mb-0">Wash your damn hands</h5>
+					<p>is simply dummy text of the printing and typesetting industry.</p>
+					<div class="foot d-flex align-items-baseline">
+						<span class="covid-like ">
+							<i class="fa fa-heart" style="color:#FF5F5F"></i>
+						</span>
+						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
+						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
 
 					</div>
 				</div>
-				<div class="col-lg-3">
-					<div class="item p-2">
+
+				<div class="grid-a-item grid-a-item-2">
+					<div class="tag">Article</div>
+					<h5 class="mb-0">Healthy inside fresh outside.</h5>
+					<p>is simply dummy text of the printing and typesetting industry.</p>
+					<div class="foot d-flex align-items-baseline">
+						<span class="covid-like ">
+							<i class="fa fa-heart" style="color:#FF5F5F"></i>
+						</span>
+						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
+						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
 
 					</div>
 				</div>
-				<div class="col-lg-3">
-					<div class="item p-2">
 
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="item p-2">
 
-					</div>
-				</div>
 
 			</div>
 		</div>
-	</div> -->
+	</div>
 
+
+	<!-- main why -->
+	<div class="container-fluid m-0 p-0" style="background-color:#F2F2F2">
+		<div class="top-decoration d-flex justify-content-between">
+			<span class="d-flex">
+				<div class="decoration decoration-why-1"></div>
+				<div class="decoration decoration-why-2"></div>
+
+			</span>
+
+			<div class="decoration decoration-why-3"></div>
+
+		</div>
+
+		<div class="main-why">
+			<div class="container">
+				<div class="why-grid">
+					<div class="grid-w-item grid-w-item-1 shadow-sm  bg-white">
+						<div class="inner-w-item">
+							<img class="mb-4" src="<?php echo base_url("./assets/img/simple.png")?>" alt="">
+							<h5 class="mb-0">Simple</h5>
+
+						</div>
+
+					</div>
+					<div class="grid-w-item grid-w-item-2 shadow-sm  bg-white ">
+						<div class="inner-w-item">
+							<img class="mb-4" src="<?php echo base_url("./assets/img/pill.png")?>" alt="">
+							<h5 class="mb-0">Diverse</h5>
+
+						</div>
+
+					</div>
+					<div class="grid-w-item grid-w-item-3 shadow-sm  bg-white ">
+						<div class="inner-w-item">
+							<img class="mb-4" src="<?php echo base_url("./assets/img/trust.png")?>" alt="">
+							<h5 class="mb-0">Trusted</h5>
+
+						</div>
+
+					</div>
+					<div class="grid-w-item grid-w-item-4 shadow-sm  bg-white ">
+						<div class="inner-w-item">
+							<img class="mb-4" src="<?php echo base_url("./assets/img/fast.png")?>" alt="">
+							<h5 class="mb-0">Fast</h5>
+
+						</div>
+
+					</div>
+					<div class="grid-w-item grid-w-item-5 shadow-sm  bg-white">
+						<div class="inner-w-title">
+							<div class="why">
+								<h1>Why Choose Obati ?</h1>
+								<p>There are many reason to choose obati. Here are the main ones</p>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+		<!-- middle -->
+		<div class="container middle-container">
+		</div>
+
+		<!-- main testimonials -->
+
+		<div class="container">
+			<div class="main-testimonial">
+				<div class="main-t-top">
+					<h1 class="main-testimonial-title">What they say about us.</h1>
+
+				</div>
+
+
+				<div class="testimonials">
+					<div class="card-deck">
+						<div class="card">
+							<img class="card-img-top" src="<?php echo base_url("./assets/img/girl1.jpg")?>"
+								alt="Card image cap">
+							<div class="card-body">
+
+								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
+									is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="card-footer">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+
+									<span>
+										<h5 class="t-name ">Haris Subekti</h5>
+										<p class="t-job">Surgeon Doctor</p>
+
+									</span>
+									<i class="fa fa-heart" style="color:#FF5F5F"></i>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="<?php echo base_url("./assets/img/boy1.jpg")?>"
+								alt="Card image cap">
+							<div class="card-body">
+
+								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
+									is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="card-footer">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+
+									<span>
+										<h5 class="t-name ">Dimitri Irfan</h5>
+										<p class="t-job">Surgeon Doctor</p>
+
+									</span>
+									<i class="fa fa-heart" style="color:#FF5F5F"></i>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="card">
+							<img class="card-img-top" src="<?php echo base_url("./assets/img/dokter.jpg")?>"
+								alt="Card image cap">
+							<div class="card-body">
+
+								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
+									is simply dummy text of the printing and typesetting industry.</p>
+
+							</div>
+							<div class="card-footer">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
+
+									<span>
+										<h5 class="t-name ">Rifqi Luthfi</h5>
+										<p class="t-job">Surgeon Doctor</p>
+
+									</span>
+									<i class="fa fa-heart" style="color:#FF5F5F"></i>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom-decoration d-flex justify-content-between">
+			<span class="d-flex">
+				<div class="decoration decoration-why-1"></div>
+				<div class="decoration decoration-why-2"></div>
+
+			</span>
+
+			<div class="decoration decoration-why-3"></div>
+
+		</div>
+
+
+	</div>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
