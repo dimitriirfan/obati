@@ -369,7 +369,7 @@
 
 				<div class="testimonials">
 					<div class="card-deck">
-						<div class="card">
+						<div class="card mb-3">
 							<img class="card-img-top" src="<?php echo base_url("./assets/img/girl1.jpg")?>"
 								alt="Card image cap">
 							<div class="card-body">
@@ -391,9 +391,8 @@
 								</div>
 
 							</div>
-
 						</div>
-						<div class="card">
+						<div class="card mb-3">
 							<img class="card-img-top" src="<?php echo base_url("./assets/img/boy1.jpg")?>"
 								alt="Card image cap">
 							<div class="card-body">
@@ -417,7 +416,7 @@
 							</div>
 
 						</div>
-						<div class="card">
+						<div class="card mb-3">
 							<img class="card-img-top" src="<?php echo base_url("./assets/img/dokter.jpg")?>"
 								alt="Card image cap">
 							<div class="card-body">
