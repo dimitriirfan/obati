@@ -8,6 +8,8 @@
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
 	</link>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- style -->
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/register.css")?>">
@@ -64,18 +66,35 @@
 							<div class="form-group col-md-6">
 								<label for="inputEmail4">Password</label>
 								<input type="password" id="input_password" placeholder="Please enter your password">
+								<a href="#" class="text-dark" id="icon-click">
+                                    <span class="gaterlihat"> <i class="fa fa-eye" id="icon" ></i></span>
+                                </a>
 							</div>
 							<div class="form-group col-md-6">
 								<label for="inputPassword4">Confirm Password</label>
 								<input type="password" id="input_confirm" placeholder="Please re-enter your password">
 							</div>
 						</div>
-						<div class="d-flex justify-content-between agree">
+						<!-- <div class="d-flex justify-content-between agree">
 							<div class="form-group form-check ">
 								<input type="checkbox" class="form-check-input" id="materialUnchecked">
 								<label class="form-check-label" for="exampleCheck1">I agree to the Obati <a href=""
 										style=" color: #4492ED">Terms </a> and <a href="" style=" color: #4492ED">
 										Privacy policy</a></label>
+							</div>
+						</div> -->
+						<div class="d-flex justify-content-between agree">
+							<div class="form-group form-check ">
+
+								<div class="form-group">
+									<label class="mz-check">
+										<input id="checkbox_remember" type="checkbox">
+										<i class="mz-blue"></i>
+										<label class="form-check-label" for="exampleCheck1">I agree to the Obati <a href=""
+										style=" color: #4492ED">Terms </a> and <a href="" style=" color: #4492ED">
+										Privacy policy</a></label>
+									</label>
+								</div>
 							</div>
 						</div>
 						<button type="submit" class="btn btn-primary btn-block btn-submit">Sign Up</button>

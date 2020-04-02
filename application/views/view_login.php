@@ -77,7 +77,6 @@
                                     </a>
 								</div>
 							</div>
-
 						</div>
 						<div class="d-flex justify-content-between">
 							<div class="form-group form-check ">
