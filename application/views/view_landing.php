@@ -192,7 +192,7 @@
 
 				<!-- jumbo -->
 				<div
-					class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded  d-flex justify-content-start align-items-center">
+					class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded ">
 					<div class="covid-title">
 						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
 						<h1>Batuk?</h1>
