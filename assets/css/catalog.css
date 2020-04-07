@@ -1,0 +1,229 @@
+@import './_variables.css';
+@import './font.css';
+@import './hamburger.css';
+
+
+html,
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+	font-size: 14px;
+	background: white;
+}
+
+
+
+/* first main header */
+
+.main-header .collapse {
+	margin-left: 3em;
+
+}
+
+
+.navbar-brand img {
+	max-height: 65px;
+}
+
+
+.main-header .nav-link {
+	margin-right: 2em;
+	color: var(--passive-dark);
+	border-bottom: 3px solid white;
+	font-weight: 700;
+	font-size: 1em;
+
+}
+
+.active .nav-link {
+	border-bottom: 3px solid #74BDCB;
+}
+
+
+.main-header .nav-link:hover {
+	color: #74BDCB;
+	border-bottom: 3px solid #74BDCB;
+}
+
+.btn-sign-in {
+	font-size: 1em !important;
+	color: #74BDCB !important;
+	border: 3px solid #74BDCB !important;
+	border-radius: 40px !important;
+	padding: 0.25em 1.25em !important;
+}
+
+.btn-sign-up {
+	font-size: 1em !important;
+	color: white !important;
+	border: 3px solid #FFA384 !important;
+	background-color: #FFA384 !important;
+	border-radius: 40px !important;
+	padding: 0.25em 1.25em !important;
+
+}
+
+.search { 
+	border-radius: 40px;
+}
+
+/* second main header */
+.category-nav {
+	margin: 0 20%;
+}
+
+.category-nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 1em 1.25em;
+	color: var(--passive-dark);
+	border-bottom: 3px solid white;
+	opacity: 0.6;
+	font-weight: 700;
+	font-size: 1em;
+
+}
+
+.category-nav ul li a:hover {
+	display: block;
+	text-decoration: none;
+	padding: 1em 1.25em;
+	color: var(--passive-dark);
+	border-bottom: 3px solid white;
+	opacity: 1;
+	font-weight: 700;
+
+}
+
+
+.group{
+    width: 1539px;
+    height: 1456px;
+}
+
+.ket{
+    
+    position: absolute;
+    left: 275px;
+    padding-top: 50px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.195em;
+
+    color: #000000;
+}
+
+.bord{
+
+    padding-top: 20px;
+    width: 1000px;
+    border-bottom: 1px solid #000000;
+}
+
+.card{
+    
+    position: absolute;
+    width: 230px;
+    height: 235px;
+    left: 282px;
+    border-radius: 15px;
+
+    
+}
+
+.box{
+
+    padding-right: 20px;
+}
+
+.pic{
+    
+    width: 228px;
+    height: 150px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.titleDrug{
+    
+    position: absolute;
+    width: 150px;
+    height: 5px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0px;
+
+
+    color: #353535;
+
+}
+
+.penyakit{
+    
+    position: absolute;
+    width: 53.32px;
+    height: 9.62px;
+    padding-top: 20px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 3px;
+
+    color: #B8B8B8;
+
+}
+
+.hrg{
+    
+    position: absolute;
+    padding-left: 150px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 0px;
+    text-align: right;
+
+    color: #353535;
+
+}
+
+.btn{
+   
+    position: absolute;
+    width: 170px;
+    height: 20px;
+    left: 30px;
+    top: 200px;
+    margin: 5px;
+
+
+    background: #FFA384;
+    border-radius: 2px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 5px;
+
+}
+
+.page{
+    
+    width: 1536px;
+
+}
