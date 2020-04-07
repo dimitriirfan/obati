@@ -79,6 +79,12 @@ p {
 
 }
 
+.btn-orange:hover {
+	border: 3px solid var(--primary-orange-dark) !important;
+	background-color: var(--primary-orange-dark) !important;
+
+}
+
 .search { 
 	border-radius: 40px;
 }
@@ -379,6 +385,11 @@ p {
 	background-color: var(--white);
 	padding: 2em;
 	padding-bottom: 25%;
+}
+
+.grid-a-item .foot p{ 
+	color: var(--passive-dark);
+	font-weight: 700;
 }
 
 

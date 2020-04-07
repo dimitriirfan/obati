@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="<?php echo base_url("./obati.ico")?>" >
 
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
@@ -47,7 +48,7 @@
 					</ul>
 					<ul class="navbar-nav ml-auto">
 						<form class="form-inline">
-							<input class=" search form-control form-control-md mr-3 w-75" type="text"
+							<input class=" search form-control form-control-md mr-3 w-75" type="text" 
 								placeholder="Search" aria-label="Search">
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</form>
@@ -56,7 +57,7 @@
 								href="<?php echo base_url("index.php/Controller_landing/toLogin")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-up"
+							<a class="nav-link btn-sign-up btn-orange"
 								href="<?php echo base_url("index.php/Controller_landing/toRegister")?>">Sign Up</a>
 						</li>
 					</ul>
@@ -196,14 +197,15 @@
 					<div class="covid-title">
 						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
 						<h1>Batuk?</h1>
-						<h3>Belum tentu kamu kena Covid-19</h3>
+						<h2>Belum tentu kamu kena Covid-19</h2>
 						<div class="d-flex align-items-baseline">
-							<span class="covid-like ">
+							
+							<span class="covid-like">
 								<i class="fa fa-heart" style="color:#FF5F5F"></i>
 							</span>
 							<p class="flex-shrink-1 ml-2">361 likes</p>
 						</div>
-						<button class="btn btn-primary btn-block btn-j">Cek gejalanya</button>
+						<button class="btn btn-primary btn-block btn-j btn-orange">Cek gejalanya</button>
 					</div>
 				</div>
 
@@ -218,7 +220,7 @@
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
+						<button class="btn btn-primary btn-a flex-grow-1 btn-orange">Baca</button>
 					</div>
 				</div>
 
@@ -231,7 +233,7 @@
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
+						<button class="btn btn-primary btn-a flex-grow-1 btn-orange">Baca</button>
 					</div>
 				</div>
 			</div>
