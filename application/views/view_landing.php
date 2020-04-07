@@ -13,6 +13,9 @@
 
 	<!-- style -->
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/landing.css")?>">
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/footer.css")?>">
+
+
 	<title>Obati | Login</title>
 </head>
 
@@ -42,22 +45,19 @@
 							<a class="nav-link" href="#">About Us</a>
 						</li>
 					</ul>
-
-
-
-
 					<ul class="navbar-nav ml-auto">
 						<form class="form-inline">
-
 							<input class=" search form-control form-control-md mr-3 w-75" type="text"
 								placeholder="Search" aria-label="Search">
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</form>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-in" href="#">Sign In</a>
+							<a class="nav-link btn-sign-in"
+								href="<?php echo base_url("index.php/Controller_landing/toLogin")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-up" href="#">Sign Up</a>
+							<a class="nav-link btn-sign-up"
+								href="<?php echo base_url("index.php/Controller_landing/toRegister")?>">Sign Up</a>
 						</li>
 					</ul>
 				</div>
@@ -88,7 +88,6 @@
 					<a class="nav-link" href="#">Lose Weight</a>
 				</li>
 			</ul>
-
 		</div>
 	</div>
 
@@ -101,44 +100,29 @@
 				<div class="inner-item">
 					<div class="container-top">
 						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
-
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
 							<h4 class="drug-name">Acifar 400mg</h4>
 							<p class="drug-company">Generic Manufacturer</p>
-
 						</div>
 						<h4 class="drug-price">Rp. 31.200</h4>
-
-
-
 					</div>
-
 				</div>
-
-
-
-
 			</div>
 			<div class="grid-item grid-item-2">
 				<div class="inner-item">
 					<div class="container-top">
 						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
-
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
 							<h4 class="drug-name">Herclov 500 MG</h4>
 							<p class="drug-company">Sanbe Farma</p>
-
 						</div>
 						<h4 class="drug-price">Rp. 157.500</h4>
-
 					</div>
-
 				</div>
-
 			</div>
 			<div class="grid-item grid-item-3">
 				<div class="inner-item">
@@ -150,29 +134,21 @@
 						<div class="drug-title">
 							<h4 class="drug-name">Drug Name</h4>
 							<p class="drug-company">Drug Company</p>
-
 						</div>
 						<h4 class="drug-price">Drug Price</h4>
-
 					</div>
-
 				</div>
-
 			</div>
 			<div class="grid-item grid-item-4">
-
-
+				
 			</div>
 			<div class="grid-item grid-item-5">
 				<div class="inner-item">
 					<div class="container-article">
 						<h4 class="article-title mb-4">Keep up with our latest article</h4>
 						<button class=" btn btn-primary btn-main-article">Check here</button>
-
 					</div>
-
 				</div>
-
 			</div>
 		</div>
 	</div>
@@ -181,19 +157,13 @@
 	<div class="container-fluid p-0 m-0">
 		<div class="main-category">
 			<div class="category-grid">
-
 				<div class="grid-c-item grid-c-item-1 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot">Hot</div>
-
-
 					<div class="inner-c-item ">
-
 						<img class="mb-4" src="<?php echo base_url("./assets/img/coronavirus.png")?>" alt="">
 						<h5 class="mb-0">Flu & Viruses</h5>
 						<p>123 items</p>
-
 					</div>
-
 				</div>
 				<div class="grid-c-item grid-c-item-2 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
@@ -201,35 +171,28 @@
 						<img class="mb-4" src="<?php echo base_url("./assets/img/cough2.png")?>" alt="">
 						<h5 class="mb-0">Cough</h5>
 						<p>123 items</p>
-
 					</div>
-
 				</div>
-
 				<div class="grid-c-item grid-c-item-3 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/eye-makeup.png")?>" alt="">
 						<h5 class="mb-0">Eye Care</h5>
 						<p>123 items</p>
-
 					</div>
-
 				</div>
-
 				<div class="grid-c-item grid-c-item-4 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
 					<div class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/mom.png")?>" alt="">
 						<h5 class="mb-0">Baby</h5>
 						<p>123 items</p>
-
 					</div>
-
 				</div>
 
 				<!-- jumbo -->
-				<div class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded  d-flex justify-content-start align-items-center">
+				<div
+					class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded  d-flex justify-content-start align-items-center">
 					<div class="covid-title">
 						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
 						<h1>Batuk?</h1>
@@ -237,16 +200,11 @@
 						<div class="d-flex align-items-baseline">
 							<span class="covid-like ">
 								<i class="fa fa-heart" style="color:#FF5F5F"></i>
-
 							</span>
 							<p class="flex-shrink-1 ml-2">361 likes</p>
-
 						</div>
 						<button class="btn btn-primary btn-block btn-j">Cek gejalanya</button>
-
-
 					</div>
-
 				</div>
 
 				<!-- jumbo end -->
@@ -261,7 +219,6 @@
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
 						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
-
 					</div>
 				</div>
 
@@ -275,12 +232,8 @@
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
 						<button class="btn btn-primary btn-a flex-grow-1">Baca</button>
-
 					</div>
 				</div>
-
-
-
 			</div>
 		</div>
 	</div>
@@ -356,9 +309,9 @@
 		<!-- middle -->
 		<div class="container">
 			<div class="middle-container">
-				
+
 			</div>
-			
+
 		</div>
 
 		<!-- main testimonials -->
@@ -367,10 +320,7 @@
 			<div class="main-testimonial">
 				<div class="main-t-top">
 					<h1 class="main-testimonial-title">What they say about us.</h1>
-
 				</div>
-
-
 				<div class="testimonials">
 					<div class="card-deck">
 						<div class="card mb-3">
@@ -461,13 +411,3 @@
 
 
 	</div>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="<?php echo base_url("./assets/js/jquery.js")?>"></script>
-	<script src="<?php echo base_url("./assets/js/bootstrap/bootstrap.min.js")?>"></script>
-	<script src="<?php echo base_url("./assets/js/view_login.js") ?>"></script>
-
-</body>
-
-</html>

@@ -1,0 +1,89 @@
+footer {
+    padding: 1em;
+	background: #74BDCB;
+	font-family: Roboto;
+}
+
+footer a {
+    color: #FFFFFF;
+    font-weight: 700;
+
+}
+
+footer a:hover {
+    color: var(--passive-dark);
+
+
+}
+
+footer h4 {
+	color: #FFFFFF;
+}
+
+footer p {
+	color: #FFFFFF;
+
+}
+
+span { 
+    font-size: 0.7em;
+	font-family: Roboto;
+
+
+}
+
+.container-fluid.text-center {
+	border: 0;
+	border-top: 3px solid #FFFFFF;
+}
+
+.align-items-center {
+	padding: 0;
+
+}
+
+input.form-control.footer {
+	background: rgba(241, 232, 232, 0.79);
+	border-radius: 30px;
+}
+
+button.btn.footer {
+	background: #0E1223;
+	border-radius: 30px;
+	color: #FFFFFF;
+}
+
+button.btn.footer:hover {
+	background: #2b3769;
+
+}
+
+hr {
+	border: 2px solid #FFFEFE;
+}
+
+.col-lg-5.pb-2 {
+	margin-top: 56px;
+}
+
+span.luu3 {
+	margin-left: 20px;
+}
+
+span.luu2 {
+	margin-left: 17px;
+}
+
+span.luu1 {
+	margin-left: 16px;
+}
+
+.row.bottom {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-bottom: 12px;
+}

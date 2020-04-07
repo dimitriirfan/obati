@@ -28,11 +28,11 @@
 			</div>
 			<div class="col-lg-6 container-form">
 				<div class="main-nav d-flex justify-content-between align-items-center">
-					<img class="brand" src="<?php echo base_url('assets/img/logo.png') ?>" alt="" >
+					 <a href="<?php echo base_url("index.php/Controller_login/toLanding")?>"><img class="brand" src="<?php echo base_url('assets/img/logo.png') ?>" alt="" ></a> 
 					<ul>
-						<li><a href="default.asp">About</a></li>
-						<li><a href="news.asp">Articles</a></li>
-						<li><a href="contact.asp">About Us</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">About</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Home</a></li>
 					</ul>
 					
 
@@ -42,7 +42,6 @@
 						<h1>Sign up to <span style="color: #74BDCB;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-
 					<form>
 						<div class="form-row">
 							<div class="form-group col-md-6">
@@ -75,14 +74,7 @@
 								<input type="password" id="input_confirm" placeholder="Please re-enter your password">
 							</div>
 						</div>
-						<!-- <div class="d-flex justify-content-between agree">
-							<div class="form-group form-check ">
-								<input type="checkbox" class="form-check-input" id="materialUnchecked">
-								<label class="form-check-label" for="exampleCheck1">I agree to the Obati <a href=""
-										style=" color: #4492ED">Terms </a> and <a href="" style=" color: #4492ED">
-										Privacy policy</a></label>
-							</div>
-						</div> -->
+					
 						<div class="d-flex justify-content-between agree">
 							<div class="form-group form-check ">
 
@@ -99,12 +91,13 @@
 						</div>
 						<button type="submit" class="btn btn-primary btn-block btn-submit">Sign Up</button>
 					</form>
-					
-                </div>
-                <div class="bottom-bar">
+					<div class="bottom-bar">
                     <p style="font-weight: 700;">Already have an account? <a class="link" href="<?php echo base_url('index.php/Controller_register/toLogin') ?>" >Sign In</a></p>
 
                 </div>
+					
+                </div>
+                
 
 
 			</div>

@@ -27,21 +27,16 @@
 				</div>
 			</div>
 			<div class="col-lg-6 container-form">
-
-				<div class="main-nav d-flex justify-content-between align-items-center ">
-					<img class="brand" src="<?php echo base_url('assets/img/logo.png') ?>" alt="">
-
+				<div class="navbar main-nav d-flex justify-content-between align-items-center">
+					<a href="<?php echo base_url("index.php/Controller_login/toLanding")?>"><img class="brand"
+							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
-						<li><a href="default.asp">About</a></li>
-						<li><a href="news.asp">Articles</a></li>
-						<li><a href="contact.asp">Home</a></li>
-
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">About</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Home</a></li>
 					</ul>
-
-
 				</div>
-
-				<div class="main-form ">
+				<div class="main-form">
 					<div class="form-title">
 						<h1>Sign in to <span style="color: #FF7243;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -59,22 +54,18 @@
 										placeholder="please enter your email">
 								</div>
 							</div>
-
-
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with
 								anyone.</small>
 						</div>
-
-
 						<div class="form-group">
 							<label id="label_password" for="exampleInputPassword1">Password</label>
 							<div class="input-group">
 								<div class="input-group-prepend">
-								<div class="input-group-text"><i class="fa fa-key" ></i></div>
+									<div class="input-group-text"><i class="fa fa-key"></i></div>
 									<input type="password" id="input_password" placeholder="please enter your password">
 									<a href="#" class="text-dark" id="icon-click">
-                                        <span class="gaterlihat"> <i class="fa fa-eye" id="icon" ></i></span>
-                                    </a>
+										<span class="gaterlihat"> <i class="fa fa-eye" id="icon"></i></span>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -85,7 +76,8 @@
 									<label class="mz-check">
 										<input id="checkbox_remember" type="checkbox">
 										<i class="mz-blue"></i>
-										<label id="label_form_check"class="form-check-label" for="exampleCheck1">Always remember</label>
+										<label id="label_form_check" class="form-check-label" for="exampleCheck1">Always
+											remember</label>
 									</label>
 								</div>
 							</div>
@@ -94,14 +86,14 @@
 						<button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
 
 					</form>
-
-
+					<div class="bottom-bar">
+						<p style="font-weight: 700;">Dont have an account? <a class="link"
+								href="<?php echo base_url('index.php/Controller_login/toRegister') ?>">Sign Up</a>
+						</p>
+					</div>
 
 				</div>
-				<div class="bottom-bar">
-					<p style="font-weight: 700;">Dont have an account? <a class="link"
-							href="<?php echo base_url('index.php/Controller_login/toRegister') ?>">Sign Up</a></p>
-				</div>
+
 			</div>
 		</div>
 	</div>

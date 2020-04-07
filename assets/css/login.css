@@ -10,7 +10,7 @@ html {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 3.5rem;
 	font-weight: 700;
 }
 
@@ -22,6 +22,7 @@ p {
 .row {
 	min-height: 100vh;
 }
+
 
 .form-group {
     
@@ -36,7 +37,7 @@ p {
 
 
 .container-image {
-	background-image: url('../img/martin-katler-HvxO34LKg00-unsplash.jpg');
+	background-image: url('../img/hospital.jpg');
 	background-size: cover;
 	display: grid;
 	grid-template-columns: 5% auto 50%;
@@ -79,8 +80,9 @@ p {
 	padding: 1em 1.25em;
 	color: var(--passive-dark);
 	border-bottom: 3px solid white;
+	opacity: 0.6;
 	font-weight: 700;
-	font-size: 1.15em;
+	font-size: 1em;
 
 
 }
@@ -102,16 +104,24 @@ p {
 
 .main-form {
 	margin: 5% 15% 0 15%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
+
 .btn-submit {
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
 }
 
 .form-title {
-	width: 90%;
-	margin-bottom: 5%;
+	flex: 0 0 60%;
+}
+
+form { 
+	flex: 0 0 100%;
 }
 
 .form-check-label { 
@@ -120,6 +130,8 @@ p {
 
 .bottom-bar {
 	text-align: center;
+	flex: 0 0 100%;
+	align-self: flex-end;
 }
 
 

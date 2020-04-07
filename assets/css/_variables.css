@@ -1,10 +1,16 @@
 :root { 
-    --primary-orange: #FF7243;
+
+    --white: #FFFFFF;
+    --white-bg: #F2F2F2;
+
+
+    --primary-orange: #FF8258;
     --primary-blue: #74BDCB;
     --primary-sky: #E7F2F8;
+    --primary-sand: #EFE7BC;
 
     --passive-dark: #353535;
-    --passive-gray: #646464;
+    --passive-gray: #9C9C9C;
     --passive-lg-gray: #CBCBCB
 
 }
