@@ -25,7 +25,7 @@ p {
 
 
 .form-group {
-    
+
 	font-size: 1rem;
 }
 
@@ -94,7 +94,7 @@ p {
 	border-bottom: 3px solid #FF7243;
 }
 
-.brand { 
+.brand {
 	max-width: 150px;
 }
 
@@ -120,11 +120,11 @@ p {
 	flex: 0 0 60%;
 }
 
-form { 
+form {
 	flex: 0 0 100%;
 }
 
-.form-check-label { 
+.form-check-label {
 	cursor: pointer;
 }
 
@@ -141,10 +141,86 @@ input[type=text] {
 	font-size: 1rem;
 	display: block;
 	width: 100%;
-	border: none;
 	padding: 0.5em;
-	border-bottom: 2px solid #757575;
+	box-sizing: border-box;
+	padding-left: 25px;
 }
+
+/* input effect */
+
+:focus { 
+	outline:none;
+}
+.input-effect {
+	position: relative;
+}
+
+.input-effect~.focus-border {
+	position: absolute;
+}
+
+.effect-1 {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background-color: transparent;
+	padding: 4px 0;
+
+}
+
+.effect-1~.focus-border {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #3399ff;
+	transition: 0.4s;
+}
+
+.effect-1:focus~.focus-border {
+	width: 100%;
+	transition: 0.4s;
+}
+
+
+
+.effect-1~label {
+	position: absolute;
+	left: 30px;
+	width: 100%;
+	top: 7px;
+	transition: 0.3s;
+	z-index: -1;
+	letter-spacing: 0.5px;
+	
+}
+
+.effect-1:focus~label {
+	left: 0;
+	top: -16px;
+	font-size: 1em;
+	color: #3399ff;
+	transition: 0.3s;
+}
+
+
+.effect-1~i { 
+	position: absolute;
+	left: 0;
+	top: 9px;
+	color: #aaa;
+}
+
+form input:valid~label {
+	left: 0;
+	top: -16px;
+	font-size: 1em;
+	color: black;
+	transition: 0.3s;
+
+}
+
+/* end effect */
 
 small {
 	margin-bottom: 3em;
@@ -201,14 +277,14 @@ input:focus {
 	border: none;
 }
 
-
+/* 
 input:focus { 
     border-bottom: 2px solid #4492ED;
     
 }
 .input-group-text:focus {
     border-bottom: 2px solid #4492ED;
-}
+} */
 
 .input-group-prepend {
 	width: 100%;
@@ -357,9 +433,9 @@ span.gaterlihat {
 		display: flex !important;
 		justify-content: space-around !important;
 		align-items: center !important;
-    }
-    
-    body,
+	}
+
+	body,
 	html {
 		font-size: 14px;
 	}
@@ -367,5 +443,3 @@ span.gaterlihat {
 
 
 }
-
-
