@@ -41,27 +41,34 @@
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 					<form>
-
 						<div class="form-group">
-							<label id="label_email" for="exampleInputEmail1">Email address</label>
-
-
 							<div class="input-group">
-								<div class="input-group-prepend">
-									<div class="input-group-text "><i class="fa fa-envelope"></i></div>
-									<input type="email" id="input_email" aria-describedby="emailHelp"
-										placeholder="please enter your email">
+								<div class="input-group-prepend input-effect">
+
+									<input class="effect-1" type="text" id="input_email" aria-describedby="emailHelp"
+										placeholder="" required>
+									<i class="input-icon fa fa-envelope"></i>
+
+									<label id="label_email" for="exampleInputEmail1">Email address</label>
+
+									<span class="focus-border"></span>
+
+
 								</div>
 							</div>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with
 								anyone.</small>
 						</div>
 						<div class="form-group">
-							<label id="label_password" for="exampleInputPassword1">Password</label>
 							<div class="input-group">
-								<div class="input-group-prepend">
-									<div class="input-group-text"><i class="fa fa-key"></i></div>
-									<input type="password" id="input_password" placeholder="please enter your password">
+
+								<div class="input-group-prepend input-effect">
+									<input class="effect-1" type="password" id="input_password"
+										aria-describedby="passwordHelp" placeholder="" required>
+									<i class="input-icon fa fa-key"></i>
+									<label id="label_password" for="exampleInputEmail1">Password</label>
+									<span class="focus-border"></span>
+
 									<a href="#" class="text-dark" id="icon-click">
 										<span class="gaterlihat"> <i class="fa fa-eye" id="icon"></i></span>
 									</a>
