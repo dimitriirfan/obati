@@ -1,0 +1,350 @@
+@import './_variables.css';
+@import './font.css';
+
+
+body,
+html {
+	font-family: 'Roboto';
+	font-size: 14px;
+
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+}
+
+p {
+	color: var(--passive-gray);
+	font-size: 1rem;
+}
+
+.row {
+	min-height: 100vh;
+}
+
+
+.form-group {
+    padding-top: 1rem;
+	font-size: 1rem;
+}
+
+.link {
+	font-size: 1rem;
+	font-weight: 700;
+	color: #4492ED;
+}
+
+
+.container-image {
+	background-image: url('../img/bunch-of-white-oval-medication-tablets-and-white-medication-159211.jpg');
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 5% auto 50%;
+	grid-template-rows: 5em auto 5em;
+}
+
+
+.slogan {
+	grid-column: 2;
+	grid-row: 2;
+	border-left: 2px solid rgba(36, 46, 53, 1);
+	color: rgba(36, 46, 53, 1);
+	display: flex;
+	align-items: flex-end;
+	padding: 2em;
+
+}
+
+.main-nav {
+	padding: 0em 1.5em;
+	margin-bottom: 5%;
+}
+
+
+.main-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+.main-nav ul li {
+	float: right;
+
+}
+
+.main-nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 1em 1.25em;
+	color: var(--passive-dark);
+	border-bottom: 3px solid white;
+	opacity: 0.6;
+	font-weight: 700;
+	font-size: 1em;
+
+
+}
+
+.main-nav ul li a:hover {
+	opacity: 1;
+
+	color: var(--passive-dark);
+	border-bottom: 3px solid #FF7243;
+}
+
+.brand {
+	max-width: 150px;
+}
+
+.slogan h1 {
+	opacity: 0;
+}
+
+.main-form {
+	margin: 5% 15% 0 15%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.btn-submit {
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+.form-title {
+	flex: 0 0 60%;
+}
+
+form {
+	flex: 0 0 100%;
+}
+
+.form-check-label {
+	cursor: pointer;
+}
+
+.bottom-bar {
+	text-align: center;
+	flex: 0 0 100%;
+	align-self: flex-end;
+}
+
+
+input[type=email],
+input[type=password],
+input[type=text] {
+	font-size: 1rem;
+	display: block;
+	width: 100%;
+	padding: 0.5em;
+	box-sizing: border-box;
+	padding-left: 25px;
+}
+
+/* input effect */
+
+:focus { 
+	outline:none;
+}
+.input-effect {
+	position: relative;
+}
+
+.input-effect~.focus-border {
+	position: absolute;
+}
+
+.effect-1 {
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	background-color: transparent;
+	padding: 4px 0;
+
+}
+
+.effect-1~.focus-border {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #3399ff;
+	transition: 0.4s;
+}
+
+.effect-1:focus~.focus-border {
+	width: 100%;
+	transition: 0.4s;
+}
+
+
+
+.effect-1~label {
+	position: absolute;
+	left: 30px;
+	width: 100%;
+	top: 7px;
+	transition: 0.3s;
+	z-index: -1;
+	letter-spacing: 0.5px;
+	
+}
+
+.effect-1:focus~label {
+	left: 0;
+	top: -16px;
+	font-size: 1em;
+	color: #3399ff;
+	transition: 0.3s;
+}
+
+
+.effect-1~i { 
+	position: absolute;
+	left: 0;
+	top: 9px;
+	color: #aaa;
+}
+
+form input:valid~label {
+	left: 0;
+	top: -16px;
+	font-size: 1em;
+	color: black;
+	transition: 0.3s;
+
+}
+
+/* end effect */
+
+small {
+	margin-bottom: 3em;
+}
+
+button[type=submit] {
+	padding: 1em;
+	border-radius: 40px;
+	font-weight: 700;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+input:focus {
+	outline: none;
+}
+
+
+/* sandwich */
+.sandwich {
+	cursor: pointer;
+
+}
+
+.icon-bar {
+	width: 22px;
+	height: 2px;
+	background-color: var(--passive-dark);
+	transition: all cubic-bezier(0.35, 0.4, 0.27, 1.55) 0.35s;
+	margin-top: 4px;
+
+}
+
+/* button */
+
+.btn-primary {
+	background-color: #FF7243 !important;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #FF8258 !important;
+
+}
+
+.btn-primary:focus {
+	background-color: #FF7243 !important;
+	border: none;
+
+}
+
+.btn-primary:active {
+	background-color: #FF7243 !important;
+	border: none;
+}
+
+/* 
+input:focus { 
+    border-bottom: 2px solid #4492ED;
+    
+}
+.input-group-text:focus {
+    border-bottom: 2px solid #4492ED;
+} */
+
+.input-group-prepend {
+	width: 100%;
+}
+
+/*check box*/
+
+
+.input-group-text {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: .375rem .75rem;
+	margin-bottom: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #495057;
+	text-align: center;
+	white-space: nowrap;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 2px solid #757575;
+	border-radius: 1px;
+}
+
+
+
+
+span.gaterlihat {
+	position: absolute;
+	right: 15px;
+	transform: translate(0, -50%);
+	top: 50%;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 1366px) {
+
+	body,
+	html {
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.main-nav {
+		display: flex !important;
+		justify-content: space-around !important;
+		align-items: center !important;
+	}
+
+	body,
+	html {
+		font-size: 14px;
+	}
+
+
+
+}
