@@ -47,10 +47,13 @@
 						</li>
 					</ul>
 					<ul class="navbar-nav ml-auto">
-						<form class="form-inline">
-							<input class=" search form-control form-control-md mr-3 w-75" type="text" 
-								placeholder="Search" aria-label="Search">
-							<i class="fa fa-search" aria-hidden="true"></i>
+						<form action="" class="form-inline mr-5 " >
+							<div class="input-group ">
+								<input type="text " name="" class="form-control search" placeholder="search">
+								<div class="input-group-append">
+									<button class="btn search"> <i class="fa fa-search"></i></button>
+								</div>
+							</div>
 						</form>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-in"
@@ -100,7 +103,7 @@
 			<div class="grid-item grid-item-1">
 				<div class="inner-item">
 					<div class="container-top">
-						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
+						<button class=" btn btn-main-drug">Drug detail</button>
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
@@ -113,8 +116,8 @@
 			</div>
 			<div class="grid-item grid-item-2">
 				<div class="inner-item">
-					<div class="container-top">
-						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
+					<div class="container-top ehm">
+						<button class=" btn btn-main-drug">Drug detail</button>
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
@@ -128,7 +131,7 @@
 			<div class="grid-item grid-item-3">
 				<div class="inner-item">
 					<div class="container-top">
-						<button class=" btn btn-primary btn-main-drug">Drug detail</button>
+						<button class=" btn btn-main-drug">Drug detail</button>
 
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
@@ -147,7 +150,7 @@
 				<div class="inner-item">
 					<div class="container-article">
 						<h4 class="article-title mb-4">Keep up with our latest article</h4>
-						<button class=" btn btn-primary btn-main-article">Check here</button>
+						<button class=" btn btn-main-article">Check here</button>
 					</div>
 				</div>
 			</div>

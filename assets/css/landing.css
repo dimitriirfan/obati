@@ -85,8 +85,52 @@ p {
 
 }
 
+.btn-main-drug:hover{
+	color:var(--primary-blue);
+    width: 150px;
+}
+
+.btn-main-article:hover{
+	color:var(--primary-blue);
+	width: 150px;
+}
+
 .search { 
 	border-radius: 40px;
+}
+
+input.form-control.search {
+    border-right: none;
+    border-top: 1px solid var(--primary-blue);
+    border-bottom: 1px solid var(--primary-blue);
+    border-left: 1px solid var(--primary-blue);
+}
+
+button.btn.search {
+    border-left: none;
+    border-top: 1px solid var(--primary-blue);
+    border-right: 1px solid var(--primary-blue);
+    border-bottom: 1px solid var(--primary-blue);
+}
+
+i.fa.fa-search {
+    color: var(--primary-blue);
+}
+
+.search::-webkit-input-placeholder{
+	color:var(--primary-blue);
+}
+
+.search:-moz-placeholder{
+	color:var(--primary-blue);
+}
+
+.search:-ms-input-placeholder{
+	color:var(--primary-blue);
+};
+
+form input[type="text"]:focus {
+ outline:none;
 }
 
 /* second main header */
@@ -178,11 +222,24 @@ p {
 
 /* drug button */
 .btn-main-drug {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 40px;
+    background: #323756;
+    color: #FFFFFF;
+    width: 106px;
+}
 
-	padding-right: 1.25em;
-	padding-left: 1.25em;
-	border-radius: 40px;
 
+
+.container-top .ehm.btn-main-drug {
+    padding-right: 1.25em;
+    padding-left: 1.25em;
+    border-radius: 40px;
+    background: #323756;
+    color: #FFFFFF;
+    width: 185px;
+    height: 45px;
 }
 
 /* article button */
@@ -190,6 +247,9 @@ p {
 	padding-right: 1.25em;
 	padding-left: 1.25em;
 	border-radius: 40px;
+	background: rgba(61, 61, 61, 0.81);
+	color: #FFFFFF;
+	width: 110px;
 
 }
 
@@ -879,6 +939,10 @@ p {
 	
 	}
 }
+
+
+
+
 
 
 
