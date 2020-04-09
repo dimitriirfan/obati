@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_login extends CI_Controller {
+class Controller_resetpass extends CI_Controller {
 
 
 	public function index()
@@ -19,7 +19,4 @@ class Controller_login extends CI_Controller {
 		$this->load->view('view_register');
 	}
 	
-	public function toResetpass() {
-		$this->load->view('view_resetpass');
-	}
 }
