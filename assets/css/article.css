@@ -116,15 +116,16 @@ p {
 
 .fh5co_suceefh5co_height
 {
-    height:550px;
+    height:600px;
     overflow:hidden;
     width:100%;
     position:relative
 }
 .fh5co_suceefh5co_height>img
 {
-    height:560px;
-    width:100%
+    height:100%;
+    width:100%;
+    object-fit: cover;
 }
 
 .by{
@@ -186,14 +187,14 @@ p {
 }
 .fh5co_suceefh5co_height_2
 {
-    height:275px;
+    height:300px;
     overflow:hidden;
     width:100%;
     position:relative
 }
 .fh5co_suceefh5co_height_3
 {
-    height:200px;
+    height:300px;
     overflow:hidden;
     width:100%;
     position:relative
@@ -201,13 +202,15 @@ p {
 .fh5co_suceefh5co_height_2>img
 {
     height:300px;
-    width:100%
+    width:100%;
+    object-fit: cover;
 }
 
 .fh5co_suceefh5co_height_3>img
 {
     height:200px;
-    width:100%
+    width:100%;
+    object-fit: cover;
 }
 .fh5co_good_font_2
 {
@@ -249,8 +252,9 @@ p {
 }
 .fh5co_latest_trading_img>img
 {
-	height:420px;
-	min-width:100%
+	height:100%;
+    min-width:100%;
+    object-fit: cover;
 }
 .fh5co_img_special_relative
 {
@@ -353,7 +357,10 @@ p {
     }
 .fh5co_most_trading
     {
-        height:60px;width:100%
+        height:100%;
+        width:100%;
+        object-fit: cover;
+
     }
 .most_fh5co_treding_font_123
     {
@@ -399,5 +406,25 @@ p {
 /*# sourceMappingURL=style_1.css.map */
 
 
+/* decoration */
 
-/* tryyy */
+.decoration { 
+	width: 100px;
+	height: 100px;
+	
+}
+
+.decoration-why-1 {
+	 /*block color  */
+	background-color: var(--primary-sky);
+}
+
+.decoration-why-2 {
+	 /*block color  */
+	background-color: var(--primary-orange);
+}
+
+.decoration-why-3 {
+	 /*block color  */
+	background-color: var(--primary-sand);
+}

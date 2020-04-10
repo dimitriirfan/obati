@@ -35,7 +35,7 @@
 	<div class="container-fluid shadow-sm  bg-white rounded">
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
-				<a class="navbar-brand" href="#"> <img src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
+				<a class="navbar-brand" href="<?php echo base_url('index.php/Controller_landing')?>"> <img src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -55,10 +55,6 @@
 							<a class="nav-link" href="#">About Us</a>
 						</li>
 					</ul>
-
-
-
-
 					<ul class="navbar-nav ml-auto">
 						<form class="form-inline">
 
@@ -106,7 +102,7 @@
 	</div>
 
 
-<div class="container-fluid paddding mb-5">
+<div class="container-fluid paddding">
     <div class="row mx-0">
         <div class="col-md-6 col-12 paddding animate-box" data-animate-effect="fadeIn">
             <div class="fh5co_suceefh5co_height"><img src="<?php echo base_url("assets/img/boy1.jpg")?>" alt="img"/>
@@ -170,8 +166,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid pt-3">
-    <div class="container animate-box" data-animate-effect="fadeIn">
+<div class="container-fluid p-5" style="background-color:#F2F2F2">
+    <div class="container animate-box" data-animate-effect="fadeIn" >
         <div>
             <div class="fh5co_heading fh5co_heading_border_bottom py-2 mb-4">Trending</div>
         </div>
@@ -230,8 +226,19 @@
         </div>
     </div>
 </div>
-<div class="container-fluid pb-4 pt-4 paddding">
+<div class="container-fluid paddding" >
+    <div class="top-decoration d-flex justify-content-between">
+        <span class="d-flex">
+            <div class="decoration decoration-why-1"></div>
+            <div class="decoration decoration-why-2"></div>
+
+        </span>
+
+        <div class="decoration decoration-why-3"></div>
+
+    </div>
     <div class="container paddding">
+        
         <div class="row mx-0">
             <div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
                 <div>
@@ -367,13 +374,23 @@
              </div>
         </div>
     </div>
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
+    </div>
+    <div class="bottom-decoration d-flex justify-content-between">
+        <span class="d-flex">
+            <div class="decoration decoration-why-1"></div>
+            <div class="decoration decoration-why-2"></div>
+
+        </span>
+
+        <div class="decoration decoration-why-3"></div>
+	</div>
 </div>
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="fa fa-arrow-up"></i></a>
-</div>
+
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="<?php echo base_url("./assets/js/owl.carousel.min.js") ?>"></script>
+	<script src="<?php echo base_url("./assets/js/article/owl.carousel.min.js") ?>"></script>
 	<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
 			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
