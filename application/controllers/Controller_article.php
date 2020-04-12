@@ -7,7 +7,6 @@ class Controller_article extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('view_article');
-		$this->load->view('template/footer');
 	}
 
 	public function toLanding() { 
