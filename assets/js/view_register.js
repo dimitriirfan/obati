@@ -16,4 +16,18 @@ $(document).ready(function(){
     })
 
 
+    var flashdata = $('.flash-data').data('flashdata');
+    if (flashdata) { 
+        Swal.fire({
+            title: "Successfuly Registered",
+            text: "You will be redirected to login..",
+            icon: "success",
+            timer: "2000"
+          }).then(function() { 
+              window.location = "http://localhost/obati/Controller_login"
+          });
+
+    }
+
 });
+
