@@ -27,12 +27,12 @@
 			</div>
 			<div class="col-lg-6 container-form">
 				<div class="navbar main-nav d-flex justify-content-between align-items-center">
-					<a href="<?php echo base_url("index.php/Controller_login/toLanding")?>"><img class="brand"
+					<a href="<?php echo base_url("Controller_login/toLanding")?>"><img class="brand"
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
-						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">About</a></li>
-						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Articles</a></li>
-						<li><a href="<?php echo base_url("index.php/Controller_login/toLanding")?>">Home</a></li>
+						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">About</a></li>
+						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">Home</a></li>
 					</ul>
 				</div>
 				<div class="main-form">
@@ -40,13 +40,19 @@
 						<h1>Sign in to <span style="color: #FF7243;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-					<form>
+
+					<form action="<?= base_url('Controller_login/login')?>" method="post">
+						<?php if ($this->session->flashdata('message')) : ?>
+							<div class="alert alert-danger mb-4" role="alert">
+								Username or password is incorect
+							</div>
+						<?php endif?>
 						<div class="form-group">
 							<div class="input-group">
 								<div class="input-group-prepend input-effect">
 
-									<input class="effect-1" type="text" id="input_email" aria-describedby="emailHelp"
-										placeholder="" required>
+									<input class="effect-1" type="text" id="input_email" name="email"
+										aria-describedby="emailHelp" placeholder="" required>
 									<i class="input-icon fa fa-envelope"></i>
 
 									<label id="label_email" for="exampleInputEmail1">Email address</label>
@@ -63,7 +69,7 @@
 							<div class="input-group">
 
 								<div class="input-group-prepend input-effect">
-									<input class="effect-1" type="password" id="input_password"
+									<input class="effect-1" type="password" id="input_password" name="password"
 										aria-describedby="passwordHelp" placeholder="" required>
 									<i class="input-icon fa fa-key"></i>
 									<label id="label_password" for="exampleInputEmail1">Password</label>
@@ -87,14 +93,16 @@
 									</label>
 								</div>
 							</div>
-							<a class="link" href="<?php echo base_url('index.php/Controller_login/toResetpass') ?>">Forgot Password?</a>
+							<a class="link"
+								href="<?php echo base_url('Controller_login/toResetpass') ?>">Forgot
+								Password?</a>
 						</div>
 						<button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
 
 					</form>
 					<div class="bottom-bar">
 						<p style="font-weight: 700;">Dont have an account? <a class="link"
-								href="<?php echo base_url('index.php/Controller_login/toRegister') ?>">Sign Up</a>
+								href="<?php echo base_url('Controller_register') ?>">Sign Up</a>
 						</p>
 					</div>
 

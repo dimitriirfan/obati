@@ -34,8 +34,8 @@
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
 						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">About</a></li>
-						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">Articles</a></li>
-						<li><a href="<?php echo base_url("Controller_login/toLanding")?>">Home</a></li>
+						<li><a href="<?php echo base_url("Controller_article")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("Controller_landing")?>">Home</a></li>
 					</ul>
 
 
@@ -110,7 +110,7 @@
 					</form>
 					<div class="bottom-bar">
 						<p style="font-weight: 700;">Already have an account? <a class="link"
-								href="<?php echo base_url('Controller_register/toLogin') ?>">Sign In</a></p>
+								href="<?php echo base_url('Controller_login') ?>">Sign In</a></p>
 
 					</div>
 

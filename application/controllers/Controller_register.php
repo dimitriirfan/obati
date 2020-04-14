@@ -24,9 +24,8 @@ class Controller_register extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Password', 'required|trim|matches[confirm]');
 		$this->form_validation->set_rules('confirm', 'Confirm', 'required|trim');
 
-		if ($this->form_validation->run() == false ) {
-			redirect('Controller_landing');
-		}else { 
+		if ($this->form_validation->run() != false ) {
+			 
 			$data = [
 				'name' => $this->input->post('name'),
 				'email' => $this->input->post('email'),
