@@ -13,7 +13,7 @@
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- style -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/catalog.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("./assets/css/kategori.css")?>">
     <title>Obati | Kategori Obat</title>
     
     </head>
