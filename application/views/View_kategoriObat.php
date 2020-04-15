@@ -13,7 +13,7 @@
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- style -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/catalog.css")?>">
+    <link rel="stylesheet" href="<?php echo base_url("./assets/css/kategori.css")?>">
     <title>Obati | Kategori Obat</title>
     
     </head>
@@ -110,7 +110,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Anti Nyeri</h5>
-                    <img src ="<?php echo base_url("./assets/img/Vitamin.png")?>" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/anti-nyeri.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Mata</h5>
-                    <img src ="<?php echo base_url("./assets/img/vit.jpg")?>" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/mata.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -128,7 +128,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Batuk & Flu</h5>
-                  <img src ="<?php echo base_url("./assets/img/flu.png")?>"class="img-fluid foto">
+                  <img src ="<?php echo base_url("./assets/img/kategori/flu.jpg")?>"class="img-fluid foto">
                 </div>
               </div>
             </div>
@@ -136,7 +136,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Antibiotik</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/antibiotik.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -144,7 +144,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Otot, Tulang & Sendi</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/otot_nih.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -154,7 +154,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Demam</h5>
-                  <img src ="<?php echo base_url("./assets/img/demamfix.jpg")?>" class="img-fluid foto">
+                  <img src ="<?php echo base_url("./assets/img/kategori/demamfix.jpg")?>" class="img-fluid foto">
                 </div>
               </div>
             </div>
@@ -162,7 +162,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Kulit</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/kulit_nih.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -170,7 +170,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Mulut & Tenggorokan</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>    
@@ -180,7 +180,7 @@
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">P3K</h5>
-                  <img src ="<?php echo base_url("./assets/img/P3K.jpg")?>" class="img-fluid foto">
+                  <img src ="<?php echo base_url("./assets/img/kategori/P3K.jpg")?>" class="img-fluid foto">
                 </div>
               </div>
             </div>
@@ -188,7 +188,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Alergi</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/alergi_nih.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>
@@ -196,7 +196,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Kontrasepsi & Hormon</h5>
-                    <img src ="" class="img-fluid foto">
+                    <img src ="<?php echo base_url("./assets/img/kategori/Untitled-2.jpg")?>" class="img-fluid foto">
                   </div>
                 </div>
               </div>    
