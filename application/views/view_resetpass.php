@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
-	</link>
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<!-- style -->
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/resetpass.css")?>">
-	<title>Obati | Reset Password</title>
 </head>
 
 <body>
-
-
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-6 container-image">
@@ -31,7 +14,8 @@
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
 						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">About</a></li>
-						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">Articles</a>
+						</li>
 						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">Home</a></li>
 					</ul>
 				</div>
@@ -72,7 +56,7 @@
 								</div>
 							</div>
 						</div>
-                        <div class="form-group">
+						<div class="form-group">
 							<div class="input-group">
 
 								<div class="input-group-prepend input-effect">
@@ -90,12 +74,12 @@
 					</form>
 					<div class="bottom-bar">
 						<p style="font-weight: 700;">Dont have an account? <a class="link"
-								href="<?php echo base_url('index.php/Controller_resetpass/toRegister') ?>">Sign Up</a><br>
-								Already have an account? <a class="link"
-								href="<?php echo base_url('index.php/Controller_resetpass/index') ?>">Sign In</a>
+								href="<?php echo base_url('Controller_register') ?>">Sign Up</a><br>
+							Already have an account? <a class="link"
+								href="<?php echo base_url('Controller_login') ?>">Sign In</a>
 						</p>
 					</div>
-					
+
 
 				</div>
 

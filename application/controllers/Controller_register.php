@@ -12,6 +12,8 @@ class Controller_register extends CI_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'register';
+		$this->load->view('template/header', $data);
 		$this->load->view('view_register');
 	}
 
@@ -24,8 +26,12 @@ class Controller_register extends CI_Controller {
 		$this->form_validation->set_rules('password', 'Password', 'required|trim|matches[confirm]');
 		$this->form_validation->set_rules('confirm', 'Confirm', 'required|trim');
 
-		if ($this->form_validation->run() != false ) {
-			 
+		if ($this->form_validation->run() == false ) {
+			$data['title'] = 'register';
+			$this->load->view('template/header', $data);
+			$this->load->view('view_register');
+
+		}else { 
 			$data = [
 				'name' => $this->input->post('name'),
 				'email' => $this->input->post('email'),
@@ -43,11 +49,7 @@ class Controller_register extends CI_Controller {
 				$this->session->set_flashdata('message', 'success');
 				redirect('Controller_register');
 
-				
-				
-	
 			}
-
 		}
 
 		

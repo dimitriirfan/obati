@@ -6,6 +6,8 @@ class Controller_landing extends CI_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'landing';
+		$this->load->view('template/header', $data);
 		$this->load->view('view_landing');
 		$this->load->view('template/footer');
 	}

@@ -6,6 +6,8 @@ class Controller_article extends CI_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'article';
+		$this->load->view('template/header', $data);
 		$this->load->view('view_article');
 	}
 

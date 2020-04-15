@@ -1,6 +1,6 @@
-@import '../_variables.css';
-@import '../font.css';
-@import '../hamburger.css';
+@import './_variables.css';
+@import './font.css';
+@import './hamburger.css';
 @import './style_1.css.map';
 
 

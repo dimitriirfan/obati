@@ -11,6 +11,8 @@ class Controller_login extends CI_Controller {
 	}
 	public function index()
 	{
+		$data['title'] = 'login';
+		$this->load->view('template/header', $data);
 		$this->load->view('view_login');
 	}
 
@@ -30,6 +32,10 @@ class Controller_login extends CI_Controller {
 				redirect('Controller_login');
 			}
 			
+		}else { 
+			$this->session->set_flashdata('message', 'Username or password invalid');
+			redirect('Controller_login');
+
 		}
 
 

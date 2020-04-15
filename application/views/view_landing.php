@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="<?php echo base_url("./obati.ico")?>" >
-
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
-	</link>
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- style -->
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/landing.css")?>">
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/footer.css")?>">
-
-
-	<title>Obati | Login</title>
+<!-- first main header -->
 </head>
 
 <body>
-
-	<!-- first main header -->
 	<div class="container-fluid shadow-sm  bg-white rounded">
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
@@ -39,7 +18,7 @@
 							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?php echo base_url("index.php/Controller_article")?>">Articles</a>
+							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
 						</li>
 
 						<li class="nav-item">
@@ -47,7 +26,7 @@
 						</li>
 					</ul>
 					<ul class="navbar-nav ml-auto">
-						<form action="" class="form-inline mr-5 " >
+						<form action="" class="form-inline mr-5 ">
 							<div class="input-group ">
 								<input type="text " name="" class="form-control search" placeholder="search">
 								<div class="input-group-append">
@@ -57,11 +36,11 @@
 						</form>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-in"
-								href="<?php echo base_url("index.php/Controller_landing/toLogin")?>">Sign In</a>
+								href="<?php echo base_url("Controller_login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-up btn-orange"
-								href="<?php echo base_url("index.php/Controller_landing/toRegister")?>">Sign Up</a>
+								href="<?php echo base_url("Controller_register")?>">Sign Up</a>
 						</li>
 					</ul>
 				</div>
@@ -144,7 +123,7 @@
 				</div>
 			</div>
 			<div class="grid-item grid-item-4">
-				
+
 			</div>
 			<div class="grid-item grid-item-5">
 				<div class="inner-item">
@@ -195,14 +174,13 @@
 				</div>
 
 				<!-- jumbo -->
-				<div
-					class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded ">
+				<div class="grid-c-item grid-c-item-5 shadow-sm  bg-white rounded ">
 					<div class="covid-title">
 						<img src="<?php echo base_url("./assets/img/obati_fix.svg")?>" alt="">
 						<h1>Batuk?</h1>
 						<h2>Belum tentu kamu kena Covid-19</h2>
 						<div class="d-flex align-items-baseline">
-							
+
 							<span class="covid-like">
 								<i class="fa fa-heart" style="color:#FF5F5F"></i>
 							</span>
@@ -419,8 +397,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-			crossorigin="anonymous"></script>
+		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-			integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-			crossorigin="anonymous"></script>
+		integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+	</script>

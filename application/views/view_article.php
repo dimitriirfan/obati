@@ -1,26 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Obati | Article</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
-	</link>
-
-    <!-- fontawesome -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- style -->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/article.css")?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/owl.carousel.css") ?>" rel="stylesheet"  />
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/owl.theme.default.css") ?>" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/media_query.css") ?>" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/animate.css") ?>" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/owl.carousel.css") ?>"
+	rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/owl.theme.default.css") ?>"
+	rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/media_query.css") ?>"
+	rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="<?php echo base_url ("./assets/css/article/animate.css") ?>"
+	rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -40,10 +25,11 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto ">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="<?= base_url('Controller_landing')?>">Home <span
+									class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item active">
 							<a class="nav-link" href="#">Articles</a>
 						</li>
 
@@ -59,10 +45,11 @@
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</form>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-in" href="#">Sign In</a>
+							<a class="nav-link btn-sign-in" href="<?php echo base_url("Controller_login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-up" href="#">Sign Up</a>
+							<a class="nav-link btn-sign-up btn-orange"
+								href="<?php echo base_url("Controller_register")?>">Sign Up</a>
 						</li>
 					</ul>
 				</div>
@@ -428,15 +415,15 @@
 		</div>
 	</div>
 
-    <!-- bootstrap -->
+	<!-- bootstrap -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-			integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
-			crossorigin="anonymous"></script>
+		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-			integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-			crossorigin="anonymous"></script>
+		integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+	</script>
 
 	<script src="<?php echo base_url("./assets/js/article/owl.carousel.min.js") ?>"></script>
 
@@ -445,5 +432,3 @@
 	<!-- Main -->
 	<script src="<?php echo base_url("./assets/js/article/main.js") ?>"></script>
 	<script src="<?php echo base_url("./assets/js/article/modernizr-3.5.0.min.js")?>"></script>
-
-
