@@ -11,8 +11,6 @@ body {
 	font-family: 'Roboto';
 	font-size: 14px;
 	background: white;
-	width: 1920px;
-	height: 1080px;
 }
 
 .navbar-brand img {
@@ -64,7 +62,7 @@ body {
 
 }
 
-.search { 
+.search {
 	border-radius: 40px;
 }
 
@@ -96,48 +94,66 @@ body {
 
 }
 
+.row {
+	margin-top: 3em;
+}
 
 
-.bodytitle{
-    
-    position: absolute;
-    width: 600px;
-    height: 125px;
-    left: 200px;
-    padding: 10px;
+.bodytitle {
+	border-right: 2px solid black;
+	margin-top: 1em;
+	position: relative;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.64em;
+	
 
-	color: #242E35;
+}
+
+.decoration { 
+	left: 100px;
+	opacity: 0.2;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #74BDCB;
 	
 }
 
-.foto{
-    position: absolute;
-    width: 105px;
-    height: 105px;
-    border-radius: 50%;
-    left: 250px;
-    bottom: 10px;
+.title { 
+	width: 40%;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.64em;
+	margin-bottom: 1em;
 
 }
 
-.card{
-    
-    background: #D9FFDD;
-    border-radius: 20px;
-    left: 200px;
-    width: 380px; 
-    height: 126px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+.card {
+	margin-top: 1em;
+	min-width: 30%;
+	background: #D9FFDD;
+	border-radius: 20px;
 }
 
-.card-title{
-    padding-top: 30px;
+
+
+.card-title {
+	color: 2px solid #242E35;
+
+	font-weight: 700;
+	width: 50%;
+}
+
+
+.card-body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.foto {
+	max-width: 60px;
+	border-radius: 50%;
 }
 

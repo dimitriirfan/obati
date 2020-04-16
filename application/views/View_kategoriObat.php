@@ -1,31 +1,31 @@
 <html>
 <html lang="en">
 
-    <head>
+<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
 	</link>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <!-- style -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/kategori.css")?>">
-    <title>Obati | Kategori Obat</title>
-    
-    </head>
-    <body>
-    <!-- first main header -->
+	<!-- style -->
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/kategori.css")?>">
+	<title>Obati | Kategori Obat</title>
+
+</head>
+
+<body>
+	<!-- first main header -->
 	<div class="container-fluid shadow-sm  bg-white rounded">
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
 				<a class="navbar-brand" href="#"> <img src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -49,8 +49,8 @@
 					<ul class="navbar-nav ml-auto">
 						<form class="form-inline">
 
-							<input class=" search form-control form-control-md mr-3 w-75" type="text"
-								placeholder="Search" aria-label="Search">
+							<input class=" search form-control form-control-md mr-3 w-75" type="text" placeholder="Search"
+								aria-label="Search">
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</form>
 						<li class="nav-item">
@@ -95,112 +95,94 @@
 
 
 
-      <!-- Main Category -->
-      <div class ="bodytitle">Obat Berdasarkan Kategori</div>
-        <div class="row" style="padding-top: 200px;">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Vitamin & suplemen</h5>
-                  <img src ="<?php echo base_url("./assets/img/Vitamin.png")?>" class="img-fluid foto">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Anti Nyeri</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/anti-nyeri.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mata</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/mata.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div class="row" style="padding-top: 20px;">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Batuk & Flu</h5>
-                  <img src ="<?php echo base_url("./assets/img/kategori/flu.jpg")?>"class="img-fluid foto">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Antibiotik</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/antibiotik.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Otot, Tulang & Sendi</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/otot_nih.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-        </div>
-        <div class="row" style="padding-top: 20px;">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Demam</h5>
-                  <img src ="<?php echo base_url("./assets/img/kategori/demamfix.jpg")?>" class="img-fluid foto">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Kulit</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/kulit_nih.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Mulut & Tenggorokan</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>    
-        </div>
-        <div class="row" style="padding-top: 20px;">
-            <div class="col-sm-3">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">P3K</h5>
-                  <img src ="<?php echo base_url("./assets/img/kategori/P3K.jpg")?>" class="img-fluid foto">
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Alergi</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/alergi_nih.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Kontrasepsi & Hormon</h5>
-                    <img src ="<?php echo base_url("./assets/img/kategori/Untitled-2.jpg")?>" class="img-fluid foto">
-                  </div>
-                </div>
-              </div>    
-        </div>
+	<!-- Main Category -->
+	<div class="container">
 
-        
-    </body>
+		<div class="bodytitle">
+  <div class="decoration"></div>
+
+      <h1 class=title>OBAT BERDASARKAN KATEGORI</h1>
+    </div>
+		<div class="card-deck">
+			<div class="card shadow-sm ">
+				<div class="card-body">
+					<h5 class="card-title">Vitamin & suplemen</h5>
+					<img src="<?php echo base_url("./assets/img/Vitamin.png")?>" class=" foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Anti Nyeri</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/Vitamin.png")?>" class="foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Mata</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/mata.jpg")?>" class="foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Batuk & Flu</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/flu.jpg")?>" class=" foto">
+				</div>
+			</div>
+			<div class="card shadow-sm ">
+				<div class="card-body">
+					<h5 class="card-title">Antibiotik</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/antibiotik.jpg")?>" class=" foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Otot, Tulang & Sendi</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/otot_nih.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Demam</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/demamfix.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Kulit</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/kulit_nih.jpg")?>" class="img-fluid foto">
+				</div>
+
+			</div>
+			<div class="card shadow-sm ">
+				<div class="card-body">
+					<h5 class="card-title">Mulut & Tenggorokan</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+
+			<div class="card shadow-sm ">
+				<div class="card-body">
+					<h5 class="card-title">P3K</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/P3K.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+			<div class="card shadow-sm ">
+				<div class="card-body">
+					<h5 class="card-title">Alergi</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/alergi_nih.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+			<div class="card shadow-sm">
+				<div class="card-body">
+					<h5 class="card-title">Kontrasepsi & Hormon</h5>
+					<img src="<?php echo base_url("./assets/img/kategori/Untitled-2.jpg")?>" class="img-fluid foto">
+				</div>
+			</div>
+    </div>
+    
+
+
+  </div>
+
+
+</body>
