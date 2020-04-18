@@ -8,6 +8,7 @@ class Controller_article extends CI_Controller {
 	{
 		$data['title'] = 'article';
 		$this->load->view('template/header', $data);
+		$this->load->view('template/navbar');
 		$this->load->view('view_article');
 	}
 

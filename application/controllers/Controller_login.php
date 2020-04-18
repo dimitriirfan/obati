@@ -26,6 +26,8 @@ class Controller_login extends CI_Controller {
 
 			$isValid = $this->Model_user->login($email, $password);
 			if ($isValid) { 
+				$user = $this->Model_user->getUserByEmail($email);
+				$this->session->set_userdata('user', $user);
 				redirect('Controller_landing');
 			} else { 
 				$this->session->set_flashdata('message', 'Username or password invalid');
