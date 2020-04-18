@@ -68,7 +68,7 @@
                                 <?php echo $this->session->userdata("user")->name?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="#">Profile</a>
+								<a class="dropdown-item" href="<?= base_url("controller_profile")?>">Profile</a>
                                 <a class="dropdown-item" href="#">Edit Profile</a>
                                 <a class="dropdown-item" href="#">Cart</a>
                                 <div class="dropdown-divider"></div>
