@@ -87,12 +87,14 @@ p {
 
 .btn-main-drug:hover{
 	color:var(--primary-blue);
-    width: 150px;
+	width: 150px;
+	background: rgba(50, 55, 86);
 }
 
 .btn-main-article:hover{
 	color:var(--primary-blue);
 	width: 150px;
+	background: rgba(61, 61, 61);
 }
 
 .search { 
@@ -225,9 +227,13 @@ form input[type="text"]:focus {
     padding-right: 1.25em;
     padding-left: 1.25em;
     border-radius: 40px;
-    background: #323756;
+    background: rgba(50, 55, 86, 0.50);
     color: #FFFFFF;
-    width: 106px;
+	width: 110px;
+	transition: all 0.5s ease-in;
+	transition-property: all;
+	transition-duration: 0.1s, 0.5s;
+	transition-timing-function: linear, ease-in;
 }
 
 
@@ -247,10 +253,13 @@ form input[type="text"]:focus {
 	padding-right: 1.25em;
 	padding-left: 1.25em;
 	border-radius: 40px;
-	background: rgba(61, 61, 61, 0.81);
+	background: rgba(61, 61, 61, 0.5);
 	color: #FFFFFF;
 	width: 110px;
-
+	transition: all 0.5s ease-in;
+	transition-property: all;
+	transition-duration: 0.1s, 0.5s;
+	transition-timing-function: linear, ease-in;
 }
 
 .grid-item-1 {
