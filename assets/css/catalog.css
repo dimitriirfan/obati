@@ -6,10 +6,7 @@
 html,
 body {
 
-	margin: 0;
-	padding: 0;
 	font-family: 'Roboto';
-	font-size: 14px;
 	background: white;
 }
 
@@ -97,133 +94,117 @@ body {
 
 }
 
-
-.group{
-    width: 1539px;
-    height: 1456px;
+.bodytitle{
+    width: 40%;
+    margin-top: 10%;
 }
 
 .ket{
-    
-    position: absolute;
-    left: 275px;
-    padding-top: 50px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.195em;
-
-    color: #000000;
+    margin-top: 3em;
 }
 
-.bord{
-
-    padding-top: 20px;
-    width: 1000px;
-    border-bottom: 1px solid #000000;
+.decor{
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
 }
 
-.card{
-    
-    position: absolute;
-    width: 230px;
-    height: 235px;
-    left: 282px;
+.card-body{
+	display: block;
+}
+
+.card-deck{
+    justify-content: space-around;
+}
+
+.card {
+    margin-top: 1em;
+	min-width: 20%;
     border-radius: 15px;
-
+    
     
 }
 
-.box{
-
-    padding-right: 20px;
+.pic {
+    min-width: 23%;
+    height: 170px;
+    border-radius: 15px 15px 0px 0px;;
 }
 
-.pic{
-    
-    width: 228px;
-    height: 150px;
-    border-radius: 15px 15px 0px 0px;
-
-}
-
-.titleDrug{
-    
-    position: absolute;
-    width: 150px;
-    height: 5px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
+.dname {
     font-size: 14px;
-    line-height: 0px;
-
-
-    color: #353535;
-
+    font-weight: bold;
+    
 }
+
+.hrg{
+
+
+	text-align: right;
+    font-size: 12px;
+    font-weight: bold;
+   
+    
+}
+
+
 
 .penyakit{
-    
-    position: absolute;
-    width: 53.32px;
-    height: 9.62px;
-    padding-top: 20px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 12px;
-    line-height: 3px;
-
     color: #B8B8B8;
 
 }
 
-.hrg{
-    
-    position: absolute;
-    padding-left: 150px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 0px;
-    text-align: right;
-
-    color: #353535;
-
-}
-
 .btn{
-   
-    position: absolute;
-    width: 170px;
-    height: 20px;
-    left: 30px;
-    top: 200px;
-    margin: 5px;
-
-
     background: #FFA384;
+    color: white;
     border-radius: 2px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 12px;
-    line-height: 5px;
-
+    max-width: 100%;
+    min-width: 50%;
+    margin : 0 auto 20px auto;
 }
 
-.page{
-    
-    width: 1536px;
 
+
+
+@media screen and (max-width: 991px) { 
+
+	.card-deck {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-auto-flow: dense;
+
+
+	}
 }
+
+
+@media screen and (max-width: 767px) {
+
+	.card-deck {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-auto-flow: dense;
+
+
+	}
+
+	
+}
+
+
+@media screen and (max-width: 580px) {
+
+	.card-deck {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: auto auto auto auto;
+		grid-auto-flow: dense;
+
+
+	}
+
+	
+}
+

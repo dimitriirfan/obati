@@ -96,197 +96,151 @@
 
   
   <!-- Catalog Main -->
-    <div class="group">
-    <div class="ket">Katergori
-      <div class="bord"> </div>
+
+  
+  <div class="container">
+  <h3 class ="ket">KATEGORI</h3>
+  <div class="decor"></div>
+
+
+  <div class="card-deck">
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
     </div>
-    <div class="row" style="padding-top: 150px;">
-      <div class="col-2">
-        <div class="card">
-          <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-            <div class="card-body">
-              <div class="titleDrug">Sangobion 10 Kapsul</div>
-              <div class="hrg">Rp.14.500</div>
-              <div class="penyakit">Anemia</div>
-              <a href="#" class="btn">Buy</a>
-            </div>
-         </div>
-         </div>
-         <div class="col-2">
-          <div class="card">
-            <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-              <div class="card-body">
-                <div class="titleDrug">Sangobion 10 Kapsul</div>
-                <div class="hrg">Rp.14.500</div>
-                <div class="penyakit">Anemia</div>
-                <a href="#" class="btn">Buy</a>
-              </div>
-           </div>
-           </div>
-           <div class="col-2">
-            <div class="card">
-              <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                <div class="card-body">
-                  <div class="titleDrug">Sangobion 10 Kapsul</div>
-                  <div class="hrg">Rp.14.500</div>
-                  <div class="penyakit">Anemia</div>
-                  <a href="#" class="btn">Buy</a>
-                </div>
-             </div>
-             </div>
-             <div class="col-2">
-              <div class="card">
-                <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                  <div class="card-body">
-                    <div class="titleDrug">Sangobion 10 Kapsul</div>
-                    <div class="hrg">Rp.14.500</div>
-                    <div class="penyakit">Anemia</div>
-                    <a href="#" class="btn">Buy</a>
-                  </div>
-               </div>
-             </div>
-      </div>
-
-      <div class="row" style="padding-top: 260px;">
-        <div class="col-2">
-          <div class="card">
-            <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-              <div class="card-body">
-                <div class="titleDrug">Sangobion 10 Kapsul</div>
-                <div class="hrg">Rp.14.500</div>
-                <div class="penyakit">Anemia</div>
-                <a href="#" class="btn">Buy</a>
-              </div>
-           </div>
-           </div>
-           <div class="col-2">
-            <div class="card">
-              <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                <div class="card-body">
-                  <div class="titleDrug">Sangobion 10 Kapsul</div>
-                  <div class="hrg">Rp.14.500</div>
-                  <div class="penyakit">Anemia</div>
-                  <a href="#" class="btn">Buy</a>
-                </div>
-             </div>
-             </div>
-             <div class="col-2">
-              <div class="card">
-                <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                  <div class="card-body">
-                    <div class="titleDrug">Sangobion 10 Kapsul</div>
-                    <div class="hrg">Rp.14.500</div>
-                    <div class="penyakit">Anemia</div>
-                    <a href="#" class="btn">Buy</a>
-                  </div>
-               </div>
-               </div>
-               <div class="col-2">
-                <div class="card">
-                  <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                    <div class="card-body">
-                      <div class="titleDrug">Sangobion 10 Kapsul</div>
-                      <div class="hrg">Rp.14.500</div>
-                      <div class="penyakit">Anemia</div>
-                      <a href="#" class="btn">Buy</a>
-                    </div>
-                 </div>
-               </div>
-        </div>
-
-        <div class="row" style="padding-top: 260px;">
-          <div class="col-2">
-            <div class="card">
-              <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                <div class="card-body">
-                  <div class="titleDrug">Sangobion 10 Kapsul</div>
-                  <div class="hrg">Rp.14.500</div>
-                  <div class="penyakit">Anemia</div>
-                  <a href="#" class="btn">Buy</a>
-                </div>
-             </div>
-             </div>
-             <div class="col-2">
-              <div class="card">
-                <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                  <div class="card-body">
-                    <div class="titleDrug">Sangobion 10 Kapsul</div>
-                    <div class="hrg">Rp.14.500</div>
-                    <div class="penyakit">Anemia</div>
-                    <a href="#" class="btn">Buy</a>
-                  </div>
-               </div>
-               </div>
-               <div class="col-2">
-                <div class="card">
-                  <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                    <div class="card-body">
-                      <div class="titleDrug">Sangobion 10 Kapsul</div>
-                      <div class="hrg">Rp.14.500</div>
-                      <div class="penyakit">Anemia</div>
-                      <a href="#" class="btn">Buy</a>
-                    </div>
-                 </div>
-                 </div>
-                 <div class="col-2">
-                  <div class="card">
-                    <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                      <div class="card-body">
-                        <div class="titleDrug">Sangobion 10 Kapsul</div>
-                        <div class="hrg">Rp.14.500</div>
-                        <div class="penyakit">Anemia</div>
-                        <a href="#" class="btn">Buy</a>
-                      </div>
-                   </div>
-                 </div>
-          </div>
-
-          <div class="row" style="padding-top: 260px;">
-            <div class="col-2">
-              <div class="card">
-                <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                  <div class="card-body">
-                    <div class="titleDrug">Sangobion 10 Kapsul</div>
-                    <div class="hrg">Rp.14.500</div>
-                    <div class="penyakit">Anemia</div>
-                    <a href="#" class="btn">Buy</a>
-                  </div>
-               </div>
-               </div>
-               <div class="col-2">
-                <div class="card">
-                  <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                    <div class="card-body">
-                      <div class="titleDrug">Sangobion 10 Kapsul</div>
-                      <div class="hrg">Rp.14.500</div>
-                      <div class="penyakit">Anemia</div>
-                      <a href="#" class="btn">Buy</a>
-                    </div>
-                 </div>
-                 </div>
-                 <div class="col-2">
-                  <div class="card">
-                    <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                      <div class="card-body">
-                        <div class="titleDrug">Sangobion 10 Kapsul</div>
-                        <div class="hrg">Rp.14.500</div>
-                        <div class="penyakit">Anemia</div>
-                        <a href="#" class="btn">Buy</a>
-                      </div>
-                   </div>
-                   </div>
-                   <div class="col-2">
-                    <div class="card">
-                      <img class="card-img-top pic" src="<?php echo base_url("assets/img/sangobion.jpg")?>" alt="Card image cap">
-                        <div class="card-body">
-                          <div class="titleDrug">Sangobion 10 Kapsul</div>
-                          <div class="hrg">Rp.14.500</div>
-                          <div class="penyakit">Anemia</div>
-                          <a href="#" class="btn">Buy</a>
-                        </div>
-                     </div>
-                   </div>
-            </div>
+    <a href="#" class="btn">Buy</a>
     </div>
-</body>
-            
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+  
+  
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+      
+  
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+  
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+    <div class="card shadow-sm ">
+    <img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+      <div class="card-body">
+        <h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div></h6>
+        <div class="hrg">Rp.14.500</div>
+    </div>
+    <a href="#" class="btn">Buy</a>
+    </div>
+</div>   
+ 
+    
+    
+    
+    
+    
