@@ -78,7 +78,7 @@
 		<div class="container category-container p-0">
 			<ul class="nav justify-content-center p-1 m-0 nav-fill">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Catalog</a>
+					<a class="nav-link" href=<?= base_url("Controller_category")?>>Medicine</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Flu & Cough</a>

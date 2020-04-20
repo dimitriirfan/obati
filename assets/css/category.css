@@ -1,0 +1,103 @@
+@import './_variables.css';
+@import './font.css';
+@import './hamburger.css';
+
+
+
+.main-category {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+
+.bodytitle {
+	border-right: 2px solid black;
+	margin-top: 1em;
+	position: relative;
+
+	
+
+}
+
+.some-lines { 
+	left: 100px;
+	opacity: 0.2;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #74BDCB;
+	
+}
+
+.title { 
+	width: 40%;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 42px;
+	letter-spacing: 0.64em;
+	margin-bottom: 1em;
+	
+
+}
+
+
+.card {
+	margin-top: 1em;
+	min-width: 30%;
+	background: #D9FFDD;
+	border-radius: 20px;
+	transition: all ease-in-out 0.2s;
+
+	
+}
+
+.card:hover { 
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+	transition: all ease-in-out 0.2s;
+	cursor: pointer;
+}
+
+
+
+
+.card-title {
+	color: 2px solid #242E35;
+
+	font-weight: 700;
+	width: 50%;
+}
+
+
+.card-body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.foto {
+	max-width: 60px;
+	border-radius: 50%;
+}
+
+.decoration { 
+	width: 100px;
+	height: 100px;
+	
+}
+
+.decoration-why-1 {
+	 /*block color  */
+	background-color: var(--primary-sky);
+}
+
+.decoration-why-2 {
+	 /*block color  */
+	background-color: var(--primary-orange);
+}
+
+.decoration-why-3 {
+	 /*block color  */
+	background-color: var(--primary-sand);
+}
+

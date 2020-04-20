@@ -31,13 +31,14 @@
 								<br>
 								<div class="icon-email">
 									<a href="#">
-										<i class="fa fa-envelope fa-lg p-1"><span class="luu2 m-3">Obati@gmail.com</span></i>
+										<i class="fa fa-envelope fa-lg p-1"><span
+												class="luu2 m-3">Obati@gmail.com</span></i>
 									</a>
 								</div>
 								<br>
 								<div class="icon-instagram">
 									<a href="#">
-										<i class="fa fa-instagram fa-lg p-1"><span class="luu1 m-3">   Obati</span></i>
+										<i class="fa fa-instagram fa-lg p-1"><span class="luu1 m-3"> Obati</span></i>
 									</a>
 								</div>
 							</div>
@@ -50,21 +51,6 @@
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
 						industry's standard.</p>
 				</div>
-				<!-- <div class="col-lg-5 pb-2">
-
-					<h4 class="subscriber"> Here to get the latest articles and sale from us </h4>
-					<form action="">
-						<div class="input-group ">
-							<input type="email " name="" class="form-control footer" placeholder="enter your email here">
-							<div class="input-group-append">
-								<button class="btn footer"> Subscribe </button>
-							</div>
-
-						</div>
-
-					</form>
-					
-				</div> -->
 			</div>
 		</div>
 		<hr class="page-break">
@@ -85,14 +71,19 @@
 				</div>
 			</div>
 		</div>
+		
 	</footer>
-
 	
 
-	
+
+
+
+
+
 
 
 </body>
+
 
 
 </html>
