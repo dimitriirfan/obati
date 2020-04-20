@@ -127,16 +127,14 @@ body {
 }
 
 .pic {
-    min-width: 23%;
-    height: 250px;
+    height: 200px;
 	border-radius: 15px 15px 0px 0px;
     object-fit: cover;
 	
 }
 
 .dname {
-    font-size: 1.5rem;
-	font-weight: bold;
+	font-weight: 700;
     color: #262626;
 
 }
@@ -146,7 +144,7 @@ body {
 	
 	text-align: right;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 700;
    
     
 }
@@ -154,6 +152,7 @@ body {
 
 
 .penyakit{
+	font-weight: 300;
 	padding-top: 0.3rem;
     font-size: 1rem;
     color: var(--passive-gray);
@@ -165,7 +164,7 @@ body {
 	font-weight: 500;
     background: #FFA384;
     color: white;
-    border-radius: 11px;
+    border-radius: 20px;
     max-width: 100%;
     min-width: 90%;
 	margin : 0 auto 10px auto;

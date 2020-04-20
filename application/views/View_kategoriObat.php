@@ -106,75 +106,75 @@
 		<div class="card-deck">
 			<div class="card shadow-sm ">
 				<div class="card-body">
-					<h5 class="card-title">Vitamin & suplemen</h5>
+					<h3 class="card-title">Vitamin & suplemen</h3>
 					<img src="<?php echo base_url("./assets/img/Vitamin.png")?>" class=" foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Anti Nyeri</h5>
+					<h3 class="card-title">Anti Nyeri</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/Vitamin.png")?>" class="foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Mata</h5>
+					<h3 class="card-title">Mata</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/mata.jpg")?>" class="foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Batuk & Flu</h5>
+					<h3 class="card-title">Batuk & Flu</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/flu.jpg")?>" class=" foto">
 				</div>
 			</div>
 			<div class="card shadow-sm ">
 				<div class="card-body">
-					<h5 class="card-title">Antibiotik</h5>
+					<h3 class="card-title">Antibiotik</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/antibiotik.jpg")?>" class=" foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Otot, Tulang & Sendi</h5>
+					<h3 class="card-title">Otot, Tulang & Sendi</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/otot_nih.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Demam</h5>
+					<h3 class="card-title">Demam</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/demamfix.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Kulit</h5>
+					<h3 class="card-title">Kulit</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/kulit_nih.jpg")?>" class="img-fluid foto">
 				</div>
 
 			</div>
 			<div class="card shadow-sm ">
 				<div class="card-body">
-					<h5 class="card-title">Mulut & Tenggorokan</h5>
+					<h3 class="card-title">Mulut & Tenggorokan</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
 
 			<div class="card shadow-sm ">
 				<div class="card-body">
-					<h5 class="card-title">P3K</h5>
+					<h3 class="card-title">P3K</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/P3K.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
 			<div class="card shadow-sm ">
 				<div class="card-body">
-					<h5 class="card-title">Alergi</h5>
+					<h3 class="card-title">Alergi</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/alergi_nih.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
 			<div class="card shadow-sm">
 				<div class="card-body">
-					<h5 class="card-title">Kontrasepsi & Hormon</h5>
+					<h3 class="card-title">Kontrasepsi & Hormon</h3>
 					<img src="<?php echo base_url("./assets/img/kategori/Untitled-2.jpg")?>" class="img-fluid foto">
 				</div>
 			</div>
