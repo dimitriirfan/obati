@@ -31,4 +31,10 @@
 
 	<?php endif?>
 
+	<?php if ($title == 'cart') : ?>
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/cart_responsive.css")?>">
+	<?php endif?>
+
+
+
 	<title>Obati | <?= $title?></title>

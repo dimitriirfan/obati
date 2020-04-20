@@ -13,10 +13,10 @@
 					<a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>"><img class="brand"
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
-						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">About</a></li>
-						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">Articles</a>
+						<li><a href="#">About</a></li>
+						<li><a href="<?php echo base_url("Controller_article")?>">Articles</a>
 						</li>
-						<li><a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>">Home</a></li>
+						<li><a href="<?php echo base_url("Controller_landing")?>">Home</a></li>
 					</ul>
 				</div>
 				<div class="main-form">

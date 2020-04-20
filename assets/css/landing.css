@@ -3,36 +3,6 @@
 @import './hamburger.css';
 
 
-html,
-body {
-
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto';
-	font-size: 14px;
-}
-
-h1 {
-	font-size: 3.5rem;
-	font-weight: 700;
-}
-
-h2 {
-	font-size: 2.75rem;
-}
-
-h3 {
-	font-size: 1.75rem;
-}
-
-p {
-	color: var(--passive-gray);
-	font-size: 1rem;
-}
-
-.navbar-brand img {
-	max-height: 65px;
-}
 
 
 /* first main header */
@@ -227,7 +197,11 @@ form input[type="text"]:focus {
     border-radius: 40px;
     background: #323756;
     color: #FFFFFF;
-    width: 106px;
+	width: 106px;
+	transition: all 1s ease-in;
+	transition-property: all;
+	transition-duration: 0.1s, 0.3s;
+	transition-timing-function: linear, ease-in;
 }
 
 
@@ -250,6 +224,10 @@ form input[type="text"]:focus {
 	background: rgba(61, 61, 61, 0.81);
 	color: #FFFFFF;
 	width: 110px;
+	transition: all 1s ease-in;
+	transition-property: all;
+	transition-duration: 0.1s, 0.3s;
+	transition-timing-function: linear, ease-in;
 
 }
 
@@ -642,6 +620,7 @@ form input[type="text"]:focus {
 .card { 
 	border-radius: 20px;
 	min-width:200px;
+	
 }
 
 .card-body { 

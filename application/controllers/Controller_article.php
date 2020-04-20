@@ -10,11 +10,9 @@ class Controller_article extends CI_Controller {
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');
 		$this->load->view('view_article');
+		$this->load->view("template/footer");
+
 	}
 
-	public function toLanding() { 
-		$this->load->view("view_landing");
-		$this->load->view("template/footer");
-	}
 
 }
