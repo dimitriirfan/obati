@@ -15,56 +15,17 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto ">
-						<?php if ($title == 'landing') : ?>
-						<li class="nav-item active">
+						<li class="nav-item <?php if ($title == 'landing') {echo 'active';} ?>">
 							<a class="nav-link" href="<?php echo base_url("Controller_landing")?>">Home <span
 									class="sr-only">(current)</span></a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item <?php if ($title == 'article') {echo 'active';} ?>">
 							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
 						</li>
 
-						<li class="nav-item">
+						<li class="nav-item <?php if ($title == 'about') {echo 'active';} ?>">
 							<a class="nav-link" href="#">About Us</a>
 						</li>
-						<?php elseif ($title == 'article'):?>
-						<li class="nav-item ">
-							<a class="nav-link" href="<?php echo base_url("Controller_landing")?>">Home <span
-									class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item active">
-							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-						<?php elseif ($title == 'about') :?>
-						<li class="nav-item ">
-							<a class="nav-link" href="<?php echo base_url("Controller_landing")?>">Home <span
-									class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
-						</li>
-
-						<li class="nav-item active">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-						<?php else :?>
-						<li class="nav-item ">
-							<a class="nav-link" href="<?php echo base_url("Controller_landing")?>">Home <span
-									class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-						<?php endif?>
-
 
 					</ul>
 					
@@ -75,8 +36,9 @@
 								placeholder="Search" aria-label="Search">
 							<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 						</form>
-						<i class="cart d-flex fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i>
 						<?php if ($this->session->userdata("user")) :?>
+						<a href="<?= base_url("Controller_cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
+
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,7 +48,6 @@
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 								<a class="dropdown-item" href="<?= base_url("controller_profile")?>">Profile</a>
-								<a class="dropdown-item" href="#">Edit Profile</a>
 								<a class="dropdown-item" href="<?= base_url("Controller_cart")?>">Cart</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="<?= base_url("Controller_landing/logout")?>">Log Out</a>
@@ -117,7 +78,7 @@
 		<div class="container category-container p-0">
 			<ul class="nav justify-content-center p-1 m-0 nav-fill">
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Vitamin</a>
+					<a class="nav-link" href="#">Catalog</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Flu & Cough</a>

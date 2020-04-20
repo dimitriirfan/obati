@@ -3,6 +3,8 @@
 }
 
 .cart  { 
+	padding-top: 1em;
+	padding-bottom: 1em;
 	color: var(--passive-dark);
 	transition: all 0.2s;
 

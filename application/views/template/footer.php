@@ -5,7 +5,7 @@
 	<footer>
 		<div class="container py-3">
 			<div class="row">
-				<div class="col-lg-2 pb-2">
+				<div class="col-lg-2 pb-4">
 					<h4>Obati</h4>
 					<br>
 					<ul class="list-unstyled">
@@ -17,7 +17,7 @@
 
 					</ul>
 				</div>
-				<div class="col-lg-2 pb-2">
+				<div class="col-lg-2 pb-4">
 					<h4>Contact Us</h4>
 					<br>
 					<ul class="list-unstyled">
@@ -25,26 +25,26 @@
 							<div class="icon-footer">
 								<div class="icon-location">
 									<a href="#">
-										<i class="fa fa-map-marker fa-lg"><span class="luu3"> Bandung</span></i>
+										<i class="fa fa-map-marker fa-lg p-1"><span class="luu3 m-3"> Bandung</span></i>
 									</a>
 								</div>
 								<br>
 								<div class="icon-email">
 									<a href="#">
-										<i class="fa fa-envelope fa-lg"><span class="luu2">Obati@gmail.com</span></i>
+										<i class="fa fa-envelope fa-lg p-1"><span class="luu2 m-3">Obati@gmail.com</span></i>
 									</a>
 								</div>
 								<br>
 								<div class="icon-instagram">
 									<a href="#">
-										<i class="fa fa-instagram fa-lg"><span class="luu1">   Obati</span></i>
+										<i class="fa fa-instagram fa-lg p-1"><span class="luu1 m-3">   Obati</span></i>
 									</a>
 								</div>
 							</div>
 
 						</li>
 				</div>
-				<div class="col-lg-3 pb-2">
+				<div class="col-lg-3 pb-4">
 					<h4>About Us</h4>
 					<br>
 					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
@@ -67,7 +67,7 @@
 				</div> -->
 			</div>
 		</div>
-		<hr>
+		<hr class="page-break">
 		<div class="footer-bottom">
 			<div class="container">
 				<div class="row bottom">
@@ -86,6 +86,8 @@
 			</div>
 		</div>
 	</footer>
+
+	
 
 	
 
