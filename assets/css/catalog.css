@@ -8,6 +8,7 @@ body {
 
 	font-family: 'Roboto';
 	background: white;
+	font-size: 14px;
 }
 
 
@@ -101,6 +102,9 @@ body {
 
 .ket{
     margin-top: 3em;
+	letter-spacing: 0.195em;
+	font-weight: 550;
+	font-size: 1.3rem;
 }
 
 .decor{
@@ -113,34 +117,35 @@ body {
 }
 
 .card-deck{
-    justify-content: space-around;
+	justify-content: space-around;
 }
 
 .card {
     margin-top: 1em;
 	min-width: 20%;
     border-radius: 15px;
-    
-    
 }
 
 .pic {
     min-width: 23%;
-    height: 170px;
-    border-radius: 15px 15px 0px 0px;;
+    height: 250px;
+	border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+	
 }
 
 .dname {
-    font-size: 14px;
-    font-weight: bold;
-    
+    font-size: 1.5rem;
+	font-weight: bold;
+    color: #262626;
+
 }
 
 .hrg{
 
-
+	
 	text-align: right;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
    
     
@@ -149,18 +154,23 @@ body {
 
 
 .penyakit{
-    font-size: 12px;
-    color: #B8B8B8;
+	padding-top: 0.3rem;
+    font-size: 1rem;
+    color: var(--passive-gray);
 
 }
 
 .btn{
+	font-size: 1rem;
+	font-weight: 500;
     background: #FFA384;
     color: white;
-    border-radius: 2px;
+    border-radius: 11px;
     max-width: 100%;
-    min-width: 50%;
-    margin : 0 auto 20px auto;
+    min-width: 90%;
+	margin : 0 auto 10px auto;
+	
+
 }
 
 
