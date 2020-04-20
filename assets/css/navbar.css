@@ -2,6 +2,21 @@
 	max-height: 65px;
 }
 
+.cart  { 
+	color: var(--passive-dark);
+	transition: all 0.2s;
+
+
+
+}
+
+.cart:hover { 
+	color: var(--primary-blue);
+	transition: all 0.2s;
+
+	cursor: pointer;
+
+}
 
 /* first main header */
 
@@ -16,16 +31,21 @@
 	border-bottom: 3px solid var(--white);
 	font-weight: 700;
 	font-size: 1em;
+	transition: all 0.3s;
+
 
 }
 
 .active .nav-link {
 	border-bottom: 3px solid var(--primary-blue);
+	transition: all 0.3s;
+
 }
 
 
 .main-header .nav-link:hover {
 	color: var(--primary-blue);
+	transition: all 0.3s;
 	border-bottom: 3px solid var(--primary-blue);
 }
 

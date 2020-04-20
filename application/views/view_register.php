@@ -29,7 +29,7 @@
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputEmail4">Name</label>
-							<input type="text" id="input_name" name="name" value="<?= set_value('name')?>"
+							<input type="text" id="input_name" name="name" value="<?= set_value('name')?>"	
 								placeholder="Please enter your name">
 							<?= form_error('name', '<small class="text-danger">', '</small>')?>
 
