@@ -612,6 +612,7 @@ form input[type="text"]:focus {
 .card { 
 	border-radius: 20px;
 	min-width:200px;
+	
 }
 
 .card-body { 
