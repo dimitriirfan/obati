@@ -171,10 +171,47 @@ body {
 	margin : 0 auto 10px auto;
 	
 
+
+}
+.page_indicator{
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.pagination{
+	width:35%;
+	margin: 0 auto;
 }
 
 
+.pagination > li > a
+{
+    background-color: white;
+    color: #242E35;
+}
 
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #ffffff;
+    background-color: #445663;
+    border-color: #445663;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #242E35 !Important;
+    border: solid 1px #242E35 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #242E35 !Important;
+    border: solid 1px #242E35;
+}
 
 @media screen and (max-width: 991px) { 
 

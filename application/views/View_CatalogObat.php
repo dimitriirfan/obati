@@ -1,33 +1,33 @@
 <html>
 <html lang="en">
 
-    <head>
-    <meta charset="UTF-8">
+<head>
+	<meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/bootstrap/bootstrap.min.css") ?>">
 	</link>
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <!-- style -->
-    <link rel="stylesheet" href="<?php echo base_url("./assets/css/catalog.css")?>">
-    <title>Obati | Catalog</title>
-    
-    </head>
-    <body>
 
-  
+	<!-- style -->
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/catalog.css")?>">
+	<title>Obati | Catalog</title>
+
+</head>
+
+<body>
+
+
 	<!-- first main header -->
 	<div class="container-fluid shadow-sm  bg-white rounded">
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
 				<a class="navbar-brand" href="#"> <img src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 
@@ -51,8 +51,8 @@
 					<ul class="navbar-nav ml-auto">
 						<form class="form-inline">
 
-							<input class=" search form-control form-control-md mr-3 w-75" type="text"
-								placeholder="Search" aria-label="Search">
+							<input class=" search form-control form-control-md mr-3 w-75" type="text" placeholder="Search"
+								aria-label="Search">
 							<i class="fa fa-search" aria-hidden="true"></i>
 						</form>
 						<li class="nav-item">
@@ -94,169 +94,188 @@
 		</div>
 	</div>
 
-  
-  <!-- Catalog Main -->
 
-  
-  <div class="container">
-  <h3 class ="ket">KATEGORI</h3>
-  <div class="decor"></div>
+	<!-- Catalog Main -->
 
 
-  <div class="card-deck">
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
+	<div class="container">
+		<h3 class="ket">KATEGORI</h3>
+		<div class="decor"></div>
 
 
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
+		<div class="card-deck">
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
 
 
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
 
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-  	<div class="card shadow-sm ">
-  		<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
-  		<div class="card-body">
-  			<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
-  			</h6>
-  			<div class="hrg">Rp.14.500</div>
-  		</div>
-  		<a href="#" class="btn">Buy</a>
-  	</div>
-</div>   
- 
+
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+			<div class="card shadow-sm ">
+				<img src="<?php echo base_url("assets/img/sangobion.jpg")?>" class=" card-img-top pic">
+				<div class="card-body">
+					<h6 class="dname">Sangobion 10 Kapsul<div class="penyakit">Anemia</div>
+					</h6>
+					<div class="hrg">Rp.14.500</div>
+				</div>
+				<a href="#" class="btn">Buy</a>
+			</div>
+    </div>
     
-    
-    
-    
+    <!-- Pagination-->
+
+    <div class="page_indicator">
+    	<ul class="pagination pg-darkgrey pagination-lg">
+    		<li class="page-item">
+    			<a class="page-link" aria-label="Previous">
+    				<span aria-hidden="true">&laquo;</span>
+    				<span class="sr-only">Previous</span>
+    			</a>
+    		</li>
+    		<li class="page-item active"><a class="page-link">1</a></li>
+    		<li class="page-item"><a class="page-link">2</a></li>
+    		<li class="page-item"><a class="page-link">3</a></li>
+    		<li class="page-item"><a class="page-link">4</a></li>
+    		<li class="page-item"><a class="page-link">5</a></li>
+    		<li class="page-item">
+    			<a class="page-link" aria-label="Next">
+    				<span aria-hidden="true">&raquo;</span>
+    				<span class="sr-only">Next</span>
+    			</a>
+    		</li>
+    	</ul>
+    </div>
     
