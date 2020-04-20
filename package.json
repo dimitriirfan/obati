@@ -1,0 +1,27 @@
+{
+  "name": "obati",
+  "version": "1.0.0",
+  "description": "tubes webpro",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitriirfan/obati.git"
+  },
+  "author": "Dimitri, Rifqi, Wira, Faza, Gilang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimitriirfan/obati/issues"
+  },
+  "homepage": "https://github.com/dimitriirfan/obati#readme",
+  "dependencies": {
+    "jquery": "^3.5.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^9.10.11"
+  }
+}

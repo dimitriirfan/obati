@@ -1,6 +1,6 @@
-@import './_variables.css';
-@import './font.css';
-@import './hamburger.css';
+@import '../_variables.css';
+@import '../font.css';
+@import '../hamburger.css';
 @import './style_1.css.map';
 
 
@@ -142,7 +142,7 @@ p {
 }*/
 
 .slogan{
-    background-image: url('../img/boy1.jpg'), url('../img/drug.jpg');
+    background-image: url('../../img/boy1.jpg'), url('../../img/drug.jpg');
     background-repeat: no-repeat;
     background-position: 20% 60% , center;
     background-size: 400px 250px, 80% 100%;
