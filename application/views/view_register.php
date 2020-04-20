@@ -10,10 +10,10 @@
 		</div>
 		<div class="col-lg-6 container-form">
 			<div class="main-nav d-flex justify-content-between align-items-center">
-				<a href="<?php echo base_url("Controller_login/toLanding")?>"><img class="brand"
+				<a href="<?php echo base_url("Controller_landing")?>"><img class="brand"
 						src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 				<ul>
-					<li><a href="<?php echo base_url("Controller_login/toLanding")?>">About</a></li>
+					<li><a href="#">About</a></li>
 					<li><a href="<?php echo base_url("Controller_article")?>">Articles</a></li>
 					<li><a href="<?php echo base_url("Controller_landing")?>">Home</a></li>
 				</ul>

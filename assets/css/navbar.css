@@ -59,16 +59,16 @@
 	background-color: var(--primary-orange) !important;
 	border-radius: 40px !important;
 	padding: 0.25em 1.25em !important;
-	transition: all 1s ease-in;
+	transition: all 0.5s ease-in;
 	transition-property: all;
-	transition-duration: 0.3s, 0.3s;
+	transition-duration: 0.1s, 0.5s;
 	transition-timing-function: linear, ease-in;
 }
 
 .btn-sign-up:hover, .btn-sign-up:focus, .btn-sign-up:active, .btn-sign-up.active, .open>.dropdown-toggle.btn-sign-up {
 	color:var(--primary-blue-dark) !important;
     background-color: var(--primary-blue-dark) !important;
-    border-color:  var(--primary-orange) !important;
+	border-color:  var(--primary-orange) !important;
 }
 
 

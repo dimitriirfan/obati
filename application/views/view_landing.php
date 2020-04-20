@@ -1,80 +1,3 @@
-<!-- first main header -->
-</head>
-
-<body>
-	<div class="container-fluid shadow-sm  bg-white rounded">
-		<header class="main-header">
-			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
-				<a class="navbar-brand" href="#"> <img src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto ">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Us</a>
-						</li>
-					</ul>
-					<ul class="navbar-nav ml-auto">
-						<form action="" class="form-inline mr-5 ">
-							<div class="input-group ">
-								<input type="text " name="" class="form-control search" placeholder="search">
-								<div class="input-group-append">
-									<button class="btn search"> <i class="fa fa-search"></i></button>
-								</div>
-							</div>
-						</form>
-						<li class="nav-item">
-							<a class="nav-link btn-sign-in"
-								href="<?php echo base_url("Controller_login")?>">Sign In</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link btn-sign-up btn-orange"
-								href="<?php echo base_url("Controller_register")?>">Sign Up</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-		</header>
-
-	</div>
-
-
-	<!-- second main header -->
-	<div class="category-nav">
-		<div class="container category-container p-0">
-			<ul class="nav justify-content-center p-1 m-0 nav-fill">
-				<li class="nav-item">
-					<a class="nav-link active" href="#">Vitamin</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Flu & Cough</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Fever</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Pregnancy</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Lose Weight</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-
-
 	<!-- main image -->
 	<div class="container-fluid p-0 m-0">
 		<div class="main-grid">
@@ -316,8 +239,7 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center"
-									style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Haris Subekti</h5>
@@ -339,8 +261,7 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center"
-									style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Dimitri Irfan</h5>
@@ -363,8 +284,7 @@
 
 							</div>
 							<div class="card-footer">
-								<div class="d-flex justify-content-between align-content-center"
-									style="text-align-start">
+								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
 
 									<span>
 										<h5 class="t-name ">Rifqi Luthfi</h5>
@@ -391,14 +311,16 @@
 			<div class="decoration decoration-why-3"></div>
 
 		</div>
+
 	</div>
 
 	<!-- bootstrap -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<!--<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
-		integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
-		integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 	</script>

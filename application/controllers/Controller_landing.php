@@ -8,18 +8,14 @@ class Controller_landing extends CI_Controller {
 	{
 		$data['title'] = 'landing';
 		$this->load->view('template/header', $data);
+		$this->load->view('template/navbar');
 		$this->load->view('view_landing');
 		$this->load->view('template/footer');
 	}
 
-	public function toLogin() { 
-		$this->load->view("view_login");
-
-	}
-
-	public function toRegister() { 
-		$this->load->view("view_register");
-
+	public function logout() { 
+		session_destroy();
+		redirect('Controller_landing');
 	}
 
 }

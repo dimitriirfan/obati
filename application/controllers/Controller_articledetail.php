@@ -6,6 +6,9 @@ class Controller_articledetail extends CI_Controller {
 
 	public function index()
 	{
+		$data['title'] = 'detail';
+		$this->load->view('template/header', $data);
+		$this->load->view('template/navbar');
 		$this->load->view('view_detailarticle');
 		$this->load->view('template/footer');
 	}

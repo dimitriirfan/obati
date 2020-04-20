@@ -79,8 +79,7 @@
 
 						<?php else :?>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-in" 
-								href="<?php echo base_url("Controller_login")?>">Sign In</a>
+							<a class="nav-link btn-sign-in" href="<?php echo base_url("Controller_login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-up"
