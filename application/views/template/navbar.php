@@ -82,7 +82,7 @@
 							<a class="nav-link btn-sign-in" href="<?php echo base_url("Controller_login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-up btn-orange"
+							<a class="nav-link btn-sign-up"
 								href="<?php echo base_url("Controller_register")?>">Sign Up</a>
 						</li>
 						<?php endif?>

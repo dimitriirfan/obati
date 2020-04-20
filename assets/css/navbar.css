@@ -31,27 +31,46 @@
 
 .btn-sign-in {
 	font-size: 1em !important;
-	color: var(--primary-blue) !important;
+	color: var(--white) !important;
+	width: 100px !important;
+	text-align: center !important;
 	border: 3px solid var(--primary-blue) !important;
+	background-color: var(--primary-blue) !important;
 	border-radius: 40px !important;
 	padding: 0.25em 1.25em !important;
+	transition: all 1s ease-in;
+	transition-property: all;
+	transition-duration: 0.3s, 0.3s;
+	transition-timing-function: linear, ease-in;
+}
+
+.btn-sign-in:hover, .btn-sign-in:focus, .btn-sign-in:active, .btn-sign-in.active, .open>.dropdown-toggle.btn-sign-in {
+    color:var(--primary-blue-dark) !important;
+    background-color: var(--primary-blue-dark) !important;
+    border-color:  var(--primary-blue) !important;
 }
 
 .btn-sign-up {
 	font-size: 1em !important;
 	color: var(--white) !important;
+	width: 100px !important;
+	text-align: center !important;
 	border: 3px solid var(--primary-orange) !important;
 	background-color: var(--primary-orange) !important;
 	border-radius: 40px !important;
 	padding: 0.25em 1.25em !important;
-
+	transition: all 0.5s ease-in;
+	transition-property: all;
+	transition-duration: 0.1s, 0.5s;
+	transition-timing-function: linear, ease-in;
 }
 
-.btn-orange:hover {
-	border: 3px solid var(--primary-orange-dark) !important;
-	background-color: var(--primary-orange-dark) !important;
-
+.btn-sign-up:hover, .btn-sign-up:focus, .btn-sign-up:active, .btn-sign-up.active, .open>.dropdown-toggle.btn-sign-up {
+	color:var(--primary-blue-dark) !important;
+    background-color: var(--primary-blue-dark) !important;
+	border-color:  var(--primary-orange) !important;
 }
+
 
 .btn-main-drug:hover{
 	color:var(--primary-blue);
