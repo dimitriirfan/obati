@@ -59,7 +59,7 @@ class Profile extends CI_Controller {
 		$no_hp = $this->input->post('no_hp');	
 
 		if ($this->form_validation->run() == false ) {
-			redirect('Landing');
+			redirect('landing');
 
 		}else { 
 
@@ -78,7 +78,7 @@ class Profile extends CI_Controller {
 				$user = $this->Model_user->getUserById($this->session->userdata("user")->id);
 				$this->session->set_userdata("user", $user);
 				$this->session->set_flashdata("message", "Successfully updated");
-				redirect("Profile");
+				redirect("profile");
 				 
 	
 			}

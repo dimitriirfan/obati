@@ -9,12 +9,12 @@
 			</div>
 			<div class="col-lg-6 container-form">
 				<div class="navbar main-nav d-flex justify-content-between align-items-center">
-					<a href="<?php echo base_url("Landing")?>"><img class="brand"
+					<a href="<?php echo base_url("landing")?>"><img class="brand"
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
-						<li><a href="<?php echo base_url("Login/toLanding")?>">About</a></li>
-						<li><a href="<?php echo base_url("Article")?>">Articles</a></li>
-						<li><a href="<?php echo base_url("Landing")?>">Home</a></li>
+						<li><a href="<?php echo base_url("login/toLanding")?>">About</a></li>
+						<li><a href="<?php echo base_url("article")?>">Articles</a></li>
+						<li><a href="<?php echo base_url("landing")?>">Home</a></li>
 					</ul>
 				</div>
 				<div class="main-form">
@@ -23,7 +23,7 @@
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
 
-					<form action="<?= base_url('Login/login')?>" method="post">
+					<form action="<?= base_url('login/login')?>" method="post">
 						<?php if ($this->session->flashdata('message')) : ?>
 						<div class="alert alert-danger mb-4" role="alert">
 							Username or password is incorect
@@ -75,7 +75,7 @@
 									</label>
 								</div>
 							</div>
-							<a class="link" href="<?php echo base_url('Reset_pass') ?>">Forgot
+							<a class="link" href="<?php echo base_url('reset_pass') ?>">Forgot
 								Password?</a>
 						</div>
 						<button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>

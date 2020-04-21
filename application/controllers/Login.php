@@ -28,15 +28,15 @@ class Login extends CI_Controller {
 			if ($isValid) { 
 				$user = $this->Model_user->get_user_by_email($email);
 				$this->session->set_userdata('user', $user);
-				redirect('Landing');
+				redirect('landing');
 			} else { 
 				$this->session->set_flashdata('message', 'Username or password invalid');
-				redirect('Login');
+				redirect('login');
 			}
 			
 		}else { 
 			$this->session->set_flashdata('message', 'Username or password invalid');
-			redirect('Login');
+			redirect('login');
 
 		}
 

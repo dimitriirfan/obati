@@ -8,7 +8,7 @@
 			<div class="list-group text-center nav-profile">
 				<a href="#" id="dashboard" class="list-group-item list-group-item-action disable">
 					<?= $this->session->userdata("user")->name?></a>
-				<?php echo form_open_multipart('Profile/uploadPhoto');?>
+				<?php echo form_open_multipart('profile/uploadPhoto');?>
 				<input id="edit-pic-hidden" name="image" type="file" style="display:none"
 					onchange="form.submit()"></input>
 				</form>

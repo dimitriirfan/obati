@@ -47,7 +47,7 @@ class Register extends CI_Controller {
 			if ($user == NULL) { 
 				$this->Model_user->register($data);
 				$this->session->set_flashdata('message', 'success');
-				redirect('Register');
+				redirect('register');
 
 			}
 		}
