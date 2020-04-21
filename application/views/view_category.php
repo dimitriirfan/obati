@@ -11,7 +11,7 @@
 			<div class="card-body">
 				<h5 class="card-title">Vitamin & suplemen</h5>
 				<img src="<?php echo base_url("./assets/img/Vitamin.png")?>" class=" foto">
-				<a href="<?php echo base_url("Catalog/vitamin")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Vitamin dan suplemen" class="stretched-link"></a>
 
 
 			</div>
@@ -20,14 +20,14 @@
 			<div class="card-body">
 				<h5 class="card-title">Anti Nyeri</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/Vitamin.png")?>" class="foto">
-				<a href="<?php echo base_url("Catalog/anti_nyeri")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 			</div>
 		</div>
 		<div class="card shadow-sm">
 			<div class="card-body" onclick="toMata()">
 				<h5 class="card-title">Mata</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/mata.jpg")?>" class="foto">
-				<a href="<?php echo base_url("Catalog/mata")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Mata" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -35,7 +35,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Batuk & Flu</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/flu.jpg")?>" class=" foto">
-				<a href="<?php echo base_url("Catalog/batuk_dan_flu")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Batuk dan flu" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Antibiotik</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/antibiotik.jpg")?>" class=" foto">
-				<a href="<?php echo base_url("Catalog/anti_biotik")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Antibiotik" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Otot, Tulang & Sendi</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/otot_nih.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/otot_tulang_sendi")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -59,7 +59,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Demam</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/demamfix.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/demam")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -67,7 +67,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Kulit</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/kulit_nih.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/kulit")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 
@@ -76,7 +76,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Mulut & Tenggorokan</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/mulut_dan_tenggorokan")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">P3K</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/P3K.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/p3k")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -93,7 +93,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Alergi</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/alergi_nih.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/alergi")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>
@@ -101,7 +101,7 @@
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Kontrasepsi & Hormon</h5>
 				<img src="<?php echo base_url("./assets/img/kategori/Untitled-2.jpg")?>" class="img-fluid foto">
-				<a href="<?php echo base_url("Catalog/kontrasepsi_dan_hormon")?>" class="stretched-link"></a>
+				<a href="<?php echo base_url("Catalog")?>?c=Anti Nyeri" class="stretched-link"></a>
 
 			</div>
 		</div>

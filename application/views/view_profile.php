@@ -42,7 +42,7 @@
 						<div class="col-md-12">
 							<form action="<?= base_url("Profile/updateProfile")?>" method="post"id="form1">
 								<div class="form-group row">
-									<label for="username" class="col-4 col-form-label">Name</label>
+									<label for="username" class="col-4 col-form-label">Nama</label>
 									<div class="col-8">
 										<input id="name" name="name"
 											value="<?= $this->session->userdata("user")->name?>"
@@ -52,7 +52,7 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="name" class="col-4 col-form-label">Birth Date</label>
+									<label for="name" class="col-4 col-form-label">Tanggal Lahir</label>
 									<div class="col-8">
 										<input id="date" name="birth"
 											value="<?= $this->session->userdata("user")->birth?>"
@@ -60,7 +60,7 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="lastname" class="col-4 col-form-label">Gender</label>
+									<label for="lastname" class="col-4 col-form-label">Jenis Kelamin</label>
 									<div class="col-8">
 										<select id="inputState" class="form-control" name="gender">
 											<option
@@ -73,7 +73,7 @@
 									</div>
 								</div>
 								<div class="form-group row">
-									<label for="text" class="col-4 col-form-label">Address</label>
+									<label for="text" class="col-4 col-form-label">Alamat</label>
 									<div class="col-8">
 										<textarea id="address" name="address" class="form-control here"
 											required="required"><?= $this->session->userdata("user")->address?> </textarea>

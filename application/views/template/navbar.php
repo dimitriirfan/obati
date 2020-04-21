@@ -20,7 +20,7 @@
 									class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item <?php if ($title == 'article') {echo 'active';} ?>">
-							<a class="nav-link" href="<?php echo base_url("Article")?>">Articles</a>
+							<a class="nav-link" href="<?php echo base_url("Article")?>">Artikel</a>
 						</li>
 
 						<li class="nav-item <?php if ($title == 'about') {echo 'active';} ?>">
@@ -33,7 +33,7 @@
 	
 						<form class="form-inline">
 							<input class=" search form-control form-control-md mr-3 w-75" type="text"
-								placeholder="Search" aria-label="Search">
+								placeholder="Cari obat" aria-label="Search">
 							<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 						</form>
 						<?php if ($this->session->userdata("user")) :?>
@@ -47,8 +47,8 @@
 								<?php echo $this->session->userdata("user")->name?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="<?= base_url("Profile")?>">Profile</a>
-								<a class="dropdown-item" href="<?= base_url("Cart")?>">Cart</a>
+								<a class="dropdown-item" href="<?= base_url("Profile")?>">Profil</a>
+								<a class="dropdown-item" href="<?= base_url("Cart")?>">Keranjang</a>
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="<?= base_url("Landing/logout")?>">Log Out</a>
 							</div>
@@ -78,19 +78,19 @@
 		<div class="container category-container p-0">
 			<ul class="nav justify-content-center p-1 m-0 nav-fill">
 				<li class="nav-item">
-					<a class="nav-link" href=<?= base_url("Category")?>>Medicine</a>
+					<a class="nav-link" href=<?= base_url("Category")?>>Obat</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Flu & Cough</a>
+					<a class="nav-link" href="<?php echo base_url("Catalog")?>?c=Batuk dan flu">Flu & Batuk</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Fever</a>
+					<a class="nav-link" href="<?php echo base_url("Catalog")?>?c=Antibiotik">Antibiotik</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Pregnancy</a>
+					<a class="nav-link" href="<?php echo base_url("Catalog")?>?c=Alergi">Alergi</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Lose Weight</a>
+					<a class="nav-link" href="<?php echo base_url("Catalog")?>?c=Mata">Kesehatan Mata</a>
 				</li>
 			</ul>
 		</div>

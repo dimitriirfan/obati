@@ -3,98 +3,6 @@
 @import './hamburger.css';
 
 
-html,
-body {
-
-	font-family: 'Roboto';
-	background: white;
-	font-size: 14px;
-}
-
-
-
-/* first main header */
-
-.main-header .collapse {
-	margin-left: 3em;
-
-}
-
-
-.navbar-brand img {
-	max-height: 65px;
-}
-
-
-.main-header .nav-link {
-	margin-right: 2em;
-	color: var(--passive-dark);
-	border-bottom: 3px solid white;
-	font-weight: 700;
-	font-size: 1em;
-
-}
-
-.active .nav-link {
-	border-bottom: 3px solid #74BDCB;
-}
-
-
-.main-header .nav-link:hover {
-	color: #74BDCB;
-	border-bottom: 3px solid #74BDCB;
-}
-
-.btn-sign-in {
-	font-size: 1em !important;
-	color: #74BDCB !important;
-	border: 3px solid #74BDCB !important;
-	border-radius: 40px !important;
-	padding: 0.25em 1.25em !important;
-}
-
-.btn-sign-up {
-	font-size: 1em !important;
-	color: white !important;
-	border: 3px solid #FFA384 !important;
-	background-color: #FFA384 !important;
-	border-radius: 40px !important;
-	padding: 0.25em 1.25em !important;
-
-}
-
-.search { 
-	border-radius: 40px;
-}
-
-/* second main header */
-.category-nav {
-	margin: 0 20%;
-}
-
-.category-nav ul li a {
-	display: block;
-	text-decoration: none;
-	padding: 1em 1.25em;
-	color: var(--passive-dark);
-	border-bottom: 3px solid white;
-	opacity: 0.6;
-	font-weight: 700;
-	font-size: 1em;
-
-}
-
-.category-nav ul li a:hover {
-	display: block;
-	text-decoration: none;
-	padding: 1em 1.25em;
-	color: var(--passive-dark);
-	border-bottom: 3px solid white;
-	opacity: 1;
-	font-weight: 700;
-
-}
-
 .bodytitle{
     width: 40%;
     margin-top: 10%;
@@ -105,6 +13,12 @@ body {
 	letter-spacing: 0.195em;
 	font-weight: 550;
 	font-size: 1.3rem;
+	text-transform: uppercase;
+
+}
+
+.ket a { 
+	color: var(--passive-dark);
 }
 
 .decor{
@@ -117,16 +31,18 @@ body {
 }
 
 .card-deck{
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .card {
     margin-top: 1em;
 	min-width: 20%;
+	max-width: 20%;
     border-radius: 15px;
 }
 
 .pic {
+	
     height: 200px;
 	border-radius: 15px 15px 0px 0px;
     object-fit: cover;
