@@ -5,7 +5,7 @@
 	<div class="container-fluid shadow-sm  bg-white rounded">
 		<header class="main-header">
 			<nav class="navbar navbar-expand-lg navbar-light p-0 ml-3 mr-3">
-				<a class="navbar-brand" href="<?= base_url("Controller_landing")?>"> <img
+				<a class="navbar-brand" href="<?= base_url("Landing")?>"> <img
 						src="<?php echo base_url("assets/img/logo.png")?>" alt=""> </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -16,11 +16,11 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto ">
 						<li class="nav-item <?php if ($title == 'landing') {echo 'active';} ?>">
-							<a class="nav-link" href="<?php echo base_url("Controller_landing")?>">Home <span
+							<a class="nav-link" href="<?php echo base_url("Landing")?>">Home <span
 									class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item <?php if ($title == 'article') {echo 'active';} ?>">
-							<a class="nav-link" href="<?php echo base_url("Controller_article")?>">Articles</a>
+							<a class="nav-link" href="<?php echo base_url("Article")?>">Articles</a>
 						</li>
 
 						<li class="nav-item <?php if ($title == 'about') {echo 'active';} ?>">
@@ -37,7 +37,7 @@
 							<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 						</form>
 						<?php if ($this->session->userdata("user")) :?>
-						<a href="<?= base_url("Controller_cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
+						<a href="<?= base_url("Cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
 
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -47,21 +47,21 @@
 								<?php echo $this->session->userdata("user")->name?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="<?= base_url("controller_profile")?>">Profile</a>
-								<a class="dropdown-item" href="<?= base_url("Controller_cart")?>">Cart</a>
+								<a class="dropdown-item" href="<?= base_url("Profile")?>">Profile</a>
+								<a class="dropdown-item" href="<?= base_url("Cart")?>">Cart</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="<?= base_url("Controller_landing/logout")?>">Log Out</a>
+								<a class="dropdown-item" href="<?= base_url("Landing/logout")?>">Log Out</a>
 							</div>
 						</li>
 
 
 						<?php else :?>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-in" href="<?php echo base_url("Controller_login")?>">Sign In</a>
+							<a class="nav-link btn-sign-in" href="<?php echo base_url("Login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link btn-sign-up btn-orange"
-								href="<?php echo base_url("Controller_register")?>">Sign Up</a>
+								href="<?php echo base_url("Register")?>">Sign Up</a>
 						</li>
 						<?php endif?>
 					</ul>
@@ -78,7 +78,7 @@
 		<div class="container category-container p-0">
 			<ul class="nav justify-content-center p-1 m-0 nav-fill">
 				<li class="nav-item">
-					<a class="nav-link" href=<?= base_url("Controller_category")?>>Medicine</a>
+					<a class="nav-link" href=<?= base_url("Category")?>>Medicine</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Flu & Cough</a>

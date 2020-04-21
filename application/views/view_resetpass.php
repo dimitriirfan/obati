@@ -10,13 +10,13 @@
 			</div>
 			<div class="col-lg-6 container-form">
 				<div class="navbar main-nav d-flex justify-content-between align-items-center">
-					<a href="<?php echo base_url("index.php/Controller_resetpass/toLanding")?>"><img class="brand"
+					<a href="<?php echo base_url("Landing")?>"><img class="brand"
 							src="<?php echo base_url('assets/img/logo.png') ?>" alt=""></a>
 					<ul>
 						<li><a href="#">About</a></li>
-						<li><a href="<?php echo base_url("Controller_article")?>">Articles</a>
+						<li><a href="<?php echo base_url("Article")?>">Articles</a>
 						</li>
-						<li><a href="<?php echo base_url("Controller_landing")?>">Home</a></li>
+						<li><a href="<?php echo base_url("Landing")?>">Home</a></li>
 					</ul>
 				</div>
 				<div class="main-form">
@@ -74,9 +74,9 @@
 					</form>
 					<div class="bottom-bar">
 						<p style="font-weight: 700;">Dont have an account? <a class="link"
-								href="<?php echo base_url('Controller_register') ?>">Sign Up</a><br>
+								href="<?php echo base_url('Register') ?>">Sign Up</a><br>
 							Already have an account? <a class="link"
-								href="<?php echo base_url('Controller_login') ?>">Sign In</a>
+								href="<?php echo base_url('Login') ?>">Sign In</a>
 						</p>
 					</div>
 

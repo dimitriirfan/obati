@@ -1,18 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_article extends CI_Controller {
+class Catalog extends CI_Controller {
 
 
 	public function index()
 	{
-		$data['title'] = 'article';
+		$data['title'] = 'catalog';
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');
-		$this->load->view('view_article');
-		$this->load->view("template/footer");
-
+		$this->load->view('view_catalog');
+		$this->load->view('template/footer');
 	}
 
+	
 
 }

@@ -2,12 +2,12 @@
 
 class Model_user extends CI_Model { 
 
-    public function getUserByEmail($email) {
+    public function get_user_by_email($email) {
         $query = $this->db->where('email', $email)->get('user');
         return $query->row();
     }
 
-    public function getUserById($id) { 
+    public function get_user_by_id($id) { 
         $query = $this->db->where('id', $id)->get("user");
         return $query->row();
     }
@@ -28,17 +28,17 @@ class Model_user extends CI_Model {
         }
     }
 
-    public function uploadPhoto($id, $pic) {
+    public function upload_photo($id, $pic) {
         $query = $this->db->query("UPDATE user SET pic = '$pic' WHERE id = $id"); 
 
     }
 
-    public function checkUpdateEmail($email, $new) { 
+    public function check_update_email($email, $new) { 
         $query = $this->db->query("SELECT * FROM user WHERE email LIKE '$new' AND email NOT LIKE '$email'");
         return $query->row();
     }
 
-    public function updateProfile($data, $id) { 
+    public function update_profile($data, $id) { 
         $query = $this->db->query("
             UPDATE user SET 
             name = '$data->name', 

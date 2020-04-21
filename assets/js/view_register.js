@@ -24,7 +24,7 @@ $(document).ready(function(){
             icon: "success",
             timer: "2000"
           }).then(function() { 
-              window.location = "http://localhost/obati/Controller_login"
+              window.location = "http://localhost/obati/Login";
           });
 
     }

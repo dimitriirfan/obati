@@ -8,7 +8,7 @@
 			<div class="list-group text-center nav-profile">
 				<a href="#" id="dashboard" class="list-group-item list-group-item-action disable">
 					<?= $this->session->userdata("user")->name?></a>
-				<?php echo form_open_multipart('Controller_profile/uploadPhoto');?>
+				<?php echo form_open_multipart('Profile/uploadPhoto');?>
 				<input id="edit-pic-hidden" name="image" type="file" style="display:none"
 					onchange="form.submit()"></input>
 				</form>
@@ -40,7 +40,7 @@
 					</div>
 					<div class="row biodata_input">
 						<div class="col-md-12">
-							<form action="<?= base_url("Controller_profile/updateProfile")?>" method="post"id="form1">
+							<form action="<?= base_url("Profile/updateProfile")?>" method="post"id="form1">
 								<div class="form-group row">
 									<label for="username" class="col-4 col-form-label">Name</label>
 									<div class="col-8">

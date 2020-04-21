@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_register extends CI_Controller {
+class Register extends CI_Controller {
 
 	public function __construct () {
 		parent::__construct();
@@ -38,16 +38,16 @@ class Controller_register extends CI_Controller {
 				'address' => $this->input->post('address'),
 				'birth' =>  $this->input->post('birth'), 
 				'password' => $this->input->post('password'),
-				'pic' => 'defaultpic.jpg',
+				'pic' => './assets/img/profile/defaultpic.jpg',
 				'gender' => '',
 				'no_hp' => ''
 			];
 
-			$user = $this->Model_user->getUserByEmail($data['email']);
+			$user = $this->Model_user->get_user_by_email($data['email']);
 			if ($user == NULL) { 
 				$this->Model_user->register($data);
 				$this->session->set_flashdata('message', 'success');
-				redirect('Controller_register');
+				redirect('Register');
 
 			}
 		}

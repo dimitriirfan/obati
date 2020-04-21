@@ -5,7 +5,7 @@
 <div class="slogan">
 	<div class="news-detail">
 		<div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;Oct 28,2017 </a></div>
-		<div><a href="<?php echo base_url('index.php/Controller_articledetail') ?>" class="fh5co_good_font">Lorem lorem
+		<div><a href="<?php echo base_url('Detail') ?>" class="fh5co_good_font">Lorem lorem
 				lorem lorem lorem lorem Tips and trick to get <br> killed by COVID-19 rapidly.</a></div>
 		<h2 class="by">By : Pororo-kun</h2>
 	</div>

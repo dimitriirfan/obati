@@ -1,21 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_landing extends CI_Controller {
+class Category extends CI_Controller {
 
 
 	public function index()
 	{
-		$data['title'] = 'landing';
+		$data['title'] = 'category';
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');
-		$this->load->view('view_landing');
+		$this->load->view('view_category');
 		$this->load->view('template/footer');
 	}
 
-	public function logout() { 
-		session_destroy();
-		redirect('Controller_landing');
-	}
+	
 
 }

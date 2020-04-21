@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_profile extends CI_Controller {
+class Profile extends CI_Controller {
 
 	public function __construct() { 
 		parent::__construct(); 
@@ -19,7 +19,7 @@ class Controller_profile extends CI_Controller {
 		$this->load->view('template/footer');
 	}
 
-	public function uploadPhoto() { 
+	public function upload_photo() { 
 
 		$config['upload_path']          = './assets/img/profile/';
 		$config['allowed_types']        = 'gif|jpg|png';
@@ -31,21 +31,21 @@ class Controller_profile extends CI_Controller {
 
 		if ($this->upload->do_upload("image")) {
 			$pic = './assets/img/profile/'.$this->upload->data("file_name");
-			$this->Model_user->uploadPhoto($this->session->userdata("user")->id, $pic);
-			$user = $this->Model_user->getUserById($this->session->userdata("user")->id);
+			$this->Model_user->upload_photo($this->session->userdata("user")->id, $pic);
+			$user = $this->Model_user->get_user_by_id($this->session->userdata("user")->id);
 			$this->session->set_userdata('user', $user);
 			$this->session->set_flashdata("message-success", "Successfully updated");
-			redirect("Controller_profile");
+			redirect("Profile");
 
 		}else { 
 			$this->session->set_flashdata("message-danger", $this->upload->display_errors());
-			redirect("Controller_profile");
+			redirect("Profile");
 
 		}
 
 	}
 
-	public function updateProfile() { 
+	public function update_profile() { 
 		$this->form_validation->set_rules('name', 'Name', 'required|trim');
 		$this->form_validation->set_rules('email', 'Email', 'required|trim|valid_email');
 		$this->form_validation->set_rules('address', 'Address', 'required|trim');
@@ -59,11 +59,11 @@ class Controller_profile extends CI_Controller {
 		$no_hp = $this->input->post('no_hp');	
 
 		if ($this->form_validation->run() == false ) {
-			redirect('Controller_landing');
+			redirect('Landing');
 
 		}else { 
 
-			$check = $this->Model_user->checkUpdateEmail($this->session->userdata("user")->email, $email);
+			$check = $this->Model_user->check_update_email($this->session->userdata("user")->email, $email);
 			if ($check == null) {
 				$data = [
 					'name' => $name,
@@ -74,11 +74,11 @@ class Controller_profile extends CI_Controller {
 					'no_hp' => $no_hp
 				];
 
-				$this->Model_user->updateProfile((object) $data, $this->session->userdata("user")->id);
+				$this->Model_user->update_profile((object) $data, $this->session->userdata("user")->id);
 				$user = $this->Model_user->getUserById($this->session->userdata("user")->id);
 				$this->session->set_userdata("user", $user);
 				$this->session->set_flashdata("message", "Successfully updated");
-				redirect("Controller_profile");
+				redirect("Profile");
 				 
 	
 			}

@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Controller_login extends CI_Controller {
+class Login extends CI_Controller {
 
 
 	public function __construct() { 
@@ -26,17 +26,17 @@ class Controller_login extends CI_Controller {
 
 			$isValid = $this->Model_user->login($email, $password);
 			if ($isValid) { 
-				$user = $this->Model_user->getUserByEmail($email);
+				$user = $this->Model_user->get_user_by_email($email);
 				$this->session->set_userdata('user', $user);
-				redirect('Controller_landing');
+				redirect('Landing');
 			} else { 
 				$this->session->set_flashdata('message', 'Username or password invalid');
-				redirect('Controller_login');
+				redirect('Login');
 			}
 			
 		}else { 
 			$this->session->set_flashdata('message', 'Username or password invalid');
-			redirect('Controller_login');
+			redirect('Login');
 
 		}
 

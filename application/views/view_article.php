@@ -8,7 +8,7 @@
 					<div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;1 April,
 							2020
 						</a></div>
-					<div class=""><a href="<?php echo base_url('Controller_articledetail') ?>"
+					<div class=""><a href="<?php echo base_url('Detail') ?>"
 							class="fh5co_good_font">Tips and trick to get <br> killed by COVID-19 rapidly.</a></div>
 					<h1 class="by">By : Pororo-kun</h1>
 					<h2 class="article-desc"> Lorem Ipsum is simply dummy text of the printing and typesetting
