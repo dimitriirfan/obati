@@ -17,6 +17,15 @@ class Catalog extends CI_Controller {
 		
 	}
 
+	public function medicine($name) {
+		$data['medicine'] = $this->Model_drug->get_drug_by_name($name); 
+		$data['title'] = 'medicine';
+		$this->load->view('template/header', $data);
+		$this->load->view('template/navbar');
+		$this->load->view('view_medicine', $data);
+		$this->load->view('template/footer');
+	}
+
 	public function vitamin_suplemen() { 
 		$config['base_url'] = 'http://localhost/obati/catalog/vitamin_suplemen/';
 		$config['total_rows'] = $this->Model_drug->count_row_by_category('Vitamin dan suplemen');

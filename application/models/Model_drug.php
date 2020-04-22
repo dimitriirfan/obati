@@ -20,6 +20,10 @@ class Model_drug extends CI_Model {
     public function get_drug_limit_by_category($category, $limit,$start){ 
         return $this->db->where('category', $category)->get('drug',$limit, $start)->result();
     }
+
+    public function get_drug_by_name($name) { 
+        return $this->db->where('name', $name)->get('drug')->result();
+    }
 }
     
 ?>
