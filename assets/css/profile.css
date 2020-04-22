@@ -1,0 +1,62 @@
+@import './_variables.css';
+@import './font.css';
+@import './hamburger.css';
+@import './style_1.css.map';
+
+
+
+
+.editprofile{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.active{
+    background-color: solid black;
+}
+
+#photo_profile
+{
+    height:300px;
+    overflow:hidden;
+    width:100%;
+    position:relative;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-profile{
+	box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+	margin-bottom: 2rem;
+}
+
+#photo_profile>img
+{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+#dashboard{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#edit-profile{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.name_profile
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.biodata_profile{
+    padding-bottom: 1rem;
+}
+
+.biodata_input{
+    padding-bottom: 1rem;
+}
+
