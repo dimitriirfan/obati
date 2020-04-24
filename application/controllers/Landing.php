@@ -11,6 +11,7 @@ class Landing extends CI_Controller {
 		$this->load->view('template/navbar');
 		$this->load->view('view_landing');
 		$this->load->view('template/footer');
+		
 	}
 
 	public function logout() { 

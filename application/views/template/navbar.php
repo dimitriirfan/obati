@@ -24,7 +24,7 @@
 						</li>
 
 						<li class="nav-item <?php if ($title == 'about') {echo 'active';} ?>">
-							<a class="nav-link" href="#">About Us</a>
+							<a class="nav-link" href="<?php echo base_url("about")?>">About Us</a>
 						</li>
 
 					</ul>
@@ -37,7 +37,7 @@
 							<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
 						</form>
 						<?php if ($this->session->userdata("user")) :?>
-						<a href="<?= base_url("Cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
+						<a href="<?= base_url("cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
 
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"

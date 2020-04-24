@@ -1,7 +1,6 @@
 	<!-- main image -->
 	<div class="container-fluid p-0 m-0">
 		<div class="main-grid">
-
 			<div class="grid-item grid-item-1">
 				<div class="inner-item">
 					<div class="container-top">

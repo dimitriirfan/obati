@@ -190,15 +190,17 @@ button:active {
 
 .product_title {
 	width: 100%;
+	border-right: 2px solid var(--passive-dark);
+
 
 
 }
 
 .product_name {
+	width: 80%;
 	line-height: 1.2;
 	color: #4a4a4a;
 	font-weight: 700;
-	border-right: 2px solid var(--passive-dark);
 }
 
 .product_category a:hover {
@@ -311,6 +313,10 @@ button:active {
 
 .qty_add {
 	right: 0px;
+}
+
+.product_text { 
+	width: 100%;
 }
 
 .product_text h3 {

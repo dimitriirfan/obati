@@ -5,7 +5,7 @@
 			<?php foreach($catalog as $row) : ?>
 			<div class="card shadow-sm " title="<?= $row->name?>">
 				<img src="<?php echo base_url().$row->pic?>" class=" card-img-top pic" alt="<?= $row->name?>">
-				<a href="<?= base_url('catalog/medicine/').$row->name?>" class="stretched-link"></a>
+				<a href="<?= base_url('catalog/medicine/').$row->id;?>" class="stretched-link"></a>
 				</img>	
 				<div class="card-body">
 					<h6 class="dname"><?= $row->name?><div class="penyakit"><?= $row->category?></div>

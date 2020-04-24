@@ -10,16 +10,14 @@
 		<div class="card shadow-sm" id="vitamin">
 			<div class="card-body">
 				<h5 class="card-title">Vitamin & suplemen</h5>
-				<img src="<?php echo base_url("./assets/img/Vitamin.png")?>" class=" foto">
+				<img src="<?php echo base_url("./assets/img/kategori/Vitamin.jpg")?>" class=" foto">
 				<a href="<?php echo base_url("catalog/vitamin_suplemen")?>" class="stretched-link"></a>
-
-
 			</div>
 		</div>
 		<div class="card shadow-sm">
 			<div class="card-body">
 				<h5 class="card-title">Anti Nyeri</h5>
-				<img src="<?php echo base_url("./assets/img/kategori/Vitamin.png")?>" class="foto">
+				<img src="<?php echo base_url("./assets/img/kategori/anti-nyeri.jpg")?>" class="foto">
 				<a href="<?php echo base_url("catalog/anti_nyeri")?>" class="stretched-link"></a>
 			</div>
 		</div>
@@ -75,7 +73,7 @@
 		<div class="card shadow-sm ">
 			<div class="card-body" onclick="toVitamin()">
 				<h5 class="card-title">Mulut & Tenggorokan</h5>
-				<img src="<?php echo base_url("./assets/img/kategori/Untitled-1.jpg")?>" class="img-fluid foto">
+				<img src="<?php echo base_url("./assets/img/kategori/Untitled-1-1.jpg")?>" class="img-fluid foto">
 				<a href="<?php echo base_url("catalog/mulut_tenggorokan")?>" class="stretched-link"></a>
 
 			</div>

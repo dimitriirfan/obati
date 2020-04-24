@@ -11,15 +11,11 @@ class Catalog extends CI_Controller {
 		
 		
 	}
-	public function index()
-	{
 
-		
-	}
-
-	public function medicine($name) {
-		$data['medicine'] = $this->Model_drug->get_drug_by_name($name); 
+	public function medicine($id) {
+		$data['medicine'] = $this->Model_drug->get_drug_by_id($id); 
 		$data['title'] = 'medicine';
+
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');
 		$this->load->view('view_medicine', $data);
@@ -118,7 +114,7 @@ class Catalog extends CI_Controller {
 
 	public function Mata() { 
 		$config['base_url'] = 'http://localhost/obati/catalog/mata/';
-		$config['total_rows'] = $this->Model_drug->count_row_by_category('Vitamin dan suplemen');
+		$config['total_rows'] = $this->Model_drug->count_row_by_category('Mata');
 
 		$config['per_page'] = 12;
 		
@@ -149,7 +145,7 @@ class Catalog extends CI_Controller {
 
 		$config['attributes'] = array('class' => 'page-link');
 		$data['title'] = 'catalog';
-		$data['category'] = 'Anti Nyeri';
+		$data['category'] = 'Mata	';
 		$data['start'] = $this->uri->segment(3);
 		$data['catalog'] = $this->Model_drug->get_drug_limit_by_category('Mata', $config['per_page'],$data['start']);
 		$this->pagination->initialize($config);
@@ -419,7 +415,7 @@ class Catalog extends CI_Controller {
 
 		$config['attributes'] = array('class' => 'page-link');
 		$data['title'] = 'catalog';
-		$data['catalog'] = 'P3K';
+		$data['category'] = 'P3K';
 		$data['start'] = $this->uri->segment(3);
 		$data['catalog'] = $this->Model_drug->get_drug_limit_by_category('p3k', $config['per_page'],$data['start']);
 		$this->pagination->initialize($config);

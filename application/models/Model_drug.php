@@ -8,8 +8,13 @@ class Model_drug extends CI_Model {
     }
 
     public function get_drug_by_id($id) {
-        $query = $this->db->where('idObat', $id)->get('drug');
+        $query = $this->db->where('id', $id)->get('drug');
         return $query->row();
+    }
+
+    public function get_drug_by_id_array($id) { 
+        $query = $this->db->where('id', $id)->get('drug');
+        return $query->row_array();
     }
 
     public function count_row_by_category($category) { 
@@ -21,8 +26,9 @@ class Model_drug extends CI_Model {
         return $this->db->where('category', $category)->get('drug',$limit, $start)->result();
     }
 
-    public function get_drug_by_name($name) { 
-        return $this->db->where('name', $name)->get('drug')->result();
+    public function get_drug_by_name($id) { 
+        $query = $this->db->where('id', $id)->get('drug');
+        return $query->row();
     }
 }
     

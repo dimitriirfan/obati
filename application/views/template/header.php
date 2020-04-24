@@ -15,6 +15,10 @@
 	<!-- style -->
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/$title.css")?>">
 
+	<?php if ($title == "About") :?>
+	<link rel="stylesheet" href="<?php echo base_url("./assets/css/about.css")?>">
+	<?php endif?>
+
 	<?php if ($title != "register" && $title != "login") :?>
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/navbar.css")?>">
 	<?php endif?>
