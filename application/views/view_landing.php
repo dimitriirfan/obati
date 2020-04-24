@@ -9,10 +9,12 @@
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
 							<h4 class="drug-name">Acifar 400mg</h4>
-							<p class="drug-company">Generic Manufacturer</p>
+							<p class="drug-company">Vitamin dan suplemen</p>
 						</div>
-						<h4 class="drug-price">Rp. 31.200</h4>
+						<h4 class="drug-price">Rp. 22.500</h4>
 					</div>
+					<a class="stretched-link" href="<?= base_url('catalog/medicine/121')?>"></a>
+
 				</div>
 			</div>
 			<div class="grid-item grid-item-2">
@@ -22,11 +24,12 @@
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
-							<h4 class="drug-name">Herclov 500 MG</h4>
-							<p class="drug-company">Sanbe Farma</p>
+							<h4 class="drug-name">Delysid LSD 25 MG</h4>
+							<p class="drug-company">Vitamin dan suplemen</p>
 						</div>
-						<h4 class="drug-price">Rp. 157.500</h4>
+						<h4 class="drug-price">Rp. 132.500</h4>
 					</div>
+					<a class="stretched-link" href="<?= base_url('catalog/medicine/122')?>"></a>
 				</div>
 			</div>
 			<div class="grid-item grid-item-3">
@@ -37,11 +40,12 @@
 					</div>
 					<div class="container container-drug d-flex justify-content-between">
 						<div class="drug-title">
-							<h4 class="drug-name">Drug Name</h4>
-							<p class="drug-company">Drug Company</p>
+							<h4 class="drug-name">Porcelain HA+ 35 MG</h4>
+							<p class="drug-company">Vitamin dan suplemen</p>
 						</div>
-						<h4 class="drug-price">Drug Price</h4>
+						<h4 class="drug-price">Rp. 182.500</h4>
 					</div>
+					<a class="stretched-link" href="<?= base_url('catalog/medicine/123')?>"></a>
 				</div>
 			</div>
 			<div class="grid-item grid-item-4">
@@ -63,35 +67,45 @@
 		<div class="main-category">
 			<div class="category-grid">
 				<div class="grid-c-item grid-c-item-1 shadow-sm  bg-white rounded">
+
 					<div class="tag tag-hot">Hot</div>
-					<div class="inner-c-item ">
+					<div id="c1" class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/coronavirus.png")?>" alt="">
-						<h5 class="mb-0">Flu & Viruses</h5>
-						<p>123 items</p>
+						<h5 class="mb-0" data-c1="Batuk dan Flu">Flu & Batuk</h5>
+						<a class="stretched-link" style="transform: rotate(0);"
+							href="<?= base_url('catalog/batuk_flu')?>"></a>
+						<p><?= $c1?> items</p>
 					</div>
 				</div>
 				<div class="grid-c-item grid-c-item-2 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
-					<div class="inner-c-item">
-						<img class="mb-4" src="<?php echo base_url("./assets/img/cough2.png")?>" alt="">
-						<h5 class="mb-0">Cough</h5>
-						<p>123 items</p>
+					<div id="c2" class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/vita.png")?>" alt="">
+						<h5 class="mb-0" data-c2="Vitamin">Vitamin</h5>
+						<a class="stretched-link" style="transform: rotate(0);"
+							href="<?= base_url('catalog/vitamin_suplemen')?>"></a>
+
+						<p><?= $c2?> items</p>
 					</div>
 				</div>
 				<div class="grid-c-item grid-c-item-3 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
-					<div class="inner-c-item">
+					<div id="c3" class="inner-c-item">
 						<img class="mb-4" src="<?php echo base_url("./assets/img/eye-makeup.png")?>" alt="">
-						<h5 class="mb-0">Eye Care</h5>
-						<p>123 items</p>
+						<h5 class="mb-0" data-c3="Mata">Mata</h5>
+						<a class="stretched-link" style="transform: rotate(0);" href="<?= base_url('catalog/mata')?>"></a>
+
+						<p><?= $c3?> items</p>
 					</div>
 				</div>
 				<div class="grid-c-item grid-c-item-4 shadow-sm  bg-white rounded">
 					<div class="tag tag-hot tag-passive">Hot</div>
-					<div class="inner-c-item">
-						<img class="mb-4" src="<?php echo base_url("./assets/img/mom.png")?>" alt="">
-						<h5 class="mb-0">Baby</h5>
-						<p>123 items</p>
+					<div id="c4" class="inner-c-item">
+						<img class="mb-4" src="<?php echo base_url("./assets/img/skin.png")?>" alt="">
+						<h5 class="mb-0">Kulit</h5>
+						<a class="stretched-link" style="transform: rotate(0);" href="<?= base_url('catalog/kulit')?>"></a>
+
+						<p><?= $c4?> items</p>
 					</div>
 				</div>
 
@@ -108,7 +122,7 @@
 							</span>
 							<p class="flex-shrink-1 ml-2">361 likes</p>
 						</div>
-						<button class="btn btn-primary btn-block btn-j btn-orange">Cek gejalanya</button>
+						<button class="btn btn-primary trans_200 btn-block btn-j btn-orange">Cek gejalanya</button>
 					</div>
 				</div>
 
@@ -123,7 +137,7 @@
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary btn-a flex-grow-1 btn-orange">Baca</button>
+						<button class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</button>
 					</div>
 				</div>
 
@@ -136,7 +150,7 @@
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary btn-a flex-grow-1 btn-orange">Baca</button>
+						<button class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</button>
 					</div>
 				</div>
 			</div>
@@ -314,12 +328,11 @@
 	</div>
 
 	<!-- bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+	
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+	<script src="<?= base_url('assets/js/view_landing.js')?>"></script>

@@ -78,7 +78,7 @@
 							<a class="link" href="<?php echo base_url('reset_pass') ?>">Forgot
 								Password?</a>
 						</div>
-						<button type="submit" class="btn btn-primary btn-block btn-submit">Submit</button>
+						<button type="submit" class="btn btn-primary trans_200 btn-block btn-submit">Submit</button>
 
 					</form>
 					<div class="bottom-bar">

@@ -255,26 +255,6 @@ input:focus {
 
 /* button */
 
-.btn-primary {
-	background-color: #FF7243 !important;
-	border: none;
-}
-
-.btn-primary:hover {
-	background-color: #FF8258 !important;
-
-}
-
-.btn-primary:focus {
-	background-color: #FF7243 !important;
-	border: none;
-
-}
-
-.btn-primary:active {
-	background-color: #FF7243 !important;
-	border: none;
-}
 
 /* 
 input:focus { 

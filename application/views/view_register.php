@@ -88,7 +88,7 @@
 								</div>
 							</div>
 						</div>
-						<button type="submit" class="btn btn-primary btn-block btn-submit">Sign Up</button>
+						<button type="submit" class="btn btn-secondary trans_200 btn-block btn-submit ">Sign Up</button>
 					</form>
 					<div class="bottom-bar">
 						<p style="font-weight: 700;">Already have an account? <a class="link"

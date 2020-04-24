@@ -1,0 +1,50 @@
+{
+	"article": [
+        {
+			"id": "0",
+			"judul": "Pasien Kanker Jalani Imunoterapi, Cek Nutrisi Dongkrak Kekebalan Tubuh",
+            "penulis": "dimit",
+            "terbit": "20 april, 2020",
+            "isi": "Pilihan nutrisi makanan sehat bagi pasien kanker yang menjalani terapi imun atau....."
+		},
+        {
+			"id": "1",
+			"judul": "Pasien Kanker Jalani Imunoterapi, Cek Nutrisi Dongkrak Kekebalan Tubuh",
+            "penulis": "Dimitri Irfan",
+            "terbit": "20 april, 2020",
+            "isi": "Pilihan nutrisi makanan sehat bagi pasien kanker yang menjalani terapi imun atau imunoterapi ikut mendongkrak kekebalan tubuh. Hal ini demi mendukung kualitas hidup pasien, khususnya kanker paru. Mereka tak hanya didukung obat imunoterapi dan rutin konsultasi ke dokter. Pandai menjaga asupan makan dapat diterapkan. Ahli gizi Dedyanto Hengky Saputra yang fokus membahas nutrisi tepat untuk pasien kanker mengungkapkan, kebutuhan zat nutrisi bantu membangun sistem imun. Glutamin punya peran memberikan energi pada sel imun. Zat yang merupakan hasil proses dari glukosa ini memetabolisme sel."
+		},
+		{
+                
+		    "id": "2",
+		    "judul": "Upaya Pencegahan Virus Corona COVID-19",
+            "penulis": "Fazainsyah",
+            "terbit": "9 april, 2020",
+			"isi": "Berbagai upaya dalam pencegahan virus corona COVID-19 sudah dilakukan oleh masyarat luas. Mulai dari mencuci tangan yang bersih, menggunakan masker, menghindari tempat ramai atau dikenal dengan istilah Social Distance, tidak bersalaman sementara, hingga menjaga jarak 1 – 2 meter dengan orang lain. Upaya tersebut sudah dilakukan dengan tujuan mencegah rantai penularan virus corona. Banyak dampak yang ditimbulkan dari tersebarnya virus COVID-19 ini. Salah satu upaya pemerintah dalam meminimalisir penyebaran virus corona adalah menerapkan belajar di rumah, ibadah di rumah dan kerja di rumah Work From Home (WFH)  bagi para pegawai negeri maupun swasta."
+		},
+		{
+            "id": "3",
+            "judul": "ini judul 3 guys",
+            "penulis": "wira kalo gasalah",
+            "terbit": "7 april , 2020",
+            "isi": "ini artikel 3 nya wira mungkin"
+        },
+		{
+            "id": "4",
+            "judul": "ini judul yang ke 4 ",
+            "penulis": "ehh gilang ga sih",
+            "terbit": "18 april, 2020",
+            "isi": "yahhh lupa buat artikel"
+        
+        },
+		{
+		    "id": "5",
+            "judul": "ini judul yang ke 5 ",
+            "penulis": "ehh rifqi",
+            "terbit": "1 april ,2020",
+            "isi": "yahhh lupa buat artikel juga"
+        }
+	]
+
+	
+}

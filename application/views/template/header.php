@@ -39,6 +39,11 @@
 	<link rel="stylesheet" href="<?php echo base_url("./assets/css/cart_responsive.css")?>">
 	<?php endif?>
 
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+	<script src="<?= base_url('assets/js/search.js')?>"></script>
+
+
 
 
 	<title>Obati | <?= $title?></title>

@@ -12,6 +12,7 @@ class Catalog extends CI_Controller {
 		
 	}
 
+
 	public function medicine($id) {
 		$data['medicine'] = $this->Model_drug->get_drug_by_id($id); 
 		$data['title'] = 'medicine';
@@ -20,6 +21,53 @@ class Catalog extends CI_Controller {
 		$this->load->view('template/navbar');
 		$this->load->view('view_medicine', $data);
 		$this->load->view('template/footer');
+	}
+
+	public function search() { 
+
+		$key = $this->input->get('keyword');
+		$config['base_url'] = 'http://localhost/obati/catalog/search/';
+		$config['total_rows'] = $this->Model_drug->count_row_by_keyword($key);
+
+		$config['per_page'] = 12;
+		
+		$config['full_tag_open'] = '<div class="page_indicator"><ul class="pagination pg-darkgrey pagination-lg">';
+		$config['full_tag_close'] = '</ul></div>';
+
+		$config['first_link'] = 'First';
+		$config['first_tag_open'] = '<li class="page-item">';
+		$config['first_tag_close'] = '</li>';
+
+		$config['last_link'] = 'Last';
+		$config['last_tag_open'] = '<li class="page-item">';
+		$config['last_tag_close'] = '</li>';
+
+		$config['next_link'] = '&raquo';
+		$config['next_tag_open'] = '<li class="page-item">';
+		$config['next_tag_close'] = '</li>';
+
+		$config['prev_link'] = '&laquo';
+		$config['prev_tag_open'] = '<li class="page-item">';
+		$config['prev_tag_close'] = '</li>';
+
+		$config['cur_tag_open'] = '<li class="page-item active"><a href=""class="page-link">';
+		$config['cur_tag_close'] = '</a></li>';
+
+		$config['num _tag_open'] = '<li class="page-item">';
+		$config['num_tag_close'] = '</li>';
+
+		$config['attributes'] = array('class' => 'page-link');
+		$data['title'] = 'catalog';
+		$data['category'] = 'Hasil Search';
+		$data['start'] = $this->uri->segment(3);
+		$data['catalog'] = $this->Model_drug->get_drug_limit_by_search($key, $config['per_page'],$data['start']);
+		$this->pagination->initialize($config);
+		
+		$this->load->view('template/header', $data);
+		$this->load->view('template/navbar');
+		$this->load->view('view_catalog', $data);
+		$this->load->view('template/footer');
+
 	}
 
 	public function vitamin_suplemen() { 

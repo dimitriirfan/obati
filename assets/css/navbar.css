@@ -3,6 +3,8 @@
 	max-height: 65px;
 }
 
+
+
 a {
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
@@ -25,11 +27,12 @@ a:link {
 .cart  { 
 	padding-top: 1em;
 	padding-bottom: 1em;
-	color: #4a4a4a;
-
+	color: var(--passive-lg-gray);
 	transition: all 0.2s;
+	height: 10px;
 
 }
+
 
 .cart:hover { 
 	color: var(--primary-blue);
@@ -177,10 +180,68 @@ a:link {
 }
 
 
-
+/* suggestion */
 .search { 
-	border-radius: 40px;
+	border-radius: 20px;
 }
+
+.wrap {
+	width: 300px;
+	align-self: center;
+	position: relative;
+}
+.form-suggestion { 
+	border-radius: 10px;
+	margin-top: 1em;
+	position: absolute;
+	width: 100%;
+	background-color: white;
+	z-index: 1000;
+}
+
+/* .suggestion-item:last-child { 
+	border-bottom: none;
+
+} */
+
+.suggestion-item { 
+	cursor: pointer;
+	border-bottom: 1px solid var(--passive-lg-gray);
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.suggestion-item:hover { 
+	background-color: var(--passive-lg-gray);
+
+}
+
+
+/* .suggestion-item:hover:first-child { 
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.suggestion-item:hover:last-child { 
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+} */
+
+.suggestion-item p { 
+	margin-top: 0.925em;
+}
+.suggestion-item img { 
+	padding: 1em;
+	width: 50px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	object-fit: cover;
+
+}
+
 
 input.form-control.search {
     border-right: none;

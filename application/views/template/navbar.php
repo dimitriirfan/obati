@@ -28,22 +28,30 @@
 						</li>
 
 					</ul>
-					
+
 					<ul class="navbar-nav ml-auto">
-	
-						<form class="form-inline">
-							<input class=" search form-control form-control-md mr-3 w-75" type="text"
-								placeholder="Cari obat" aria-label="Search">
-							<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-						</form>
+						<div class="wrap">
+							<form action="<?= base_url('catalog/search')?>" method="GET" class="form-inline">
+								<input id="searchkey" autocomplete="off" name="keyword"
+									class="search form-control form-control-md mr-3 w-75" type="text"
+									placeholder="Cari obat" aria-label="Search">
+								<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+							</form>
+							<div class="form-suggestion shadow">
+								
+							</div>
+
+						</div>
+
 						<?php if ($this->session->userdata("user")) :?>
-						<a href="<?= base_url("cart")?>" style="margin-top:2px"><i class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
+						<a href="<?= base_url("cart")?>" style="margin-top:2px" ><i 
+								class="cart fa fa-shopping-cart fa-lg ml-3 mr-4" style="align-items:center"></i></a>
 
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<img src="<?= base_url().$this->session->userdata("user")->pic?>"
-									width="40" height="40" style="object-fit:cover; margin-right:1em" class="rounded-circle">
+								<img src="<?= base_url().$this->session->userdata("user")->pic?>" width="40" height="40"
+									style="object-fit:cover; margin-right:1em" class="rounded-circle">
 								<?php echo $this->session->userdata("user")->name?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -60,8 +68,8 @@
 							<a class="nav-link btn-sign-in" href="<?php echo base_url("login")?>">Sign In</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link btn-sign-up btn-orange"
-								href="<?php echo base_url("register")?>">Sign Up</a>
+							<a class="nav-link btn-sign-up btn-orange" href="<?php echo base_url("register")?>">Sign
+								Up</a>
 						</li>
 						<?php endif?>
 					</ul>

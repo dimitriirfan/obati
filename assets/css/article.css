@@ -19,6 +19,13 @@
     object-fit: cover;
 }
 
+.limit{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
 .by{
     font-size: 12px;
     font-weight: lighter;
@@ -30,6 +37,7 @@
 
 .article-desc{
     font-size: 14px;
+
 }
 
 .btn{

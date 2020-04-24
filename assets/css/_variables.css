@@ -4,9 +4,10 @@
     --white-bg: #F2F2F2;
 
 
-    --primary-orange: #FF8258;
-    --primary-orange-dark: #FF7243;
-    --primary-blue: #74BDCB;
+    --primary-orange: #FF7243;
+    --primary-orange-dark: #FF551C;
+	--primary-blue: #74BDCB;
+	--primary-blue-lg: #C2E2E8
     --primary-sky: #E7F2F8;
     --primary-sand: #EFE7BC;
 
@@ -73,5 +74,51 @@ p {
 	-ms-transition: all 500ms ease;
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
+}
+
+
+.btn-primary {
+	background-color: var(--primary-orange) !important;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: var(--primary-orange-dark) !important;
+
+}
+
+.btn-primary:focus {
+	background-color: var(--primary-orange) !important;
+	border: none;
+
+}
+
+.btn-primary:active {
+	background-color: var(--primary-orange) !important;
+	border: none;
+}
+
+
+.btn-secondary { 
+    background-color: var(--primary-blue) !important;
+    border: none;
+}
+
+.btn-secondary:hover { 
+    background-color: var(--passive-dark) !important;
+    color: white;
+
+    
+}
+
+.btn-secondary:focus { 
+    background-color: var(--primary-blue) !important;
+    border: none;
+
+}
+
+.btn-secondary:active { 
+    background-color: var(--primary-blue) !important;
+    border: none;
 }
 

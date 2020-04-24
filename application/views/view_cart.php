@@ -91,11 +91,11 @@
 			<div class="cart_buttons d-flex flex-row align-items-start justify-content-start">
 				<div
 					class="cart_buttons_inner ml-sm-auto d-flex flex-row align-items-start justify-content-start flex-wrap">
-					<div class="button button_clear trans_200" data-id="<?= $this->session->userdata('user')->id?>"><a
+					<div data-id="<?= $this->session->userdata('user')->id?>"><a class="button_clear btn btn-primary p-2 pl-5 pr-5"
 							href="#">clear cart</a>
 					</div>
-					<div class="button button_continue trans_200"><a href="<?= base_url('category')?>">continue
-							shopping</a></div>
+					<a class="btn btn-secondary trans_200 p-2 pl-5 pr-5" href="<?= base_url('category')?>">continue
+							shopping</a>
 				</div>
 			</div>
 		</div>
@@ -200,7 +200,7 @@
 										tempor so dales. Phasellus sagittis auctor gravida. Integ er bibendum
 										sodales arcu id te mpus. Ut consectetur lacus.</p>
 								</div>
-								<input type="submit" class="checkout_button trans_200" form="checkout_form"
+								<input type="submit" class="btn btn-secondary btn-block p-2 pl-5 pr-5 trans_200" form="checkout_form"
 									value="place order">
 
 							</div>
@@ -224,14 +224,15 @@
 
 </div>
 
-<script src="<?php echo base_url("./node_modules/sweetalert2/dist/sweetalert2.all.min.js")?>"></script>
 
-<script src="<?= base_url('./assets/js/jquery.js')?>"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
 	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 </script>
+<script src="<?php echo base_url("./node_modules/sweetalert2/dist/sweetalert2.all.min.js")?>"></script>
 <script src="<?php echo base_url("./assets/js/view_cart.js") ?>"></script>
 <script src="<?php echo base_url("./assets/js/paymentMethod.js") ?>"></script>
