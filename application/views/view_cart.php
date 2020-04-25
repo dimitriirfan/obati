@@ -91,7 +91,7 @@
 			<div class="cart_buttons d-flex flex-row align-items-start justify-content-start">
 				<div
 					class="cart_buttons_inner ml-sm-auto d-flex flex-row align-items-start justify-content-start flex-wrap">
-					<div data-id="<?= $this->session->userdata('user')->id?>"><a class="button_clear btn btn-primary p-2 pl-5 pr-5"
+					<div id="cart_id" data-id="<?= $this->session->userdata('user')->id?>"><a class="button_clear btn btn-primary p-2 pl-5 pr-5"
 							href="#">clear cart</a>
 					</div>
 					<a class="btn btn-secondary trans_200 p-2 pl-5 pr-5" href="<?= base_url('category')?>">continue

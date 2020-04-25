@@ -108,8 +108,9 @@ $(document).ready(function () {
 
 		$('.button_clear').click(function () {
 			var baseUrl = window.location.origin + '/obati/'
-			var id = $(this).data('id')
+			var id = $('#cart_id').data('id')
 			var qtys = $('.cart_item');
+			console.log(id)
 
 			Swal.fire({
 				title: 'Are you sure?',

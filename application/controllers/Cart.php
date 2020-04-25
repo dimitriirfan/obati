@@ -62,8 +62,8 @@ class Cart extends CI_Controller {
 
 	public function clear_cart() { 
 		$idUser = $this->input->post('id');	
+
 		$this->Model_cart->clear_cart($idUser); 
-		$data['cart'] = $this->Model_cart->get_cart_by_userid($this->session->userdata('user')->id);
 		
 	}
 

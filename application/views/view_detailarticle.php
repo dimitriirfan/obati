@@ -4,10 +4,9 @@
 
 <div class="slogan">
 	<div class="news-detail">
-		<div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;Oct 28,2017 </a></div>
-		<div><a href="<?php echo base_url('Detail') ?>" class="fh5co_good_font">Lorem lorem
-				lorem lorem lorem lorem Tips and trick to get <br> killed by COVID-19 rapidly.</a></div>
-		<h2 class="by">By : Pororo-kun</h2>
+		<div class=""><a href="#" class="color_fff"> <i class="fa fa-clock-o"></i>&nbsp;&nbsp;<?= $detail->terbit?> </a></div>
+		<div><a href="" class="fh5co_good_font"><?= $detail->judul?></a></div>
+		<h2 class="by">By : <?= $detail->penulis?></h2>
 	</div>
 </div>
 
@@ -21,50 +20,7 @@
 			<div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
 				<div class="col-md-8 animate-box" data-animate-effect="fadeInLeft">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullabr
-						malesuada enim id enim congue convallis. Praesent a cursus orci.
-						Proin mauris eros, rhoncus in risus nec, vestibulum dignissim
-						diam. Duis dapibus, magna ac fringilla consectetur, tellus quam
-						aliquam quam, molestie tincidunt justo risus et nunc. Donec quis
-						justo nec diam hendrerit facilisis placerat non magna. Class aptent
-						taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-					</p>
-					<p>
-						Nulla tincidunt sit amet ligula interdum pulvinar. Sed nec volutpat enim. Praesent pretium
-						ullamcorper
-						quam, at rhoncus magna consectetur quis. Nulla condimentum, libero vel varius sodales, lacus
-						urna
-						accumsan purus, at
-						mattis nisi nibh in lorem. Sed laoreet, ante vitae tincidunt auctor, sapien metus tincidunt
-						ante,
-						quis aliquam lacus risus id quam.
-					</p>
-					<h3>Porororororoorororororo</h3>
-					<p>
-						Nam vehicula viverra quam, nec ornare ex convallis eget. Praesent pulvinar, justo at lacinia
-						elementum, dolor elit facilisis massa, vel feugiat elit massa et libero. Praesent hendrerit
-						metus eu
-						elementum commodo. Morbi tempus mi a nulla scelerisque, vitae vulputate nisi commodo. Maecenas
-						felis
-						urna, dictum quis mollis quis, mollis vel ligula. Nullam sodales sapien tellus, ornare tincidunt
-						dolor imperdiet at. Vestibulum convallis, felis quis condimentum finibus, justo lectus aliquam
-						libero, eu lacinia tellus leo eu orci.
-					</p>
-					<p>
-						Maecenas consequat dictum aliquam. Praesent nec magna at ipsum facilisis dictum sit amet nec
-						arcu.
-						vulputate in et libero. Aliquam dolor lacus, facilisis ultrices rutrum in, blandit vitae nulla.
-						Nullam vestibulum, odio vitae aliquam aliquam, nibh dui iaculis augue, ut tristique nisi est in
-						tellus. Fusce volutpat ultricies venenatis. In a arcu in tellus tincidunt accumsan. Nulla
-						pretium at
-						ex viverra vulputate. Cras mollis velit metus, non suscipit felis luctus sit amet. Ut vel leo
-						vitae
-						magna blandit tempor in sit amet arcu. Donec dignissim mattis dui. Donec ultrices malesuada
-						sapien,
-						ut fermentum nisi efficitur eu. Phasellus dui eros, posuere vel lacus vitae, venenatis feugiat
-						libero. Nunc sed nisi feugiat, consequat arcu id, vehicula augue. Donec viverra tincidunt nisi
-						eget
-						ornare.
+					<?= $detail->isi?>
 					</p>
 
 				</div>

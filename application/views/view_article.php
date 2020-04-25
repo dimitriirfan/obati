@@ -78,7 +78,7 @@
 							class="fh5co_img_special_relative" /></div>
 					<div class="fh5co_latest_trading_img_position_absolute"></div>
 					<div class="fh5co_latest_trading_img_position_absolute_1">
-						<a href="single.html" class="text-white"><?= $row->judul?></a>
+						<a href="<?= base_url('Detail_article/detail/').$row->id;?>" class="text-white"><?= $row->judul?></a>
 						<div class="fh5co_latest_trading_date_and_name_color"> <?= $row->penulis?> : <?= $row->terbit?> </div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 						<div></div>
 					</div>
 					<div class="col-md-7 animate-box">
-						<a href="single.html" class="fh5co_magna py-2 test"> <?= $row->judul?> </a> <br>
+						<a href="<?= base_url('Detail_article/detail/').$row->id;?>" class="fh5co_magna py-2 test"> <?= $row->judul?> </a> <br>
 						<p class="fh5co_mini_time py-3">
 						<?= $row->penulis ?> : <?= $row->terbit?></p>
 						<div class="fh5co_consectetur limit">  <?= $row->isi?> 

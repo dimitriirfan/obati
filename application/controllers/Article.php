@@ -10,10 +10,9 @@ class Article extends CI_Controller {
 	}
 
 	public function index() { 
+		
 		$data['article'] = $this->Model_article->get_article();
 		$data['title'] = 'article';
-
-		
 
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');
@@ -21,6 +20,8 @@ class Article extends CI_Controller {
 		$this->load->view("template/footer");
 
 	}
+
+
 
 
 		
