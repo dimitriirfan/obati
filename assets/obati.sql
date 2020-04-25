@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 21, 2020 at 07:21 PM
+-- Generation Time: Apr 25, 2020 at 02:52 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -21,6 +21,59 @@ SET time_zone = "+00:00";
 --
 -- Database: `obati`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `article`
+--
+
+CREATE TABLE `article` (
+  `id` int(11) NOT NULL,
+  `judul` varchar(200) NOT NULL,
+  `penulis` varchar(50) NOT NULL,
+  `terbit` varchar(50) NOT NULL,
+  `isi` varchar(5000) NOT NULL,
+  `pic` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `article`
+--
+
+INSERT INTO `article` (`id`, `judul`, `penulis`, `terbit`, `isi`, `pic`) VALUES
+(4, 'Pasien Kanker Jalani Imunoterapi, Cek Nutrisi Dongkrak Kekebalan Tubuh', 'Dimit', '20 april, 2020', 'Pilihan nutrisi makanan sehat bagi pasien kanker yang menjalani terapi imun atau imunoterapi ikut mendongkrak kekebalan tubuh. Hal ini demi mendukung kualitas hidup pasien, khususnya kanker paru. Mereka tak hanya didukung obat imunoterapi dan rutin konsultasi ke dokter. Pandai menjaga asupan makan dapat diterapkan. Ahli gizi Dedyanto Hengky Saputra yang fokus membahas nutrisi tepat untuk pasien kanker mengungkapkan, kebutuhan zat nutrisi bantu membangun sistem imun. Glutamin punya peran memberikan energi pada sel imun. Zat yang merupakan hasil proses dari glukosa ini memetabolisme sel.', './assets/img/article/foto1.jpg'),
+(5, 'Bingung Pilih Menu Buka Puasa Pertama? Baca Dulu Saran dari Ahli Gizi', 'Wira', '12 april, 2020', 'Spesialis Gizi Klinik dr. Raissa Edwina Djuanda, M.Gizi, Sp.GK memperbolehkan menu makanan manis untuk disantap saat buka puasa pertama. Eits, tapi tidak lantas mengonsumsi manis secara berlebihan ya.\n\"Untuk buka puasa pertama itu karena sudah berpuasa lama, jadi boleh langsung untuk energi tubuh yang sudah habis itu digantikan secara cepat jadi kita boleh makan yang manis-manis. Tapi tentunya balik lagi jangan berlebihan juga ya,\" ujar dr. Raissa beberapa waktu lalu kepada awak media.\nIa mengatakan contoh memakan buah kurma yang dipraktikkan Nabi Muhammad sudah paling tepat. Selain buah yang manis, kurma juga mengandung serat sehingga lebih cepat kenyang, tapi cukup 2 hingga 3 butir saja.\n\"Misalnya mau makan kurma yang paling gampang itu boleh. 2 sampai 3 butir atau boleh juga misalnya buka dengan sirup buah itu boleh atau misalnya dengan makanan seperti kolak pisang kayak gitu boleh,\" paparnya.\nDokter yang berpraktik di RS MMC Jakarta itu mengingatkan jika mengonsumsi makanan manis untuk lebih sadar penyakit bawaan yang dimiliki, khususnya mereka yang punya diabetes, darah tinggi, kolesterol.', './assets/img/article/foto2.jpg'),
+(6, 'Ajakan Hidup Sehat Melalui GERMAS', 'Wira', '15 april, 2020', 'Siapa yang belum pernah mendengar tentang Germas, yang merupakan singkatan dari gerakan masyarakat hidup sehat. Program ini diinisiasi oleh pemerintah dengan menggandeng organisasi kemasyarakatan serta tokoh-tokoh masyarakat lainnya. Program ini dimulai sejak 2016 lalu dan utamanya dilakukan dengan program hidup sehat yang dimulai dari keluarga, di antaranya seperti:\n\n1. Konsumsi Buah dan Sayur\nMengkonsumsi buah dan sayur sudah terbukti sebagai salah satu cara untuk hidup sehat. Buah dan sayur mengandung vitamin dan serat yang dibutuhkan oleh tubuh. Dengan menambah konsumsi buah dan sayur dalam menekan radikal bebas yang beredar di dalam tubuh. Selain itu, dengan bertambahnya asupan serat dapat meningkatkan sistem metabolisme tubuh, sehingga tubuh tidak akan menumpuk kotoran.\n\n2. Beraktivitas Fisik\nAktivitas fisik diperlukan tubuh, khususnya demi kesehatan tulang. Budaya kerja masyarakat modern yang lebih banyak duduk menyebabkan kurangnya aktivitas fisik harian. Padahal, aktivitas fisik dapat membantu sistem metabolisme. Adapun tipe aktivitas fisik yang dilakukan tidak harus dengan berolahraga berat, namun dapat dilakukan dengan banyak berjalan. Bahkan bagi ibu rumah tangga, menyapu dan mengepel lantai juga merupakan aktivitas fisik yang dapat membuat berkeringat.\n\n3. Rutin Memeriksakan Kesehatan\nSelain dua aktivitas di atas, perlu juga untuk rutin memeriksakan kesehatan. Apabila sudah terlihat tanda-tanda waspada, dapat dilakukan pencegahan sehingga tidak sampai jatuh sakit. Dengan demikian, selain tetap dapat hidup sehat, namun juga sekaligus menekan pengeluaran untuk biaya berobat.\n\nKetiga program Germas di atas merupakan program utama yang dilakukan dari lingkungan terkecil – keluarga. Artinya anggota keluarga saling menjaga dan mengingatkan demi untuk mendapatkan hidup yang sehat. Terlebih lagi dengan menggalakkan hidup sehat dari lingkungan keluarga dapat membantu mencegah munculnya berbagai penyakit. Seperti yang sudah banyak disampaikan, mencegah itu lebih baik daripada mengobati.', './assets/img/article/foto3.jpg'),
+(7, 'Dampak Buruk Junk Food Bagi Kesehatan Tubuh', 'Wira', '18 april, 2020', 'Junk Food disebut makanan instan atau makanan cepat saji yang kini telah berkembang pesat di persaingan perusahaan makanan di Indonesia. Makanan cepat saji dinilai sebagian orang lebih efektif terhadap waktu dan mudah ditemukan. Tak hanya itu saja, makanan cepat saji juga memiliki cita rasa yang lezat ditambah lagi harganya yang terjangkau.\n\nMakanan cepat saji sudah lama mengundang kontroversi di negara kita karena terungkapnya beberapa dampak buruk yang ia miliki. Dampak buruk itu disebabkan oleh kandungan zat-zat berbahaya di dalam makanan instan seperti lilin yang ada pada mie instan. Tak berhenti disitu, nyatanya di dalam makanan cepat saji terkandung bahan pengawet dan penyedap yang kini disebut micin.\n\nFenomena kata micin kini mendadak kerap digunakan para remaja hingga dewasa bila seseorang mengalami hal-hal yang kurang normal. Maksud dari hal kurang normal itu seperti seseorang yang telat berpikir, lama menjawab bila diajak bicara dan lain sebagainya. Tak dielakkan, makanan cepat saji memang mengandung zat berbahaya seperti yang telah diungkapkan di atas.\n\nSejumlah penelitian telah membuktikan bahwa keseringan mengkonsumsi makanan cepat saja memang tidak berdampak secara langsung ke tubuh. Namun, makanan-makanan cepat saji yang dikonsumsi akan tertimbun di dalam tubuh yang kemudian hari menjadi penyebab penyakit mematikan seperti kanker. Tak hanya kanker, penyakit berbahaya juga mengintai misalnya stroke, usus buntu dan penyakit ginjal.\nMaka bila Anda termasuk ke dalam orang yang hobi mengkonsumsi makanan cepat saja, kurangilah hal itu dan\n\nmulai sayangi tubuh serta diri Anda sendiri. Perlu diketahui bahwa salah satu kandungan di dalam makanan instan yaitu lilin sulit dicerna tubuh. Lilin itu menghancurkan prinsip kerja sistem pencernaan tubuh sehingga makanan yang mengandung lilin akan dicerna dengan waktu minimal dua hari.', './assets/img/article/foto4.jpg'),
+(8, 'Mengapa telinga sering berdengung?', 'Wira', '23 april, 2020', 'Telinga berdengung memiliki istilah tinnitus dalam dunia kesehatan. Tinnitus bukan merupakan penyakit, tetapi sebuah gejala dari gangguan pendengaran. Umumnya tinnitus bukan merupakan gejala dari kondisi yang serius, namun dapat mengganggu aktifitas. Untuk mengobati tinnitus dapat dilakukan jika sudah mengetahui penyebabnya.\nApakah Penyebab Telinga Berdengung?\nPenyebab paling umum terjadinya tinnitus karena mendengarkan suara keras dalam waktu lama. Suara keras yang didengar menyebabkan kerusakan permanen pada sel-sel sensitive suara dari koklea (organ berbentuk spiral di telinga bagian dalam). Beberapa profesi seperti teknisi pesawat, musisi, tukang kayu, pilot memiliki resiko mengalami tinnitus lebih besar. Paparan suara sangat keras secara tiba-tiba juga dapat menyebabkan tinnitus.\nFaktor Usia\nBagi banyak orang, bertambahnya usia dapat berdampak pada memburuknya pendengaran yang umumnya dimulai sekitar usia 60 tahun. Gangguan pendengaran yang terjadi ini dapat menyebabkan timbulnya tinnitus.\nPaparan Suara Keras\nSumber umum suara keras adalah perangkat music portable seperti iPod, Handphone, atau laptop. Mendengarkan music dengan suara keras melalui headphone dalam waktu lama dapat menimbulkan tinnitus. Paparan suara keras dalam jangka pendek atau panjang memiliki resiko yang sama menyebabkan kerusakan permanen.\nPenyumbatan Kotoran Telinga\nKotoran telinga memiliki manfaat menjaga kotoran dan bakteri dari luar memasuki saluran telinga. Ketika terlalu banyak kotoran telinga menumpuk dan susah untuk dibersihkan maka dapat menyebabkan gangguan pendengaran atau iritasi pada gendang telinga yang menimbulkan tinnitus.\nPerubahan Tulang Telinga\nPengerasan tulang di telinga bagian tengah (otosklerosis) dapat mempengaruhi pendengaran dan menyebabkan tinnitus. Kondisi ini disebabkan oleh pertumbuhan tulang yang tidak normal dan umumnya karena faktor genetik.', './assets/img/article/foto5.jpg'),
+(9, 'Aneka Minuman Buka Puasa yang Segar dan Menyehatkan', 'Dimit', '21 april, 2020', 'Saat berpuasa, tubuh kita akan rentan mengalami kekurangan cairan. Maka dari itu, Anda perlu mencukupi asupan cairan dalam tubuh selama puasa saat sahur dan berbuka puasa. Namun jangan asal minum, sebaiknya Anda memilih minuman buka puasa yang tidak hanya menghilangkan rasa haus saat berbuka, tetapi juga menyehatkan.\nMinuman yang segar dan menyehatkan dapat mengisi kembali energi tubuh yang hilang selama berpuasa. Tubuh manusia terdiri dari kurang lebih 60% air dan rata-rata akan mengeluarkan sebanyak kurang lebih 2-3 liter cairan melalui urine, keringat, dan napas. Hal ini juga berlangsung saat Anda berpuasa. Oleh karena itu, apabila Anda tidak mengonsumsi cukup cairan saat sahur dan berbuka puasa dapat berisiko menyebabkan dehidrasi. Kondisi ini bisa disebabkan oleh penurunan kadar air secara keseluruhan dalam periode yang lama di dalam tubuh.\nSalah satu minuman buka puasa yang wajib dikonsumsi setiap harinya adalah air putih. Minum air putih saat berbuka puasa dapat membantu mencukupi kebutuhan cairan tubuh yang hilang setelah seharian penuh berpuasa.', './assets/img/article/foto6.jpg'),
+(10, 'Khawatir Terinfeksi Corona, Apa Saja Gejala yang Harus Dicurigai?', 'Ellyvon Pranita', '9 april, 2020', 'Di tengah wabah pandemi Covid-19 yang sedang melanda negeri ini, banyak di antara masyarakat yang mulai curiga terhadap keluhan yang tiba-tiba dirasakan tubuhnya.\r\n\r\nLantas, apa saja gejala atau keluhan yang memang butuh dicurigai sebagai pertanda terinfeksi virus Corona, SARS-CoV-2 penyebab Covid-19?\\n\r\nMenurut Pusat Pengendalian dan Pencegahan Penyakit (CDC) AS, beberapa gejala yang perlu diwaspadai akibat terinfeksi virus corona SARS-CoV-2 yang menyebabkan Covid-19 adal menurut  menyebut setidaknya waspadalah saat Anda mengalami demam, batuk dan sesak napas.\\n\r\nNamun perlu diketahui, setiap ornag yang terinfeksi virus SARS-CoV-2 tidak selalu menunjukkan demam, batuk, dan sesak napas. Ada gejala lain yang mungkin tidak disadari, ada juga yang tidak menunjukkan gejala.\\n\r\n1. Demam tinggi\\n\r\nMenurut Pokja Infeksi Pengurus Pusat Perhimpunan Dokter Paru Indonesia, dr Erlina Burhan SpP(K) MSc PhD, sejak awal wabah Covid-19 ini melanda Wuhan, China gejala yang paling umum dan banyak dialami mencapai 98 persen oleh pasiennya adalah demam tinggi di atas 38,5 derajat Celsius./n\r\n2. Batuk dan pilek\\n\r\nBatuk yang dimaksudkan dalam kategori kemungkinan terinfeksi virus SARS-CoV-2 adalah batuk yang terlampau sering dalam sejam. Umumnya batuk kering dan terjadi terus-menerus, secara lebih dari tiga kali 24 jam.\\n\r\n3. Berkurang indera penciuman\\n\r\nDalam diskusi online bertajuk \"Covid-19 Tantangan dan Alternatif Solusi Berbasis Bukti\", Erlina mengatakan, berkurangnya fungsi indera penciuman bisa menjadi gejala Covid-19.\\n\r\nDia mencontohkan, jika biasanya dapat mengenali jenis masakan yang sedang dimasak di dapaur dari kejauhan, orang yang terinfeksi Covid-19 mungkin sulit melakukannya.\\n\r\n4. Berkurang indera pengecap\\n\r\nGangguan fungsi pernapasan tidak hanya terlihat dari berkurangnya indera penciuman. Erlina menyebutkan bahwa berkurangnya indera pengecap pada lidah juga harus dicurigai sebagai ada gangguan fungsi tubuh Anda, yang bisa jadi akibat infeksi Covid-19.\\n\r\nPerhatikan diri Anda sendiri, jika merasa tidak dapat atau berkurang kemampuan memilah rasa makanan yang Anda makan dan tidak hanya sesekali saja, ini patut dicurigai sebagai infeksi Covid-19.\r\n5. Sesak napas\\n\r\nSesak napas menjadi salah satu gejala yang serius. Umumnya pasien Covid-19 dalam kasus yang serius, akan mengalami pneumonia. Di mana kondisi paru-paru pasien dipenuhi dengan nanah dan cairan. Inilah yang dapat menyebabkan pasien dengan Covid-19 serius akan mengalami sesak napas yang intens dan batuk yang menyakitkan.\\n\r\nUntuk Anda yang memiliki beberapa keluhan di atas, dan berlangsung dalam beberapa hari.\\n\r\nSegera laporkan diri ke hotline Covid-19 yang disediakan oleh pemerintah, yakni 119 atau menghubungi layanan hotline fasilitas kesehatan terdekat dari tempat tinggal Anda.\\n\r\nSebaiknya tidak langsung mendatangi rumah sakit atau fasilitas kesehatan, karena potensi transmisi virus SARS-CoV-2 di dalam perjalanan masih sangat mungkin terjadi.\\n\r\nBisa jadi dari orang lain yang positif tanpa gejala ke Anda ataupun Anda menularkan ke orang lain, bila memang keluhan Anda dikarenakan infeksi Covid-19.', './assets/img/article/corona.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `cart`
+--
+
+CREATE TABLE `cart` (
+  `id` int(11) NOT NULL,
+  `idUser` int(20) NOT NULL,
+  `idMedicine` int(20) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `category` varchar(30) NOT NULL,
+  `price` int(20) NOT NULL,
+  `qty` int(10) NOT NULL,
+  `pic` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `cart`
+--
+
+INSERT INTO `cart` (`id`, `idUser`, `idMedicine`, `name`, `category`, `price`, `qty`, `pic`) VALUES
+(82, 46, 24, 'Terracymin Salep Mata 3.5 G', 'Mata', 13200, 4, './assets/img/obat/Terracymin.jpg'),
+(83, 58, 3, 'Enervon-C 30 TABLET', 'Vitamin dan suplemen', 33000, 13, './assets/img/obat/enervon-c.jpg');
 
 -- --------------------------------------------------------
 
@@ -118,7 +171,90 @@ INSERT INTO `drug` (`id`, `name`, `category`, `price`, `description`, `dose`, `h
 (72, 'Betamethasone 0.1% Cream 5 GR\n', 'Kulit', 3800, 'BETAMETHASONE 0.1% CREAM adalah obat kortikosteroid oles yang dapat digunakan untuk mengatasi reaksi alergi atau mengurangi peradangan kulit akibat sejumlah kondisi, seperti eksim serta dermatitis. Betamethasone bekerja dengan cara mencegah dan mengendalikan peradangan (inflamasi) dengan mengendalikan laju sintesis protein, menekan migrasi leukosit polimorfonuklear dan fibroblast, dan membalikkan permeabilitas kapiler dan stabilisasi lisosom. Obat ini digunakan untuk penyakit kulit seperti derma', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dioleskan 3-4 kali sehari sampai fase akut berakhir, lalu oleskan 1 kali per hari.\n', 'Oles tipis-tipis pada kulit yang bermasalah.\n', './assets/img/obat/Betamethasone.jpg'),
 (73, 'Cinogenta Cream 10 G\n', 'Kulit', 23100, 'Inflamasi dan Pruritus pada Dermatosis yang responsif terhadap Kortikosteroid apabila terkomplikasi dengan infeksi sekunder, misalnya Dermatitis Atopik, Dermatitis Seboroik, Neurodermatitis terlokalisir, Pruritus Anogenital, Psoriasis, peradangan pada Xer\n', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Oleskan 3-4 kali sehari\n', 'HARUS DENGAN RESEP DOKTER. Hamil dan laktasi. Hindari kontak dengan mata. Penggunaan jangka lama\n', './assets/img/obat/Cinogenta.jpg'),
 (74, 'Elocon 0.1% Cream 5 G\n', 'Kulit', 71200, 'ELOCON 0.1% CREAM 5 G adalah obat topikal yang mengandung Mometasone furoate. Obat ini digunakan untuk mengatasi masalah kulit seperti eksim, psoriasis, alergi dan ruam. Mometasone merupakan kortikosteroid, berfungsi untuk mengurangi peradangan, gatal dan kemerahan. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER.\n', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Oleskan 1 x sehari\n', 'Dioleskan pada area kulit yang radang/gatal\n', './assets/img/obat/Elocon.jpg'),
-(75, 'Esperson Cream 0.25% 15 GR\n', 'Kulit', 130800, 'ESPERSON CREAM 0.25% 15 GR adalah obat yang digunakan untuk mengobati berbagai tipe eksim,dermatitis, dan psoriasis yang peka terhadap kortikosteroid. Esperson mengandung zat aktif desoximetasone, ini tidak dapat di gunakan untuk mengobati penyakit kulit yang di sebabkan oleh infeksi. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER\n', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Oleskan 1 atau 2 x sehari, bila perlu 3x sehari pada bagian yang sakit\n', 'oleskan pada bagian yang sakit\n', './assets/img/obat/Esperson.jpg');
+(75, 'Esperson Cream 0.25% 15 GR\n', 'Kulit', 130800, 'ESPERSON CREAM 0.25% 15 GR adalah obat yang digunakan untuk mengobati berbagai tipe eksim,dermatitis, dan psoriasis yang peka terhadap kortikosteroid. Esperson mengandung zat aktif desoximetasone, ini tidak dapat di gunakan untuk mengobati penyakit kulit yang di sebabkan oleh infeksi. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER\n', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Oleskan 1 atau 2 x sehari, bila perlu 3x sehari pada bagian yang sakit\n', 'oleskan pada bagian yang sakit\n', './assets/img/obat/Esperson.jpg'),
+(76, 'Redoxon Triple Action Effervescent 10 TA', 'Vitamin dan suplemen', 38500, 'REDOXON TRIPLE ACTION EFFERVESCENT dilengkapi dengan Vitamin D yang bekerja sama dengan Vitamin C dan Zinc, membantu menjaga daya tahan tubuh pada saat perjalanan, kondisi perubahan cuaca, dan paparan polusi.', 'Dewasa : 1 x sehari 1 tablet effervescent', 'Larutkan dalam segelas air dan tunggu sampai benar-benar larut.', './assets/img/obat/redoxon.jpg'),
+(77, 'Holisticare Ester C 90 KAPSUL', 'Vitamin dan suplemen', 110000, 'HOLISTICARE ESTER C mengandung zat aktif vitamin C dalam bentuk ester. Suplemen ini digunakan untuk membantu memelihara daya tahan tubuh, terutama bagi yang sering terpapar radikal bebas, mengatasi gejala kekurangan vitamin C seperti gusi berdarah, sariawan, mudah terserang flu dan luka yang tak kunjung sembuh', '1 tablet sehari, dapat ditingkatkan menjadi 2-3 tablet sehari jika sedang dalam proses penyembuhan', 'Sesudah makan', './assets/img/obat/holisticare.jpg'),
+(78, 'Vitalong C 30 KAPSUL', 'Vitamin dan suplemen', 38500, 'VITALONG C merupakan kapsul lepas berkala yang mengandung Vitamin C 500 mg yang digunakan untuk memenuhi kebutuhan Vitamin C harian. Vitamin C berperan dalam membantu menjaga sistem kekebalan tubuh serta membantu dalam pemulihan setelah sakit.', '1 kapsul per hari', 'Dikonsumsi sesudah makan.', './assets/img/obat/vitalong.jpg'),
+(79, 'Vitamin C IPI 50 MG 45 TABLET', 'Vitamin dan suplemen', 9600, 'VITAMIN C IPI merupakan vitamin C berbentuk tablet dengan rasa jeruk yang bermanfaat untuk membantu memenuhi kebutuhan vitamin C. Vitamin C bekerja dengan cara menjaga keutuhan fungsi jaringan mesodermal yaitu kolagen, tulang, gigi dan pembuluh darah.', '1 tablet hisap sehari. Jika diperlukan 2-4 tablet.', 'Dikonsumsi sebelum atau sesudah makan.', './assets/img/obat/vitamin_c_ipi.jpg'),
+(80, 'CDR Effervescent 15 TABLET', 'Vitamin dan suplemen', 54500, 'CDR EFFERVESCENT 15 TABLET merupakan suplemen vitamin (meliputi: Vitamin C, D, dan B6) dan mineral agar tulang sehat pada orang dewasa serta membantu memenuhi kebutuhan kalsium pada ibu hamil dan menyusui.', '1 tablet effervescent per hari, atau sesuai dengan petunjuk dokter.', 'Larutkan tablet effervescent ke dalam segelas air untuk memperoleh minuman effervescent dengan rasa jeruk segar. Sebaiknya diminum segera setelah dilarutkan.', './assets/img/obat/cdr.jpg'),
+(81, 'Natur-e 100 IU 16 KAPSUL', 'Vitamin dan suplemen', 38500, 'NATUR-E 100 IU 16 KAPSUL merupakan suplemen yang mengandung Vitamin E alami dari minyak biji gandum dan minyak biji bunga matahari. Suplemen ini digunakan untuk merawat kesehatan dan kecantikan kulit dari luar dan dalam sesuai kebutuhan.', '1-3 kapsul per hari.', 'Dikonsumsi sesudah makan.', './assets/img/obat/natur-e.jpg'),
+(82, 'Imboost Force Extra Strength 10 TABLET', 'Vitamin dan suplemen', 77000, 'IMBOOST FORCE EXTRA STRENGTH TABLET merupakan suplemen dengan kandungan Echinacea purpurea herb dry extract, Blackelderberry fruit dry extract, Zn Piccolinate dalam bentuk kaplet salut selaput.', 'Dewasa: Sehari: 1 kali 1 kaplet.', 'Dikonsumsi sesudah makan', './assets/img/obat/natur-e.jpg'),
+(83, 'Zegavit 5 KAPLET', 'Vitamin dan suplemen', 36300, 'ZEGAVIT KAPLET merupakan campuran multivitamin dan mineral. Vitamin dan beberapa mineral merupakan bahan-bahan esensial yang terdapat dalam makanan sehari-hari untuk metabolisme yang normal dan mempertahankan kesehatan.', 'Dewasa dan anak 12 tahun atau lebih: 1 x per hari, 1 kaplet atau sesuai petunjuk dokter.', 'Dikonsumsi sebelum atau sesudah makan.', './assets/img/obat/zegavit.jpg'),
+(84, 'Vitacimin Rasa Blueberry 500 MG 2 TABLET', 'Vitamin dan suplemen', 4000, 'VITACIMIN merupakan obat dengan kandungan Ascorbic acid dalam bentuk tablet hisap. Obat ini digunakan untuk membantu memenuhi kebutuhan vitamin c.', '1-2 tablet/hari', 'Diberikan bersama dengan makanan', './assets/img/obat/vitacimin_blueberry.jpg'),
+(85, 'Vitacimin Rasa Fruit Punch 500 MG 2 TABL', 'Vitamin dan suplemen', 4000, 'VITACIMIN merupakan obat dengan kandungan Ascorbic acid dalam bentuk tablet hisap. Obat ini digunakan untuk membantu memenuhi kebutuhan vitamin c.', '1 - 2 tablet perhari', 'Berikan setelah makan, untuk dihisap seperti permen', './assets/img/obat/vitacimin_fruitpunch.jpg'),
+(86, 'You-C 1000 ORANGE 140 ML', 'Vitamin dan suplemen', 5500, 'YOU-C 1000 Orange adalah minuman kesehatan dengan 1000 mg Vitamin C yang membantu penerapan gaya hidup sehat dan membuat Anda merasa segar setiap harinya. Minuman ini mengandung 1000 mg Vitamin C untuk meningkatkan sistem daya tahan tubuh dan menjaga agar tetap sehat.', '1 botol per hari', 'Dikonsumsi sebelum atau sesudah makan. Untuk menghindari rasa perih di lambung, sebaiknya diminum setelah makan.', './assets/img/obat/you_c.jpg'),
+(87, 'EVER E 250 IU 30 KAPSUL', 'Vitamin dan suplemen', 54100, 'EVER E 250 MG KAPSUL merupakan suplemen yang mengandung Vitamin E. Suplemen ini digunakan untuk membantu memenuhi kebutuhan vitamin tubuh.', '1 x sehari 1 kapsul', 'Di berikan bersama makanan', './assets/img/obat/ever_e.jpg'),
+(88, 'NEUROBION FORTE 10 TABLET', 'Vitamin dan suplemen', 36800, 'NEUROBION FORTE merupakan vitamin dengan kandungan Vitamin B1, B6, dan B12 yang dapat digunakan untuk pengobatan dan mencegah defisiensi vitamin B seperti pada beri-beri dan polineuritis.', '1 tablet, 1 kali per hari atau sesuai dengan anjuaran dokter.', 'Berikan sesudah makan. Berikan pada saat makan atau sesudah makan. Telan utuh jangan dikunyah/dihancurkan.', './assets/img/obat/neurobion.jpg'),
+(89, 'SURBEX-Z 6 TABLET', 'Vitamin dan suplemen', 17100, 'SURBEX-Z TABLET merupakan suplemen yang mengandung multivitamin dan mineral. Suplemen ini digunakan untuk membantu memelihara daya tahan tubuh.', 'Dewasa : 1 tablet perhari', 'Sesudah makan', './assets/img/obat/surbex.jpg'),
+(90, 'CAVIPLEX 10 KAPLET', 'Vitamin dan suplemen', 9900, 'CAVIPLEX KAPLET merupakan suplemen yang mengandung multivitamin dan mineral. Suplemen ini digunakan untuk memenuhi kebutuhan vitamin, mengatasi kekurangan vitamin dan membantu mempercepat pemulihan pasca sakit.', 'Dewasa dan anak >12 tahun 1 x sehari 1 kaplet', 'Sesudah makan', './assets/img/obat/caviplex.jpg');
+INSERT INTO `drug` (`id`, `name`, `category`, `price`, `description`, `dose`, `howto`, `pic`) VALUES
+(91, 'Rohto Cool Eye Drop 7 ML', 'Mata', 32400, 'ROHTO COOL EYE DROP 7 ML merupakan cairan tetes mata yang digunakan untuk membantu meredakan sementara mata merah akibat iritasi ringan yang disebabkan debu, asap, angin, sengatan sinar matahari,pemakaian lensa kontak, alergi atau berenang.', '3 - 4 kali per hari teteskan 1 atau 2 tetes pada masing -masing mata.', 'Diberikan dengan di teteskan pada mata yang terkena iritasi', './assets/img/obat/Rohto-cool.jpg'),
+(92, 'Azopt 1% EYE DROPS 5 ML', 'Mata', 198000, 'AZOPT 1% EYE DROPS merupakan obat yang digunakan untuk membantu mengobati Glaukoma (peningkatan cairan pada mata) sudut terbuka dan Hipertensi okular (Hipertensi pada mata).Azopt mengandung brinzolamide, Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 2-3 kali sehari 1 tetes', 'Diteteskan pada mata', './assets/img/obat/Azopt.jpg'),
+(93, 'Cendo Asthenof 15 MG Eye Drops 5 ML', 'Mata', 51500, 'CENDO ASTHENOF mengandung Vitamin A dan Oxymetazolin HCl yang digunakan untuk membantu mengatasi gejala keerahan pada mata dan mengurangi rasa tidak nyaman karena iritasi mata ringan.', '> 6 tahun : 1-2 tetes, dapat diulang sesuai kebutuhan setiap 6 jam, atau atas petunjuk dokter', 'Teteskan pada mata yang terkena iritasi.', './assets/img/obat/Cendo-Asthenof.jpg'),
+(94, 'CENDO Fenicol 1% SALEP MATA 3.5 G', 'Mata', 27800, 'CENDO Fenicol 1% SALEP MATA adalah salep antibiotik steril untuk mata yang mengandung Chloramphenicol 1%. Chloramphenicol adalah antibiotik spektrum luas yang bersifat bakteriostatik. Obat ini efektif terhadap bakteri gram positif dan gram negatif yang aerob dan anaerob, ', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Sesuai petunjuk dokter', 'Teteskan pada bagian mata yang sakit', './assets/img/obat/Cendo-Fenicol.jpg'),
+(95, 'Cendo Protagenta Eye Drop 5 ML', 'Mata', 0, 'CENDO PROTAGENTA merupakan obat dengan kandungan Plyvinylpyrrolidone. Obat ini adalah cairan air mata buatan yang bertindak sebagai pengganti dan menstabilkan lapisan cairan mata pre korneal alamiah.', '4-5 x sehari 1-2 tetes pada mata yang sakit, memasang lensa kontak 1-2 tetes di bagian dalam lensa kontak', 'Teteskan pada mata yang sakit', './assets/img/obat/Cendo-Protagenta.jpg'),
+(96, 'Rohto Eyeflush 150 ML', 'Mata', 30000, 'ROHTO EYE FLUSH merupakan cairan steril pencuci mata dengan kandungan Distilled Witch Hazel 13%, Benzalkonium Klorida, L-Menthol, dan Vitamin E. Obat ini digunakan untuk membersihkan mata, menyejukkan dan menyegarkan mata lelah, meringankan iritasi mata ringan akibat debu dan pekerjaan yang memerlukan penglihatan dekat.', 'Digunakan secukupnya saat mata terasa pedih.', 'Bersihkan eyebath (mangkuk atau wadah untuk larutan pembersih mata) sebelum di gunakan.Sekiranya kelopak mata kurang bersih/ada sisa make-up bersihkan terlebih dahulu.Isi eyebath lalu letakkan ke kelopak mata.', './assets/img/obat/Rohto-Eyeflush.jpg'),
+(97, 'Visine Extra Eye Drops 6 ML', 'Mata', 12500, 'VISINE EXTRA EYE DROP merupakan tetes mata steril yang mengandung Tetrahidrozolin HCl dan Polietilen Glikol 400. Tetes mata ini dapat meredakan mata merah dan memberi kelembaban pada mata. Visine extra eye drop digunakan untuk meredakan mata merah karena iritasi ringan, sebagai pelindung terhadap iritasi lebih lanjut atau untuk mengurangi keadaan mata yang kering. Obat ini bekerja dengan cara menggabungkan efek dekongestan dari tetrahidrozolin hidroklorida dengan efek mengurangi iritasi dari pol', '1-2 tetes sebanyak 3-4 kali sehari atau sesuai petunjuk dokter.', 'Diteteskan pada mata yang terkena iritasi atau kering.', './assets/img/obat/Visine-extra.jpg'),
+(98, 'VISINE ORIGINAL EYE DROPS 6 ML', 'Mata', 35000, 'VISINE ORIGINAL EYE DROP merupakan tetes mata steril yang mengandung zat aktif Tetrahidrozolin HCl. Tetes mata ini dapat meredakan mata merah karena iritasi mata yang ringan, seperti iritasi oleh debu, asap, terkena sengatan matahari atau iritasi setelah berenang. Visine Original Eye Drop bekerja sebagai dekongestan dengan mekanisme kerja membatasi respons vaskular setempat dengan cara vasokonstriksi.', '1-2 tetes pada setiap mata sebanyak 2-3 kali sehari atau sesuai petunjuk dokter.', 'Diteteskan pada mata yang merah. Agar tidak terkontaminasi, jagalah supaya ujung botol tidak terkena tangan atau benda-benda lain. Tutuplah kembali botol setelah digunakan.', './assets/img/obat/Visine-Original.jpg'),
+(99, 'Visine Tears Eye Drops 6 ML', 'Mata', 10500, 'VISINE TEARS EYE DROP merupakan tetes mata steril yang mengandung Polietilen glikol, gliserin, hidroksipropil metillselulosa. Tetes mata ini dapat menyegarkan dan menyejukkan mata kering, mata gatal, dan teriritasi. Visine tears eye drop digunakan untuk pengobatan sementara dalam meredakan mata panas dan iritasi ringan karena kekeringan pada mata serta pelindung terhadap iritasi lebih lanjut.', '1-2 tetes pada mata yang iritasi atau sesuai kebutuhan.', '- Hanya untuk penggunaan oral. - Dioleskan pada bagian yang sakit di mulut dan biarkan gel berada dalam mulut selama mungkin, dan jangan menelan langsung obat. - Jika infeksi terjadi hanya pada mulut, oleskan gel pada daerah yang terinfeksi menggunakan jari yang bersih. - Dioleskan sesudah makan.', './assets/img/obat/Visine-tears.jpg'),
+(100, 'Y-Rins Eye Liquid 12 ML 2 BOTOL', 'Mata', 16300, 'Y-RINS merupakan larutan steril yang mengandung Distilled Witch Hazel 13%. Larutan ini digunakan untuk membersihkan, menyejukkan, dan menyegarkan mata yang lelah dan sakit, serta meringankan iritasi ringan akibat debu dan asap.', 'Gunakan sesuai dengan kebutuhan', 'Bersihkan eyebath (mangkuk atau wadah untuk larutan pembersih mata) sebelum di gunakan.Sekiranya kelopak mata kurang bersih/ada sisa make-up bersihkan terlebih dahulu.Isi eyebath lalu letakkan ke kelopak mata.', './assets/img/obat/Y-Rins.jpg'),
+(101, 'Alcon Tears Naturale II 15 ML', 'Mata', 28400, 'ALCON TEARS NATURALE II merupakan obat tetes mata yang digunakan untuk mencegah mata terasa kering dan teiritasi yang disebabkan oleh angin, sinar matahari, pemanas atau pendingin ruangan, menggunakan layar komputer atau smartphone, membaca dan menggunakan obat-obat tertentu. ', 'Berikan 1-2 tetes ke dalam mata sesuai kebutuhan', 'Teteskan pada mata yang sakit', './assets/img/obat/Alcon-tears.jpg'),
+(102, 'Alegysal 0.1% Eye Drops 5 ML', 'Mata', 82700, 'ALEGYSAL 0.1% EYE DROPS 5 ML adalah obat tetes mata yang digunakan untuk mengobati/mencegah gatal pada mata yang disebabkan oleh alergi, misalnya hay fever dan konjungtivitis alergi. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 2 kali sehari 1 tetes (pagi dan sore)', 'teteskan pada mata yang sakit', './assets/img/obat/Alegysal.jpg'),
+(103, 'Alletrol Compositum Eye Drop 5 ML', 'Mata', 34400, 'ALLETROL COMPOSITUM EYE DROP 5 ML dalah obat yang digunakan untuk pengobatan penyakit mata terutama karena radang yang disertai infeksi bakteri uveitis anterior kronis dan luka pada kornea yang disebabkan oleh bahan kimia, radiasi, panas dan penetrasi benda-benda asing. ', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 1 atau 2 tetes setiap jam', 'Teteskan pada mata yang sakit', './assets/img/obat/Alletrol-Compositum.jpg'),
+(104, 'Bausch+Lomb Renu Contact Lense Solution ', 'Mata', 56500, 'BAUSCH+LOMB RENU CONTACT LENS merupakan cairan pembersih lensa kontak yang efektif membunu bakteri dan jamur sekaligus memberikan kelembapan yang seimbang pada mata.', 'Sesuai kebutuhan', '', './assets/img/obat/Bausch-Lomb.jpg'),
+(105, 'Cendo Conver 2% Eye Drops 15 ML', 'Mata', 15800, '-', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Atas anjuran dokter', 'Teteskan pada mata yang sakit', './assets/img/obat/Cendo-Conver.jpg'),
+(106, 'Cataflam 50 MG 10 TABLET', 'Anti Nyeri', 71500, 'CATAFLAM TABLET merupakan obat anti nyeri dengan kandungan Kalium Diklofenak. Kalium Diklofenak atau Potassium Diclofenac merupakan obat golongan Obat Antiinflmasi Non Steroid yang memiliki aktifitas antiinflamasi atau antiradang dan antinyeri. CATAFLAM TABLET digunakan untuk mengatasi sakit gigi, nyeri pada sendi, serta nyeri haid. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dewasa dan Anak diatas 12 tahun: 1 tablet, 2 sampai 3 kali per hari.', 'Sesudah makan', './assets/img/obat/cataflam.jpg'),
+(107, 'Ponstan 500 MG 10 TABLET', 'Anti Nyeri', 30000, 'PONSTAN merupakan obat dengan kandungan Asam Mefenamat yang berfungsi sebagai anti nyeri pada tingkat ringan hingga sedang. Obat ini sering digunakan untuk meredakan sakit kepala, sakit gigi, nyeri haid, nyeri pada otot dan sendi, serta nyeri paska operasi. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER.', 'Asam Mefenamat 500 mg', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dosis dewasa dan anak lebih besar dari 14 tahun : Dosis Awal diberikan 500 mg, dilanjutkan 250 mg tiap 6 jam, bila perlu.', './assets/img/obat/ponstan.jpg'),
+(108, 'Kalium Diklofenak 50 MG 10 TABLET', 'Anti Nyeri', 7000, 'KALIUM DIKLOFENAK adalah obat anti nyeri golongan OAINS (obat anti inflamasi non steroid) untuk mengobati nyeri ringan sampai sedang. Obat ini hanya di gunakan jangka pendek untuk meringankan nyeri akibat radang sendi, pengapuran tulang, sakit gigi, kram menstruasi. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dewasa : 1 tablet, 2 sampai 3 kali per hari. Anak dibawah 14 tahun tidak direkomendasikan.', 'Dikonsumsi sesudah makan', './assets/img/obat/kalium_diklofenak.jpg'),
+(109, 'Meloxicam 7.5 MG 10 TABLET', 'Anti Nyeri', 5500, 'MELOXICAM 7.5 MG TABLET adalah obat anti inflmasi non steroid (OAINS). Obat ini digunakan untuk meredakan gejala-gejala arthritis, misalnya peradangan, pembengkakan, serta kaku dan nyeri otot.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dewasa: Rhematoid Astritis: 15 mg. 1 kali per hari. Dapat diturunkan menjadi 7.5 mg, 1 kali per hari berdasarkan respon terapetik. Osteo Astritis: 7.5 mg, 1 kali per hari. Dapat ditingkankan s/d 15 mg, 1 kali per hari. Pasien resiko tinggi : Dosis awal: 7.5 mg, 1 kali per hari. Gagal ginjal : Dosis maksimal: 7.5 mg, 1 kali per hari.', 'Dikonsumsi sesudah makan.', './assets/img/obat/meloxicam.jpg'),
+(110, 'Ibuprofen 200 MG 10 TABLET', 'Anti Nyeri', 10500, 'IBUPROFEN merupakan obat generik yang digunakan untuk meredakan sakit kepala, nyeri dan demam. Dalam penggunaan obat ini harus SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dewasa : 1 tablet, 3 -4 kali sehari. Anak > 12 tahun : 1 tablet, 2 kali sehari.', 'Dikonsumsi sesudah makan', './assets/img/obat/ibuprofen.jpg'),
+(111, 'Flunarizine 5 MG 10 TABLET', 'Anti Nyeri', 45800, 'FLUNARIZINE 5 MG TABLET merupakan golongan obat calcium chanel blocker dan memiliki aktivitas memblok histamin H1. Obat ini digunakan untuk profilaksis migrain, penyakit oklusi vaskular perifer, vertigo sentral dan perifer, dan dapat digunakan sebagai adjuvan pada terapi epilepsi. Dalam penggunaan obat ini HARUS SESUAI DENGAN PETUNJUK DOKTER.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 5-10 mg/hari. Dosis maksimal 10 mg per hari. Kurangi dosis hingga 5 mg per hari untuk mengurangi efek samping.', 'Sebelum atau sesudah makan.', './assets/img/obat/flunarizine.jpg'),
+(112, 'Paramex 4 TABLET', 'Anti Nyeri', 5200, 'PARAMEX merupakan obat dengan kandungan Paracetamol, Propyphenazone, Caffeine, Dexchlorpheniramine maleate. Obat ini dapat digunakan untuk meringankan sakit kepala dan sakit gigi.', 'Dewasa dan anak-anak diatas 12 tahun : 2-3 kali sehari 1 tablet.', 'Sesudah makan', './assets/img/obat/paramex.jpg'),
+(113, 'Voltadex 50 MG 10 TABLET', 'Anti Nyeri', 14600, 'VOLTADEX 50 MG ABLET adalah obat dengan kandungan Natrium Diklofenak. Natrium Diklofenak adalah obat anti inflamasi non steroid yang memiliki efek analgetik, anti inflamasi, dan anti piretk.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. Dewasa dan Anak diatas 12 tahun : 1 tablet, 2 - 3 kali per hari.', 'Sesudah makan', './assets/img/obat/voltadex.jpg'),
+(114, 'Feminax 4 TABLET', 'Anti Nyeri', 7500, 'FEMINAX merupakan obat dengan kandungan Paracetamol dan ekstrak hiosiamin. Obat ini dapat digunakan untuk mengurangi rasa sakit pada waktu haid (dismenorea) dan kolik (kejang pada perut)', 'Dewasa : 3x sehari 1-2 tablet Anak-anak 10-16 tahun : 3x sehari 1 tablet', 'sesudah makan', './assets/img/obat/feminax.jpg'),
+(115, 'Piroxicam 20 MG 10 TABLET', 'Anti Nyeri', 9300, 'PIROXICAM 20 MG TABLET adalah obat generik golongan AINS (Antiinflamasi Non Steroid). Obat ini digunakan sebagai terapi simptomatik rheumatoid arthitis, osteoarthritis, ankilosing spondilitis, gangguan muskuloskeletal akut dan gout akut. Obat ini juga menjadi pilihan apabila beberapa gejala nyeri dan radang tidak dapat berkurang dengan obat anti nyeri baisa seperti parasetamol.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. AR, OA, ankilosa spondilitis : 1 x sehari 20mg. Gangguan muskoloskeletal akut : 40 mg/hari dalam dosis tunggal atau terbagi selama 2 hari, kemudian 1 x sehari 20 mg selama 7-14 hari. Gout akut : dosis awal 40 mg /hari dalam dosis tunggal, kemudian 40 mg dosis tunggal atau terbagi selama 4-6 hari.', 'Berikan segera sesudah makan', './assets/img/obat/piroxicam.jpg'),
+(116, 'Spasminal 10 TABLET', 'Anti Nyeri', 18200, 'SPASMINAL merupakan obat untuk mengobati nyeri yang timbul pada keadaan kolik. Spasminal mengandung Metampiron, Pavaperin dan Ekstrak Belladona. Metampiron bekerja sebagai obat analgetik yang berfungsi untuk menghilangkan nyeri, sedangkan Papaverin dan Ekstrak Belladona bekerja sebagai obat spasmolitik yang secara langsung merelaksasikan otot polos. ', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 3 kali sehari satu tablet. Maksimal 4 tablet.', 'Sesudah/sebelum makan', './assets/img/obat/spasminal.jpg'),
+(117, 'Bodrex Migra 4 KAPLET', 'Anti Nyeri', 2500, 'BODREX MIGRA merupakan obat dengan kandungan Paracetamol, propyphenazone, caffeine. Obat ini dapat digunakan untuk meredakan sakit kepala pada migrain', 'Dewasa : 3 kali sehari 1 kaplet', 'Dikonsumsi sesudah makan', './assets/img/obat/bodrex.jpg'),
+(118, 'Celebrex 100 MG 10 KAPSUL', 'Anti Nyeri', 115000, 'CELEBREX 100 MG KAPSUL adalah obat golongan antiinflamasi nonsteroid (OAINS) yang mengandung Celecoxib. Obat ini bekerja secara selektif pada enzim siklooksigenase (COX-2). Celecoxib secara reversibel menghambat transformasi asam arakidonat menjadi prostaglandin prekursor.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. OA : 200mg/hari atau 100mg 2 x sehari; RA : 100-200mg 2 x sehari; AS : 200mg/hari atau 100mg 2 x sehari', 'Sesudah makan', './assets/img/obat/celebrex.jpg'),
+(119, 'Dexketprofen 25 MG 10 TABLET', 'Anti Nyeri', 66000, 'DEXKETOPROFEN 25 MG TABLET adalah obat anti inflamasi non steroid (OAINS). Dexketoprofen memiliki sifat analgesik (anti nyeri), anti inflamasi (anti radang), dan anti piretik (penurun panas).', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 12.5 mg tiap 4-6 jam atau 25 mg tiap 8 jam. Nyeri pasca operasi : 25 mg tiap 8 jam. Dosis maksimal 75 mg per hari.', 'Diminum pada perut kosong, 30 menit sebelum makan tertama untuk meredakan nyeri akut dengan cepat.', './assets/img/obat/dexketoprofen.jpg'),
+(120, 'Orinox 90 MG 10 TABLET', 'Anti Nyeri', 199100, 'di gunakan untuk nyeri akut, sedang, OA', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 1 kali sehari', 'sesudah makan', './assets/img/obat/orinox.jpg'),
+(121, 'Acifar 400mg 10 TABLET', 'Vitamin dan suplemen', 22500, 'Pengobatan infeksi herpes simpleks pada kulit & membran mukosa, termasuk infeksi herpes genitalis inisial & rekurens. Mencegah kambuhnya infeksi herpes simpleks rekurens pada penderita dengan imunokompeten.', 'PENGGUNAAN OBAT INI HARUS SESUAI DENGAN PETUNJUK DOKTER. 4 x sehari 1 tablet', 'Sesudah makan', './assets/img/obat/Acifar.jpg'),
+(122, 'Delysid LSD 25 MG', 'Vitamin dan suplemen', 132500, 'Digunakan sebagai obat herbal', 'Setiap 3 Hari 1x', 'Larutkan dalam segelas air dan tunggu sampai benar-benar larut.', './assets/img/obat/Delysid.jpg'),
+(123, 'Porcelain HA+ 35 MG', 'Vitamin dan suplemen', 182500, 'Digunakan untuk serum wajah', 'Setiap 2 Hari 1x', 'Sebelum Tidur', './assets/img/obat/Porcelain.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `transaction`
+--
+
+CREATE TABLE `transaction` (
+  `id` int(11) NOT NULL,
+  `idUser` int(30) NOT NULL,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(30) NOT NULL,
+  `address` varchar(300) NOT NULL,
+  `post` varchar(11) NOT NULL,
+  `no_hp` varchar(11) NOT NULL,
+  `email` varchar(30) NOT NULL,
+  `date` date NOT NULL,
+  `total` int(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `transaction`
+--
+
+INSERT INTO `transaction` (`id`, `idUser`, `first_name`, `last_name`, `address`, `post`, `no_hp`, `email`, `date`, `total`) VALUES
+(1, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 24000),
+(2, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 55900),
+(3, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 10500),
+(4, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 15800),
+(5, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 13200),
+(6, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 24000),
+(7, 46, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-24', 55900),
+(8, 60, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-25', 285300),
+(9, 60, 'Dimitri', 'Irfan', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '12310', '08128308341', 'dimitriirfan@gmail.com', '2020-04-25', 70400);
 
 -- --------------------------------------------------------
 
@@ -143,18 +279,40 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `address`, `birth`, `password`, `pic`, `gender`, `no_hp`) VALUES
-(46, 'Dimitri Irfan Dzidny', 'dimitriirfan@gmail.com', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama ', '1999-11-12', 'dimitri27', './assets/img/profile/doctor.jpg', 'male', '081283083410'),
-(51, 'test', 'test@gmail.com', 'test', '1212-11-12', 'test', 'defaultpic.jpg', '', ''),
-(55, 'Irfan Dzidny', 'irfan_dimitri@yahoo.co.id', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '1999-11-12', '12', './assets/img/profile/defaultpic.jpg', '', '');
+(51, 'test', 'test@gmail.com', 'test', '1212-11-12', '123', 'defaultpic.jpg', '', ''),
+(55, 'Irfan Dzidny', 'irfan_dimitri@yahoo.co.id', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama', '1999-11-12', '12', './assets/img/profile/defaultpic.jpg', '', ''),
+(56, 'Gilang Brilians', 'gilangbrilians@gmail.com', 'Jln. TGH nurudin no 10 kekeri', '2000-02-28', 'qwerty', './assets/img/profile/hqdefault.jpg', '', ''),
+(57, 'Fazainsyah Azka Wicaksono', 'fazainsyah@gmail.com', 'Bumi Panyileukan K5 No. 18 Rt 02 Rw 10 Kelurahan Cipadung Kidul Kecamatan Panyileukan, Cibiru.', '2000-07-01', '123', './assets/img/profile/Hello.jpg', '', ''),
+(58, 'asd', 'asd@gmail.com', 'qwe', '2020-04-25', 'asd', './assets/img/profile/defaultpic.jpg', '', ''),
+(59, 'Irfan Maulana', 'irfanmaulana@gmail.com', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama ', '2000-11-23', 'irfanmaulana', './assets/img/profile/boy12.jpg', 'male', '081283083410'),
+(60, 'Dimitri Irfan Dzidny', 'dimitriirfan@gmail.com', 'Jalan Haji Naimun no 12A Pondok Pinang Kebayoran Lama  ', '1999-11-12', 'test', './assets/img/profile/dimitri.jpg', 'male', '081283083410');
 
 --
 -- Indexes for dumped tables
 --
 
 --
+-- Indexes for table `article`
+--
+ALTER TABLE `article`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `cart`
+--
+ALTER TABLE `cart`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `drug`
 --
 ALTER TABLE `drug`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `transaction`
+--
+ALTER TABLE `transaction`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -168,16 +326,34 @@ ALTER TABLE `user`
 --
 
 --
+-- AUTO_INCREMENT for table `article`
+--
+ALTER TABLE `article`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `cart`
+--
+ALTER TABLE `cart`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=110;
+
+--
 -- AUTO_INCREMENT for table `drug`
 --
 ALTER TABLE `drug`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=124;
+
+--
+-- AUTO_INCREMENT for table `transaction`
+--
+ALTER TABLE `transaction`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

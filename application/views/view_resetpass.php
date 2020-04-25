@@ -24,12 +24,12 @@
 						<h1>Reset Password <span style="color: #FF7243;">Obati</span></h1>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 					</div>
-					<form>
+					<form action="<?= base_url("Reset_pass/reset_pass")?>" method="post" >
 						<div class="form-group">
 							<div class="input-group">
 								<div class="input-group-prepend input-effect">
 
-									<input class="effect-1" type="text" id="input_email" aria-describedby="emailHelp"
+									<input name="email" class="effect-1" type="text" id="input_email" aria-describedby="emailHelp"
 										placeholder="" required>
 									<i class="input-icon fa fa-envelope"></i>
 
@@ -44,7 +44,7 @@
 							<div class="input-group">
 
 								<div class="input-group-prepend input-effect">
-									<input class="effect-1" type="password" id="input_password"
+									<input name="password" class="effect-1" type="password" id="input_password"
 										aria-describedby="passwordHelp" placeholder="" required>
 									<i class="input-icon fa fa-key"></i>
 									<label id="label_password" for="exampleInputEmail1">New Password</label>
@@ -60,7 +60,7 @@
 							<div class="input-group">
 
 								<div class="input-group-prepend input-effect">
-									<input class="effect-1" type="password" id="input_password"
+									<input name="confirm" class="effect-1" type="password" id="input_password"
 										aria-describedby="passwordHelp" placeholder="" required>
 									<i class="input-icon fa fa-key"></i>
 									<label id="label_password" for="exampleInputEmail1">Confirm Password</label>

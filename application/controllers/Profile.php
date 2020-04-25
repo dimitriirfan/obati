@@ -75,7 +75,7 @@ class Profile extends CI_Controller {
 				];
 
 				$this->Model_user->update_profile((object) $data, $this->session->userdata("user")->id);
-				$user = $this->Model_user->getUserById($this->session->userdata("user")->id);
+				$user = $this->Model_user->get_user_by_id($this->session->userdata("user")->id);
 				$this->session->set_userdata("user", $user);
 				$this->session->set_flashdata("message", "Successfully updated");
 				redirect("profile");
@@ -87,6 +87,12 @@ class Profile extends CI_Controller {
 		
 		}
 		
+	}
+
+	public function delete_profile() { 
+		$id = $this->input->post('id');
+		$this->Model_user->delete_profile($id);
+		session_destroy();
 	}
 
 

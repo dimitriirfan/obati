@@ -12,7 +12,8 @@
 				<input id="edit-pic-hidden" name="image" type="file" style="display:none"
 					onchange="form.submit()"></input>
 				</form>
-				<a href="#" id="edit-pic" class="btn-secondary trans_200 p-3" class="list-group-item list-group-item-action active">
+				<a href="#" id="edit-pic" class="btn-secondary trans_200 p-3"
+					class="list-group-item list-group-item-action active">
 					<span><i class="fa fa-pencil-square-o"></i></span>Edit Photo</a>
 
 			</div>
@@ -40,7 +41,7 @@
 					</div>
 					<div class="row biodata_input">
 						<div class="col-md-12">
-							<form action="<?= base_url("Profile/updateProfile")?>" method="post" id="form1">
+							<form action="<?= base_url("Profile/update_profile")?>" method="post" id="form1">
 								<div class="form-group row">
 									<label for="username" class="col-4 col-form-label">Nama</label>
 									<div class="col-8">
@@ -104,9 +105,10 @@
 								</div>
 							</div>
 							<div class="form-group row">
-								<div class="offset-4 col-8">
+								<div class="offset-4 col-8 d-flex justify-content-end">
 									<input value="Update Profile" name="submit" type="submit"
 										class="btn btn-secondary trans_200"></input>
+									<div  data-id="<?= $this->session->userdata('user')->id?>" class=" btn-delete btn btn-primary trans_200 ml-3">Delete Profile</div>
 								</div>
 							</div>
 
@@ -122,8 +124,7 @@
 	</div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-	crossorigin="anonymous"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 	integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 </script>
@@ -131,3 +132,4 @@
 	integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
 </script>
 <script src="<?php echo base_url("./assets/js/view_profile.js")?>"></script>
+<script src="<?php echo base_url("./node_modules/sweetalert2/dist/sweetalert2.all.min.js")?>"></script>

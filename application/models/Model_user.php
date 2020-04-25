@@ -52,6 +52,17 @@ class Model_user extends CI_Model {
         ");
     }
 
+    public function delete_profile($id) { 
+        $this->db->where('id', $id);
+        $this->db->delete('user');
+    }
+
+    public function update_password($password, $email){
+        $this->db->set('password',$password);
+        $this->db->where('email',$email);
+        $this->db->update('user');
+    }
+
 }
 
 

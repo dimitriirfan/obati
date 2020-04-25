@@ -31,7 +31,7 @@ class Register extends CI_Controller {
 			$this->load->view('template/header', $data);
 			$this->load->view('view_register');
 
-		}else { 
+		}else {
 			$data = [
 				'name' => $this->input->post('name'),
 				'email' => $this->input->post('email'),

@@ -185,6 +185,7 @@ a:link {
 	border-radius: 20px;
 }
 
+
 .wrap {
 	width: 300px;
 	align-self: center;
@@ -199,10 +200,10 @@ a:link {
 	z-index: 1000;
 }
 
-/* .suggestion-item:last-child { 
+.suggestion-item:last-child { 
 	border-bottom: none;
 
-} */
+} 
 
 .suggestion-item { 
 	cursor: pointer;
@@ -219,7 +220,7 @@ a:link {
 }
 
 
-/* .suggestion-item:hover:first-child { 
+.suggestion-item:hover:first-child { 
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 
@@ -229,7 +230,7 @@ a:link {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 
-} */
+}
 
 .suggestion-item p { 
 	margin-top: 0.925em;
@@ -260,7 +261,22 @@ button.btn.search {
 
 i.fa.fa-search {
 	color: var(--primary-blue);
-	padding-left: 14px;
+    padding:10px;
+}
+
+i.fa.fa-search:hover { 
+	background: var(--passive-lg-gray);
+    border-radius: 50%;
+}
+
+i.fa.fa-search:focus { 
+
+    border-radius: 50%;
+}
+
+i.fa.fa-search:active { 
+	background: var(--passive-gray);
+    border-radius: 50%;
 }
 
 .search::-webkit-input-placeholder{
@@ -309,6 +325,16 @@ form input[type="text"]:focus {
     color:#fff;
     text-decoration:none
 
+}
+
+.droplink:hover { 
+	background-color: var(--primary-blue);
+	color: white;
+}
+
+.droplink-logout:hover { 
+	background-color: var(--primary-orange);
+	color: white;
 }
 
 

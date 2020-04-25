@@ -9,11 +9,11 @@
 				<h4>Obati</h4>
 				<br>
 				<ul class="list-unstyled">
-					<li><a href="">About Us</a></li>
+					<li><a href="<?= base_url('about')?>">About Us</a></li>
 					<br>
-					<li><a href="">Our Team</a></li>
+					<li><a href="<?= base_url('home')?>">Home</a></li>
 					<br>
-					<li><a href="">Articles</a></li>
+					<li><a href="<?= base_url('article')?>">Artikel</a></li>
 
 				</ul>
 			</div>
@@ -48,8 +48,9 @@
 			<div class="col-lg-3 pb-4">
 				<h4>About Us</h4>
 				<br>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-					industry's standard.</p>
+				<p>Website <b>Obati</b> adalah website yang menyediakan service berupa
+					E-Commerce penjualan obat sekaligus menyediakan artikel-artikel maupun berita
+					terkini tentang kesehatan maupun obat.</p>
 			</div>
 		</div>
 	</div>
@@ -66,7 +67,7 @@
 					</a>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center text-md-right">
-					<a href="#">Obati aku mas </a>
+					<a href="#">Obati @Copyright</a>
 				</div>
 			</div>
 		</div>

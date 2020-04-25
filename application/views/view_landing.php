@@ -55,7 +55,7 @@
 				<div class="inner-item">
 					<div class="container-article">
 						<h4 class="article-title mb-4">Keep up with our latest article</h4>
-						<button class=" btn btn-main-article">Check here</button>
+						<a href="<?= base_url('article');?>" class=" btn btn-main-article">Check here</a>
 					</div>
 				</div>
 			</div>
@@ -122,7 +122,7 @@
 							</span>
 							<p class="flex-shrink-1 ml-2">361 likes</p>
 						</div>
-						<button class="btn btn-primary trans_200 btn-block btn-j btn-orange">Cek gejalanya</button>
+						<a href="<?= base_url('detail_article/detail/10');?>" class="btn btn-primary trans_200 btn-block btn-j btn-orange">Cek gejalanya</a>
 					</div>
 				</div>
 
@@ -130,27 +130,27 @@
 
 				<div class="grid-a-item grid-a-item-1 shadow-sm bg-white rounded">
 					<div class="tag">Article</div>
-					<h5 class="mb-0">Wash your damn hands</h5>
-					<p>is simply dummy text of the printing and typesetting industry.</p>
+					<h5 class="mb-0">Bingung Pilih Menu Buka Puasa Pertama? Baca Dulu Saran dari Ahli Gizi</h5>
+					<p> Spesialis Gizi Klinik dr. Raissa Edwina Djuanda, M.Gizi, Sp.GK memperbolehkan...</p>
 					<div class="foot d-flex align-items-baseline">
 						<span class="covid-like ">
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</button>
+						<a href="<?= base_url('detail_article/detail/5');?>" class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</a>
 					</div>
 				</div>
 
 				<div class="grid-a-item grid-a-item-2 shadow-sm  bg-white rounded">
 					<div class="tag">Article</div>
-					<h5 class="mb-0">Healthy inside fresh outside.</h5>
-					<p>is simply dummy text of the printing and typesetting industry.</p>
+					<h5 class="mb-0">Ajakan Hidup Sehat Melalui GERMAS</h5>
+					<p>Siapa yang belum pernah mendengar tentang Germas, yang...</p>
 					<div class="foot d-flex align-items-baseline">
 						<span class="covid-like ">
 							<i class="fa fa-heart" style="color:#FF5F5F"></i>
 						</span>
 						<p class="flex-shrink-1 ml-2 mr-5">361 likes</p>
-						<button class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</button>
+						<a href="<?= base_url('detail_article/detail/6');?>" class="btn btn-primary trans_200 btn-a flex-grow-1 btn-orange">Baca</a>
 					</div>
 				</div>
 			</div>
@@ -177,7 +177,7 @@
 					<div class="grid-w-item grid-w-item-1 shadow-sm  bg-white">
 						<div class="inner-w-item">
 							<img class="mb-4" src="<?php echo base_url("./assets/img/simple.png")?>" alt="">
-							<h5 class="mb-0">Simple</h5>
+							<h5 class="mb-0">Mudah</h5>
 
 						</div>
 
@@ -185,7 +185,7 @@
 					<div class="grid-w-item grid-w-item-2 shadow-sm  bg-white ">
 						<div class="inner-w-item">
 							<img class="mb-4" src="<?php echo base_url("./assets/img/pill.png")?>" alt="">
-							<h5 class="mb-0">Diverse</h5>
+							<h5 class="mb-0">Beragam</h5>
 
 						</div>
 
@@ -193,7 +193,7 @@
 					<div class="grid-w-item grid-w-item-3 shadow-sm  bg-white ">
 						<div class="inner-w-item">
 							<img class="mb-4" src="<?php echo base_url("./assets/img/trust.png")?>" alt="">
-							<h5 class="mb-0">Trusted</h5>
+							<h5 class="mb-0">Terpercaya</h5>
 
 						</div>
 
@@ -201,7 +201,7 @@
 					<div class="grid-w-item grid-w-item-4 shadow-sm  bg-white ">
 						<div class="inner-w-item">
 							<img class="mb-4" src="<?php echo base_url("./assets/img/fast.png")?>" alt="">
-							<h5 class="mb-0">Fast</h5>
+							<h5 class="mb-0">Cepat</h5>
 
 						</div>
 
@@ -209,8 +209,8 @@
 					<div class="grid-w-item grid-w-item-5 shadow-sm  bg-white">
 						<div class="inner-w-title">
 							<div class="why">
-								<h1>Why Choose Obati ?</h1>
-								<p>There are many reason to choose obati. Here are the main ones</p>
+								<h1>Kenapa pilih Obati?</h1>
+								<p>Ada banyak sekali alasan kenapa sih kamu harus menggunakan obati. Berikut adalah intinya</p>
 
 							</div>
 
@@ -238,7 +238,7 @@
 		<div class="container">
 			<div class="main-testimonial">
 				<div class="main-t-top">
-					<h1 class="main-testimonial-title">What they say about us.</h1>
+					<h1 class="main-testimonial-title">Apa kata mereka.</h1>
 				</div>
 				<div class="testimonials">
 					<div class="card-deck">
@@ -247,8 +247,7 @@
 								alt="Card image cap">
 							<div class="card-body">
 
-								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
-									is simply dummy text of the printing and typesetting industry.</p>
+								<p class="card-text">Jadi inget waktu sakit susah pergi kemana-mana. Untung ada Obati jadi gampang buat pesan obat.</p>
 
 							</div>
 							<div class="card-footer">
@@ -256,7 +255,7 @@
 
 									<span>
 										<h5 class="t-name ">Haris Subekti</h5>
-										<p class="t-job">Surgeon Doctor</p>
+										<p class="t-job">Orang Biasa no.3</p>
 
 									</span>
 									<i class="fa fa-heart" style="color:#FF5F5F"></i>
@@ -269,16 +268,15 @@
 								alt="Card image cap">
 							<div class="card-body">
 
-								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
-									is simply dummy text of the printing and typesetting industry.</p>
+								<p class="card-text">Dengan adanya Obati, saya gampang untuk memesan obat.</p>
 
 							</div>
 							<div class="card-footer">
 								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
 
 									<span>
-										<h5 class="t-name ">Dimitri Irfan</h5>
-										<p class="t-job">Surgeon Doctor</p>
+										<h5 class="t-name ">Naufal Alvin</h5>
+										<p class="t-job">Penunda Professional</p>
 
 									</span>
 									<i class="fa fa-heart" style="color:#FF5F5F"></i>
@@ -292,16 +290,15 @@
 								alt="Card image cap">
 							<div class="card-body">
 
-								<p class="card-text">Jadi inget sewaktu masa kecil aku pernah lorem ipsum dolor sit amet
-									is simply dummy text of the printing and typesetting industry.</p>
+								<p class="card-text">Pokoe Obati The Best.</p>
 
 							</div>
 							<div class="card-footer">
 								<div class="d-flex justify-content-between align-content-center" style="text-align-start">
 
 									<span>
-										<h5 class="t-name ">Rifqi Luthfi</h5>
-										<p class="t-job">Surgeon Doctor</p>
+										<h5 class="t-name">Farrel Jamet</h5>
+										<p class="t-job">Jamet Professional</p>
 
 									</span>
 									<i class="fa fa-heart" style="color:#FF5F5F"></i>

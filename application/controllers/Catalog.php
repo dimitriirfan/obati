@@ -68,6 +68,7 @@ class Catalog extends CI_Controller {
 		$this->load->view('view_catalog', $data);
 		$this->load->view('template/footer');
 
+		$this->load->view('template/footer');
 	}
 
 	public function vitamin_suplemen() { 

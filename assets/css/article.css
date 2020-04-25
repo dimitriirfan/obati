@@ -3,7 +3,16 @@
 @import './hamburger.css';
 @import './style_1.css.map';
 
+.main-title { 
+    height: 40vh;
+    background: url('../img/articlee.jpg');
+    background-size: cover;
+}
 
+.main-title h1 {
+    letter-spacing: 1rem;
+    font-weight:700;
+}
 
 .fh5co_suceefh5co_height
 {
@@ -200,9 +209,17 @@
     animation-iteration-count:1
 }
 
+.article-item-img { 
+    width: 200px;
+}
+
+.article-item-content { 
+    width: 65%;
+}
+
 .fh5co_news_img{
-		height:200px;
-		mask-image: url("assets/img/boy1.jpg");
+        height:200px;
+        object-fit: cover;
         /*-webkit-border-radius:5px;
 		-moz-border-radius:5px;
         -ms-border-radius:5px;*/
@@ -315,7 +332,7 @@
 
 .decoration-why-1 {
 	 /*block color  */
-	background-color: var(--primary-sky);
+	background-color: var(--primary-blue);
 }
 
 .decoration-why-2 {

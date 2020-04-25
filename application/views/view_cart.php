@@ -1,12 +1,3 @@
-<!-- <div class="home">
-	<div class="home_container d-flex flex-column align-items-center justify-content-end">
-		<div class="home_content text-center">
-			<div class="home_title">Shopping Cart</div>
-
-		</div>
-	</div>
-</div> -->
-
 <div class="container home">
 	<div class="bodytitle">
 		<div class="some-lines"></div>
@@ -16,7 +7,6 @@
 </div>
 
 
-<!-- Cart -->
 
 <?php if ($this->session->flashdata('success')) : ?>
 <div class="success-hidden" style="display:none">yay</div>
@@ -196,9 +186,7 @@
 									</ul>
 								</div>
 								<div class="cart_text">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra
-										tempor so dales. Phasellus sagittis auctor gravida. Integ er bibendum
-										sodales arcu id te mpus. Ut consectetur lacus.</p>
+									<p>Untuk sekarang kami hanya bisa menyediakan pembayaran via COD atau cash on delivery</p>
 								</div>
 								<input type="submit" class="btn btn-secondary btn-block p-2 pl-5 pr-5 trans_200" form="checkout_form"
 									value="place order">
@@ -235,4 +223,3 @@
 </script>
 <script src="<?php echo base_url("./node_modules/sweetalert2/dist/sweetalert2.all.min.js")?>"></script>
 <script src="<?php echo base_url("./assets/js/view_cart.js") ?>"></script>
-<script src="<?php echo base_url("./assets/js/paymentMethod.js") ?>"></script>

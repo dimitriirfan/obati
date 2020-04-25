@@ -1,9 +1,6 @@
 $(document).ready(function() { 
 
     getCountCategory();
-    liveSearch();
-
-
 
     function getCountCategory() { 
         var category = $('.grid-c-item')
@@ -16,27 +13,7 @@ $(document).ready(function() {
         
     }
 
-    function liveSearch() { 
-        var keyword = $('#searchkey')
-
-        keyword.keyup(function () { 
-
-
-            var xhr = new XMLHttpRequest()
-
-            xhr.onreadystatechange = function () {
-                if (xhr.readyState == 4 && xhr.status == 200) { 
-                    console.log('ok')
-
-                }
-
-            }
-
-            xhr.open('GET', '')
-
-
-        })
-    }
+    
     
 
 })

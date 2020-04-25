@@ -31,11 +31,11 @@
 
 					<ul class="navbar-nav ml-auto">
 						<div class="wrap">
-							<form action="<?= base_url('catalog/search')?>" method="GET" class="form-inline">
+							<form id="searchform" action="<?= base_url('catalog/search')?>" method="GET" class="form-inline">
 								<input id="searchkey" autocomplete="off" name="keyword"
 									class="search form-control form-control-md mr-3 w-75" type="text"
 									placeholder="Cari obat" aria-label="Search">
-								<a type="submit" href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+								<a type="submit" onclick="searchform.submit()"><i class="fa fa-search circle-icon trans_300" aria-hidden="true"></i></a>
 							</form>
 							<div class="form-suggestion shadow">
 								
@@ -55,10 +55,10 @@
 								<?php echo $this->session->userdata("user")->name?>
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-								<a class="dropdown-item" href="<?= base_url("profile")?>">Profil</a>
-								<a class="dropdown-item" href="<?= base_url("cart")?>">Keranjang</a>
+								<a class="dropdown-item droplink" href="<?= base_url("profile")?>">Profil</a>
+								<a class="dropdown-item droplink" href="<?= base_url("cart")?>">Keranjang</a>
 								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="<?= base_url("landing/logout")?>">Log Out</a>
+								<a class="dropdown-item droplink droplink-logout" href="<?= base_url("landing/logout")?>">Log Out</a>
 							</div>
 						</li>
 

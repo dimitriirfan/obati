@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 		if (current > 0) {
 			newValue = current - 1
-		} 
+		}
 		qty.text(newValue)
 	});
 
@@ -18,9 +18,7 @@ $(document).ready(function () {
 		var current = parseInt(qty.text());
 		var newValue;
 
-		if (current > 0) {
-			newValue = current + 1
-		} 
+		newValue = current + 1
 		qty.text(newValue)
 
 	});
@@ -32,18 +30,18 @@ $(document).ready(function () {
 		var baseUrl = window.location.origin + '/obati/'
 		var session = $(this).data('session')
 
-		if (session == null) { 
+		if (session == null) {
 			Swal.fire({
 				title: "error",
 				text: "Sign In terlebih dahulu",
 				timer: "1500"
 			})
 
-		}else { 
+		} else {
 			if (medicineQty > 0) {
 
 				$.ajax({
-	
+
 					url: baseUrl + 'cart/add_to_cart',
 					method: "POST",
 					data: {
@@ -58,19 +56,18 @@ $(document).ready(function () {
 							text: "Obat anda sudah ditambahkan dalam cart",
 							timer: "1500"
 						})
-	
+
 					}
-	
-	
+
+
 				})
-	
-	
+
+
 			}
 
 		}
-		
+
 
 	})
 
 });
-

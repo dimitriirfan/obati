@@ -15,6 +15,8 @@ class Detail_article extends CI_Controller {
 		
 		$data['title'] = 'detail';
 		$data['detail'] = $this->Model_article->get_article_by_id($id);
+		
+		
 
 		$this->load->view('template/header', $data);
 		$this->load->view('template/navbar');

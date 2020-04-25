@@ -1,21 +1,5 @@
-/* JS Document */
-
-/******************************
-
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init SVG
-5. InitQty
-6. clear cart
-
-
-******************************/
 
 $(document).ready(function () {
-	"use strict";
 
 
 	initQty();
@@ -24,6 +8,7 @@ $(document).ready(function () {
 	initDeleteItem();
 	initCheckout();
 	initCheckSuccess();
+	initOverflowCheck();
 
 	function initCountTotal() {
 		if ($('.product_quantity').length) {
@@ -59,16 +44,17 @@ $(document).ready(function () {
 
 			qtys.each(function () {
 				var qty = $(this);
+				var id = $(this).data('iditem')
 				var sub = qty.find('.qty_sub');
 				var price = qty.find('.product_price').text()
 				var total = qty.find('.product_total')
 				var add = qty.find('.qty_add');
 				var num = qty.find('.product_num');
-
-
+				var baseUrl = window.location.origin + '/obati/'
 
 				var original;
 				var newValue;
+				
 
 				price = price.replace(/Price:|Price: Rp.|Rp./gi, '')
 
@@ -76,6 +62,23 @@ $(document).ready(function () {
 					original = parseFloat(qty.find('.product_num').text());
 					if (original > 0) {
 						newValue = original - 1;
+					}
+
+					if (newValue <= 0) { 
+
+
+						qty.remove();
+						initCountTotal();
+
+						$.ajax({
+							url: baseUrl + 'cart/delete_item',
+							method: 'POST',
+							data: {id: id},
+							success:function(data) { 
+
+							}
+						})
+						
 					}
 					total.text('Rp.' + parseFloat(price * newValue))
 					num.text(newValue);
@@ -140,6 +143,34 @@ $(document).ready(function () {
 				}
 			})
 		})
+	}
+
+	function initOverflowCheck() { 
+		var qtys = $('.cart_item');
+		var baseUrl = window.location.origin + '/obati/'
+
+		qtys.each(function () {
+			var qty = $(this)
+			var num = qty.find('.product_num')
+			var id = $(this).data('iditem')
+
+			if (parseFloat(num.text()) <= 0 ) { 
+				qty.remove();
+				initCountTotal();
+
+				$.ajax({
+					url: baseUrl + 'cart/delete_item',
+					method: 'POST',
+					data: {id: id},
+					success:function(data) { 
+
+					}
+				})
+
+			}
+
+		})
+		
 	}
 
 	function initDeleteItem() {
